@@ -150,10 +150,11 @@ def update_counter(list_, counter_toks, istrain=False):
 def build_vocab_recipe1m(args):
     print ("Loading data...")
     dets = json.load(open(os.path.join(args.recipe1m_path, 'det_ingrs.json'), 'r'))
-    layer2 = json.load(open(os.path.join(args.recipe1m_path, 'layer2.json'), 'r'))
     layer1 = json.load(open(os.path.join(args.recipe1m_path, 'layer1.json'), 'r'))
+    layer2 = json.load(open(os.path.join(args.recipe1m_path, 'layer2.json'), 'r'))
 
     id2im = {}
+
     for i, entry in enumerate(layer2):
         id2im[entry['id']] = i
 
