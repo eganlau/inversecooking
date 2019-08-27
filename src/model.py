@@ -41,7 +41,7 @@ def mask_from_eos(ids, eos_value, mult_before=True):
             mask[:, idx] = mask[:, idx] * mask_aux
             mask_aux = mask_aux * (ids[:, idx] != eos_value)
         else:
-            mask_aux = mask_aux * (ids[:, idx] != eos_value)
+            mask_aux = mask_aux * (ids[:, idx] != eos_value).byte()
             mask[:, idx] = mask[:, idx] * mask_aux
     return mask
 
