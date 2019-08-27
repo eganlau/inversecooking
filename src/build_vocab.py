@@ -150,11 +150,10 @@ def update_counter(list_, counter_toks, istrain=False):
 def build_vocab_recipe1m(args):
     print ("Loading data...")
     dets = json.load(open(os.path.join(args.recipe1m_path, 'det_ingrs.json'), 'r'))
-    layer1 = json.load(open(os.path.join(args.recipe1m_path, 'layer1.json'), 'r'))
     layer2 = json.load(open(os.path.join(args.recipe1m_path, 'layer2.json'), 'r'))
+    layer1 = json.load(open(os.path.join(args.recipe1m_path, 'layer1.json'), 'r'))
 
     id2im = {}
-
     for i, entry in enumerate(layer2):
         id2im[entry['id']] = i
 
@@ -358,6 +357,19 @@ def build_vocab_recipe1m(args):
 def main(args):
 
     vocab_ingrs, vocab_toks, dataset = build_vocab_recipe1m(args)
+    print("\nvocab_ingrs.idx2word")
+    print(vocab_ingrs.idx2word)
+    print("\nvocab_ingrs.word2idx")
+    print(vocab_ingrs.word2idx)
+
+    print("\nvocab_toks.idx2word")
+    print(vocab_toks.idx2word)
+    print("\nvocab_toks.word2idx")
+    print(vocab_toks.word2idx)
+
+    print("\ndataset")
+    print(dataset)
+
 
     with open(os.path.join(args.save_path, args.suff+'recipe1m_vocab_ingrs.pkl'), 'wb') as f:
         pickle.dump(vocab_ingrs, f)
@@ -373,7 +385,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--recipe1m_path', type=str,
-                        default='path/to/recipe1m',
+                        default='/home/eganlau/dev/paper/inversecooking/recipe1m',
                         help='recipe1m path')
 
     parser.add_argument('--save_path', type=str, default='../data/',
