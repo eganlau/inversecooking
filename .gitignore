@@ -5,3 +5,4 @@ __pycache__/
 .vscode
 .gitignore
 det_ingrs.json
+modelbest.ckpt
