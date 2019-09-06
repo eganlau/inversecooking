@@ -111,6 +111,11 @@ def make_dataset():
         conn.close()
     except mysql.connector.Error as e:
         print("Mysql Error %d: %s" % (e.args[0], e.args[1]))
+
+    with open(os.path.join("../data", 'fittime_ingr_vocab.pkl'), 'wb') as f:
+        pickle.dump(list(vocab_ingrs.idx2word.values()), f)
+    with open(os.path.join("../data", 'fittime_instr_vocab.pkl'), 'wb') as f:
+        pickle.dump(list(vocab_toks.idx2word.values()), f)
     return vocab_ingrs, vocab_toks, dataset
 
 

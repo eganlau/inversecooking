@@ -13,3 +13,7 @@ saved_models/inversecooking/model/checkpoints/optimbest.ckpt
 saved_models/inversecooking/model/logs/train.err
 saved_models/inversecooking/model/logs/train.log
 saved_models/inversecooking/tb_logs/
+saved_models/inversecooking/model/logs/eval.err
+saved_models/inversecooking/model/logs/eval.log
+data/fittime_ingr_vocab.pkl
+data/fittime_instr_vocab.pkl
