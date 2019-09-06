@@ -13,6 +13,7 @@ import random
 import json
 import lmdb
 import mysql.connector
+import itertools
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
@@ -112,10 +113,12 @@ def make_dataset():
     except mysql.connector.Error as e:
         print("Mysql Error %d: %s" % (e.args[0], e.args[1]))
 
+    ingr_list = list(vocab_ingrs.idx2word.values())
+    ingr_list[0] = ['<end>']
     with open(os.path.join("../data", 'fittime_ingr_vocab.pkl'), 'wb') as f:
-        pickle.dump(list(vocab_ingrs.idx2word.values()), f)
+        pickle.dump(list(itertools.chain(*ingr_list)), f)
     with open(os.path.join("../data", 'fittime_instr_vocab.pkl'), 'wb') as f:
-        pickle.dump(list(vocab_toks.idx2word.values()), f)
+        pickle.dump(list(itertools.chain(*ingr_list)), f)
     return vocab_ingrs, vocab_toks, dataset
 
 
