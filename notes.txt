@@ -1,3 +1,12 @@
+data_dir = ../recipe1m
+ignore ingredient id， which are not visible: 
+8920        鸡精
+8974		鸡粉
+
+Actually, just ignore subtype = 调味品
+
+
+
 data loader:
 tokenized = from data_loader.py toks. recipe text. should just set to empty. 
 

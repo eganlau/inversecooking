@@ -6,3 +6,9 @@ __pycache__/
 .gitignore
 det_ingrs.json
 modelbest.ckpt
+saved_models/inversecooking/model/checkpoints/args.pkl
+saved_models/inversecooking/model/checkpoints/model.ckpt
+saved_models/inversecooking/model/checkpoints/optim.ckpt
+saved_models/inversecooking/model/checkpoints/optimbest.ckpt
+saved_models/inversecooking/model/logs/train.err
+saved_models/inversecooking/model/logs/train.log

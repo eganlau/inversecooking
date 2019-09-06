@@ -1,0 +1,1626 @@
+{'train': [
+        {'id': '000033e39b', 'instructions': ['cook macaroni according to package directions; drain well.', 'cold.', 'combine macaroni, cheese cubes, celery, green pepper and pimento.', 'blend together mayonnaise or possibly salad dressing, vinegar, salt and dill weed; add in to macaroni mix.', 'toss lightly.', 'cover and refrigeratewell.', 'serve salad in lettuce lined bowl if you like.', 'makes 6 servings.'
+            ], 'tokenized': [
+                ['cook', 'macaroni', 'according', 'to', 'package', 'directions', ';', 'drain', 'well', '.'
+                ],
+                ['cold', '.'
+                ],
+                ['combine', 'macaroni', ',', 'cheese', 'cubes', ',', 'celery', ',', 'green', 'pepper', 'and', 'pimento', '.'
+                ],
+                ['blend', 'together', 'mayonnaise', 'or', 'possibly', 'salad', 'dressing', ',', 'vinegar', ',', 'salt', 'and', 'dill', 'weed', ';', 'add', 'in', 'to', 'macaroni', 'mix', '.'
+                ],
+                ['toss', 'lightly', '.'
+                ],
+                ['cover', 'and', 'refrigeratewell', '.'
+                ],
+                ['serve', 'salad', 'in', 'lettuce', 'lined', 'bowl', 'if', 'you', 'like', '.'
+                ],
+                ['makes', '6', 'servings', '.'
+                ]
+            ], 'ingredients': ['elbow_macaroni', 'american_cheese', 'celery', 'green_peppers', 'pimentos', 'mayonnaise', 'vinegar', 'salt', 'dry_dill_weed'
+            ], 'images': [], 'title': ['dilly', 'macaroni', 'salad', 'recipe'
+            ]
+        },
+        {'id': '000035f7ed', 'instructions': ['add the tomatoes to a food processor with a pinch of salt and puree until smooth.', 'combine the onions, bell peppers and cucumbers with the tomato puree in a large bowl.', 'chill at least 1 hour.', 'drizzle with olive oil, garnish with chopped basil and serve.'
+            ], 'tokenized': [
+                ['add', 'the', 'tomatoes', 'to', 'a', 'food', 'processor', 'with', 'a', 'pinch', 'of', 'salt', 'and', 'puree', 'until', 'smooth', '.'
+                ],
+                ['combine', 'the', 'onions', ',', 'bell', 'peppers', 'and', 'cucumbers', 'with', 'the', 'tomato', 'puree', 'in', 'a', 'large', 'bowl', '.'
+                ],
+                ['chill', 'at', 'least', '1', 'hour', '.'
+                ],
+                ['drizzle', 'with', 'olive', 'oil', ',', 'garnish', 'with', 'chopped', 'basil', 'and', 'serve', '.'
+                ]
+            ], 'ingredients': ['tomatoes', 'kosher_salt', 'red_onion', 'green_bell_pepper', 'red_bell_pepper', 'yellow_bell_pepper', 'cucumber', 'olive_oil', 'fresh_basil'
+            ], 'images': [], 'title': ['gazpacho'
+            ]
+        },
+        {'id': '0000631d90', 'instructions': ['in a large skillet, toast the coconut over medium heat, until golden and crisp; set aside.', 'brown ground beef and garlic in the same skillet; drain well.', 'add salt, pepper lemon juice and soy sauce.', 'in a small bowl combine the cornstarch with reserved pineapple and mandarin orange liquids; stir well until smooth then add to ground beef and cook over medium heat for 5 mins, stirring constantly, until mixture is thickened.', 'stir in the pineapple and mandarin oranges; cook 2-3 mins, or until thoroughly heated.', 'serve over noodles or rice, and sprinkle with more toasted coconut and cashew nuts.'
+            ], 'tokenized': [
+                ['in', 'a', 'large', 'skillet', ',', 'toast', 'the', 'coconut', 'over', 'medium', 'heat', ',', 'until', 'golden', 'and', 'crisp', ';', 'set', 'aside', '.'
+                ],
+                ['brown', 'ground', 'beef', 'and', 'garlic', 'in', 'the', 'same', 'skillet', ';', 'drain', 'well', '.'
+                ],
+                ['add', 'salt', ',', 'pepper', 'lemon', 'juice', 'and', 'soy', 'sauce', '.'
+                ],
+                ['in', 'a', 'small', 'bowl', 'combine', 'the', 'cornstarch', 'with', 'reserved', 'pineapple', 'and', 'mandarin', 'orange', 'liquids', ';', 'stir', 'well', 'until', 'smooth', 'then', 'add', 'to', 'ground', 'beef', 'and', 'cook', 'over', 'medium', 'heat', 'for', '5', 'mins', ',', 'stirring', 'constantly', ',', 'until', 'mixture', 'is', 'thickened', '.'
+                ],
+                ['stir', 'in', 'the', 'pineapple', 'and', 'mandarin', 'oranges', ';', 'cook', '2-3', 'mins', ',', 'or', 'until', 'thoroughly', 'heated', '.'
+                ],
+                ['serve', 'over', 'noodles', 'or', 'rice', ',', 'and', 'sprinkle', 'with', 'more', 'toasted', 'coconut', 'and', 'cashew', 'nuts', '.'
+                ]
+            ], 'ingredients': ['shredded_coconut', 'lean_ground_beef', 'fresh_garlic', 'salt_and_black_pepper', 'lemon_juice', 'soy_sauce', 'cornstarch', 'pineapple_chunks', 'mandarin_oranges', 'cashew_nuts'
+            ], 'images': [], 'title': ['easy', 'tropical', 'beef', 'skillet'
+            ]
+        },
+        {'id': '00007bfd16', 'instructions': ['put ingredients in a buttered 9 x 12 x 2-inch pan in even layers in the order that they are given - do not mix.', 'bake in a 350 oven for 1 hour.'
+            ], 'tokenized': [
+                ['put', 'ingredients', 'in', 'a', 'buttered', '9', 'x', '12', 'x', '2-inch', 'pan', 'in', 'even', 'layers', 'in', 'the', 'order', 'that', 'they', 'are', 'given', '-', 'do', 'not', 'mix', '.'
+                ],
+                ['bake', 'in', 'a', '350', 'oven', 'for', '1', 'hour', '.'
+                ]
+            ], 'ingredients': ['fresh_rhubarb', 'frozen_rhubarb', 'granulated_sugar', 'strawberry_jell_-_o_gelatin_dessert', 'white_cake_mix', 'water', 'butter'
+            ], 'images': ['6409eab844.jpg', 'f7cb3de295.jpg'
+            ], 'title': ['strawberry', 'rhubarb', 'dump', 'cake'
+            ]
+        },
+        {'id': '0000973574', 'instructions': ['sift dry ingredients.', 'beat eggs untill frothy, add sugar, oil and vanilla.', 'beat untillthick.', 'stir in zucchini.', 'blend in sifted dry ingredients.', 'fold in nuts.', 'pour in greased loaf pan and bake at 350 degrees for 1 1/2 hours.'
+            ], 'tokenized': [
+                ['sift', 'dry', 'ingredients', '.'
+                ],
+                ['beat', 'eggs', 'untill', 'frothy', ',', 'add', 'sugar', ',', 'oil', 'and', 'vanilla', '.'
+                ],
+                ['beat', 'untillthick', '.'
+                ],
+                ['stir', 'in', 'zucchini', '.'
+                ],
+                ['blend', 'in', 'sifted', 'dry', 'ingredients', '.'
+                ],
+                ['fold', 'in', 'nuts', '.'
+                ],
+                ['pour', 'in', 'greased', 'loaf', 'pan', 'and', 'bake', 'at', '350', 'degrees', 'for', '1', '1/2', 'hours', '.'
+                ]
+            ], 'ingredients': ['flour', 'cinnamon', 'baking_soda', 'salt', 'baking_powder', 'eggs', 'sugar', 'vegetable_oil', 'vanilla', 'raw_zucchini', 'walnuts'
+            ], 'images': [], 'title': ['zucchini', 'nut', 'bread'
+            ]
+        },
+        {'id': '0000a4bcf6', 'instructions': ['chop green onions; chop red peppers; peel and grate carrots (save two grated carrots for salads); place all in a medium bowl and toss to mix.', 'preheat oven to 450 degrees fahrenheit.', 'place salmon fillet in middle of a large piece of heavy aluminum foil.', 'sprinkle salmon with ginger and freshly ground black pepper if you wish.', 'arrange bowl of veggies on top of salmon, and seal foil tightly to create a tightly sealed pocket.', 'place in oven and bake for 20 minutes.', 'the veggies will give up some of their liquid, creating more than enough to cook the fish.', 'cook rice per package instructions.', 'while fish bakes, prepare salad a la sportz by arranging crackers in single layer on cookie sheet; sprinkle with parmesan topping.', 'bake for 1 to 2 minutes in oven with fish, just until lightly browned.', 'cool.', 'toss greens (1/2 pound = 8 cups), carrots (grated), tomatoes (halved), and green onions (sliced) in large sized bowl.', 'toss with dressing.', 'sprinkle with crackers just before serving.', 'slice banana and kiwi and toss gently; divide between four dessert cups.', 'blend cinnamon and sugar into yogurt, and place one-fourth of mixture on each bowl of fruit.'
+            ], 'tokenized': [
+                ['chop', 'green', 'onions', ';', 'chop', 'red', 'peppers', ';', 'peel', 'and', 'grate', 'carrots', '(', 'save', 'two', 'grated', 'carrots', 'for', 'salads', ')', ';', 'place', 'all', 'in', 'a', 'medium', 'bowl', 'and', 'toss', 'to', 'mix', '.'
+                ],
+                ['preheat', 'oven', 'to', '450', 'degrees', 'fahrenheit', '.'
+                ],
+                ['place', 'salmon', 'fillet', 'in', 'middle', 'of', 'a', 'large', 'piece', 'of', 'heavy', 'aluminum', 'foil', '.'
+                ],
+                ['sprinkle', 'salmon', 'with', 'ginger', 'and', 'freshly', 'ground', 'black', 'pepper', 'if', 'you', 'wish', '.'
+                ],
+                ['arrange', 'bowl', 'of', 'veggies', 'on', 'top', 'of', 'salmon', ',', 'and', 'seal', 'foil', 'tightly', 'to', 'create', 'a', 'tightly', 'sealed', 'pocket', '.'
+                ],
+                ['place', 'in', 'oven', 'and', 'bake', 'for', '20', 'minutes', '.'
+                ],
+                ['the', 'veggies', 'will', 'give', 'up', 'some', 'of', 'their', 'liquid', ',', 'creating', 'more', 'than', 'enough', 'to', 'cook', 'the', 'fish', '.'
+                ],
+                ['cook', 'rice', 'per', 'package', 'instructions', '.'
+                ],
+                ['while', 'fish', 'bakes', ',', 'prepare', 'salad', 'a', 'la', 'sportz', 'by', 'arranging', 'crackers', 'in', 'single', 'layer', 'on', 'cookie', 'sheet', ';', 'sprinkle', 'with', 'parmesan', 'topping', '.'
+                ],
+                ['bake', 'for', '1', 'to', '2', 'minutes', 'in', 'oven', 'with', 'fish', ',', 'just', 'until', 'lightly', 'browned', '.'
+                ],
+                ['cool', '.'
+                ],
+                ['toss', 'greens', '(', '1/2', 'pound', '=', '8', 'cups', ')', ',', 'carrots', '(', 'grated', ')', ',', 'tomatoes', '(', 'halved', ')', ',', 'and', 'green', 'onions', '(', 'sliced', ')', 'in', 'large', 'sized', 'bowl', '.'
+                ],
+                ['toss', 'with', 'dressing', '.'
+                ],
+                ['sprinkle', 'with', 'crackers', 'just', 'before', 'serving', '.'
+                ],
+                ['slice', 'banana', 'and', 'kiwi', 'and', 'toss', 'gently', ';', 'divide', 'between', 'four', 'dessert', 'cups', '.'
+                ],
+                ['blend', 'cinnamon', 'and', 'sugar', 'into', 'yogurt', ',', 'and', 'place', 'one-fourth', 'of', 'mixture', 'on', 'each', 'bowl', 'of', 'fruit', '.'
+                ]
+            ], 'ingredients': ['green_onions', 'red_peppers', 'extra_virgin_olive_oil', 'ground_ginger', 'white_rice', 'mixed_salad_greens', 'carrots', 'cherry_tomatoes', 'fat_-_free_italian_salad_dressing', 'kraft_grated_parmesan_cheese', 'banana', 'kiwi', 'low_-_fat_vanilla_yogurt', 'ground_cinnamon', 'granulated_sugar'
+            ], 'images': [], 'title': ['salmon', '&', 'salad', 'a', 'la', 'sportz'
+            ]
+        },
+        {'id': '0000b1e2b5', 'instructions': ['preheat oven to 350f with rack in middle.', 'crush fennel seeds with a mortar and pestle or wrap in a kitchen towel and crush with bottom of a heavy skillet.', 'pat pork dry, then sprinkle with crushed fennel seeds and 1/2 teaspoon each of salt and pepper.', 'cut fennel bulbs lengthwise into 1/2-inch wedges.', 'heat oil in a 12-inch oven-proof heavy skillet over medium-high heat until it shimmers.', 'brown pork on all sides, about 6 minutes total, then transfer to a plate.', 'saute garlic and fennel wedges in skillet until fennel is golden brown, about 6 minutes.', 'add wine, stirring and scraping up brown bits, then stir in broth and butter.', 'put pork on top of fennel and transfer skillet to oven.', 'roast until an instant-read thermometer inserted into center of pork registers 145 to 150f, about 15 minutes.', 'transfer pork to a cutting board and let rest 10 minutes.', 'meanwhile, transfer skillet to stovetop (handle will be hot) and boil, stirring occasionally, until most of liquid has evaporated.', 'stir in lemon juice and 1/4 cup chopped fennel fronds.', 'thinly slice pork and serve over fennel with sauce.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350f', 'with', 'rack', 'in', 'middle', '.'
+                ],
+                ['crush', 'fennel', 'seeds', 'with', 'a', 'mortar', 'and', 'pestle', 'or', 'wrap', 'in', 'a', 'kitchen', 'towel', 'and', 'crush', 'with', 'bottom', 'of', 'a', 'heavy', 'skillet', '.'
+                ],
+                ['pat', 'pork', 'dry', ',', 'then', 'sprinkle', 'with', 'crushed', 'fennel', 'seeds', 'and', '1/2', 'teaspoon', 'each', 'of', 'salt', 'and', 'pepper', '.'
+                ],
+                ['cut', 'fennel', 'bulbs', 'lengthwise', 'into', '1/2-inch', 'wedges', '.'
+                ],
+                ['heat', 'oil', 'in', 'a', '12-inch', 'oven-proof', 'heavy', 'skillet', 'over', 'medium-high', 'heat', 'until', 'it', 'shimmers', '.'
+                ],
+                ['brown', 'pork', 'on', 'all', 'sides', ',', 'about', '6', 'minutes', 'total', ',', 'then', 'transfer', 'to', 'a', 'plate', '.'
+                ],
+                ['saute', 'garlic', 'and', 'fennel', 'wedges', 'in', 'skillet', 'until', 'fennel', 'is', 'golden', 'brown', ',', 'about', '6', 'minutes', '.'
+                ],
+                ['add', 'wine', ',', 'stirring', 'and', 'scraping', 'up', 'brown', 'bits', ',', 'then', 'stir', 'in', 'broth', 'and', 'butter', '.'
+                ],
+                ['put', 'pork', 'on', 'top', 'of', 'fennel', 'and', 'transfer', 'skillet', 'to', 'oven', '.'
+                ],
+                ['roast', 'until', 'an', 'instant-read', 'thermometer', 'inserted', 'into', 'center', 'of', 'pork', 'registers', '145', 'to', '150f', ',', 'about', '15', 'minutes', '.'
+                ],
+                ['transfer', 'pork', 'to', 'a', 'cutting', 'board', 'and', 'let', 'rest', '10', 'minutes', '.'
+                ],
+                ['meanwhile', ',', 'transfer', 'skillet', 'to', 'stovetop', '(', 'handle', 'will', 'be', 'hot', ')', 'and', 'boil', ',', 'stirring', 'occasionally', ',', 'until', 'most', 'of', 'liquid', 'has', 'evaporated', '.'
+                ],
+                ['stir', 'in', 'lemon', 'juice', 'and', '1/4', 'cup', 'chopped', 'fennel', 'fronds', '.'
+                ],
+                ['thinly', 'slice', 'pork', 'and', 'serve', 'over', 'fennel', 'with', 'sauce', '.'
+                ]
+            ], 'ingredients': ['fennel_seeds', 'pork_tenderloin', 'fennel_bulbs', 'olive_oil', 'garlic_cloves', 'dry_white_wine', 'reduced_-_sodium_chicken_broth', 'unsalted_butter', 'fresh_lemon_juice'
+            ], 'images': ['cb1a684683.jpg'
+            ], 'title': ['fennel-rubbed', 'pork', 'tenderloin', 'with', 'roasted', 'fennel', 'wedges'
+            ]
+        },
+        {'id': '0000ed95f8', 'instructions': ['cream butter, sugar and egg.', 'add orange juice and rind and mix well.', 'sift flour, baking soda, and salt.', 'add to creamed mixture and then stir in pineapple and pecans.', 'pour into a greased 9" by 5" loaf pan.', 'let stand while oven heats to 350 degrees.', 'bake for 45 minutes.'
+            ], 'tokenized': [
+                ['cream', 'butter', ',', 'sugar', 'and', 'egg', '.'
+                ],
+                ['add', 'orange', 'juice', 'and', 'rind', 'and', 'mix', 'well', '.'
+                ],
+                ['sift', 'flour', ',', 'baking', 'soda', ',', 'and', 'salt', '.'
+                ],
+                ['add', 'to', 'creamed', 'mixture', 'and', 'then', 'stir', 'in', 'pineapple', 'and', 'pecans', '.'
+                ],
+                ['pour', 'into', 'a', 'greased', '9',
+                    "''", 'by', '5',
+                    "''", 'loaf', 'pan', '.'
+                ],
+                ['let', 'stand', 'while', 'oven', 'heats', 'to', '350', 'degrees', '.'
+                ],
+                ['bake', 'for', '45', 'minutes', '.'
+                ]
+            ], 'ingredients': ['butter', 'brown_sugar', 'egg', 'orange_juice_concentrate', 'orange_rind', 'flour', 'baking_soda', 'salt', 'crushed_pineapple_in_juice', 'pecans'
+            ], 'images': [], 'title': ['pineapple', 'loaf'
+            ]
+        },
+        {'id': '00010379bf', 'instructions': ['in a bowl, mix flour, baking powder, sugar, then add the sesame seeds, water, and vegetable oil and knead.', 'once the dough is formed, wrap in plastic wrap and let rise for 30 minutes.', 'roll out until it is 1 cm thick.', 'then cut to 3 cm long and 1 cm wide strips.', 'use your hands roll into tubes.', 'deep fry in 160c oil for 10 to 15 minutes.', 'in a pan, combine the brown sugar, sugar, soy sauce, water and heat until it starts to bubble.', 'once the large bubbles change to small bubbles, add the step 5 karintou to coat.', 'spread out on a baking sheet to prevent sticking.',
+                "they're done once they're dried."
+            ], 'tokenized': [
+                ['in', 'a', 'bowl', ',', 'mix', 'flour', ',', 'baking', 'powder', ',', 'sugar', ',', 'then', 'add', 'the', 'sesame', 'seeds', ',', 'water', ',', 'and', 'vegetable', 'oil', 'and', 'knead', '.'
+                ],
+                ['once', 'the', 'dough', 'is', 'formed', ',', 'wrap', 'in', 'plastic', 'wrap', 'and', 'let', 'rise', 'for', '30', 'minutes', '.'
+                ],
+                ['roll', 'out', 'until', 'it', 'is', '1', 'cm', 'thick', '.'
+                ],
+                ['then', 'cut', 'to', '3', 'cm', 'long', 'and', '1', 'cm', 'wide', 'strips', '.'
+                ],
+                ['use', 'your', 'hands', 'roll', 'into', 'tubes', '.'
+                ],
+                ['deep', 'fry', 'in', '160c', 'oil', 'for', '10', 'to', '15', 'minutes', '.'
+                ],
+                ['in', 'a', 'pan', ',', 'combine', 'the', 'brown', 'sugar', ',', 'sugar', ',', 'soy', 'sauce', ',', 'water', 'and', 'heat', 'until', 'it', 'starts', 'to', 'bubble', '.'
+                ],
+                ['once', 'the', 'large', 'bubbles', 'change', 'to', 'small', 'bubbles', ',', 'add', 'the', 'step', '5', 'karintou', 'to', 'coat', '.'
+                ],
+                ['spread', 'out', 'on', 'a', 'baking', 'sheet', 'to', 'prevent', 'sticking', '.'
+                ],
+                ['they',
+                    "'re", 'done', 'once', 'they',
+                    "'re", 'dried', '.'
+                ]
+            ], 'ingredients': ['cake_flour', 'baking_powder', 'sugar', 'white_sesame_seeds', 'water', 'vegetable_oil', 'sugar', 'white_sugar', 'soy_sauce', 'water'
+            ], 'images': ['f480145da5.jpg'
+            ], 'title': ['brown', 'sugar',
+                "'karintou",
+                "'", 'snacks'
+            ]
+        },
+        {'id': '00010c7867', 'instructions': ['combine beef, oats, tomato juice, egg,
+                1 tsp salt, pepper, chili powder, and onion in a large bowl.', 'do not overmix.', 'pack into a 9 inch square baking dish.', 'bake at 350 for 20 minutes, drain juices.', 'melt butter over medium heat, whisk in flour and 1 tsp salt.', 'slowly add milk while whisking.', 'bring to a boil.', 'cook one minute, add cheese.stir in corn.', 'pour mixture over meat, top with green pepper rings.', 'bake 20 minutes.', 'let cool 10 minutes before cutting.', 'serve.'
+            ], 'tokenized': [
+                ['combine', 'beef', ',', 'oats', ',', 'tomato', 'juice', ',', 'egg', ',', '1', 'tsp', 'salt', ',', 'pepper', ',', 'chili', 'powder', ',', 'and', 'onion', 'in', 'a', 'large', 'bowl', '.'
+                ],
+                ['do', 'not', 'overmix', '.'
+                ],
+                ['pack', 'into', 'a', '9', 'inch', 'square', 'baking', 'dish', '.'
+                ],
+                ['bake', 'at', '350', 'for', '20', 'minutes', ',', 'drain', 'juices', '.'
+                ],
+                ['melt', 'butter', 'over', 'medium', 'heat', ',', 'whisk', 'in', 'flour', 'and', '1', 'tsp', 'salt', '.'
+                ],
+                ['slowly', 'add', 'milk', 'while', 'whisking', '.'
+                ],
+                ['bring', 'to', 'a', 'boil', '.'
+                ],
+                ['cook', 'one', 'minute', ',', 'add', 'cheese.stir', 'in', 'corn', '.'
+                ],
+                ['pour', 'mixture', 'over', 'meat', ',', 'top', 'with', 'green', 'pepper', 'rings', '.'
+                ],
+                ['bake', '20', 'minutes', '.'
+                ],
+                ['let', 'cool', '10', 'minutes', 'before', 'cutting', '.'
+                ],
+                ['serve', '.'
+                ]
+            ], 'ingredients': ['ground_beef', 'oats', 'tomato_juice', 'egg', 'salt', 'pepper', 'chili_powder', 'onions', 'butter', 'flour', 'milk', 'cheddar_cheese', 'mexican_-_style_corn', 'green_peppers'
+            ], 'images': ['3b99e69c3c.jpg', '5ab32d58e0.jpg'
+            ], 'title': ['grandmommy',
+                "'s", 'mexicali', 'meatloaf'
+            ]
+        },
+        {'id': '00010d44c7', 'instructions': ['mix all ingredients and pour into a one quart baking dish.', 'bake at 350 for 20 minutes.', 'top with the remaining 1/2 cup cheese and continue baking for 10 minutes.'
+            ], 'tokenized': [
+                ['mix', 'all', 'ingredients', 'and', 'pour', 'into', 'a', 'one', 'quart', 'baking', 'dish', '.'
+                ],
+                ['bake', 'at', '350', 'for', '20', 'minutes', '.'
+                ],
+                ['top', 'with', 'the', 'remaining', '1/2', 'cup', 'cheese', 'and', 'continue', 'baking', 'for', '10', 'minutes', '.'
+                ]
+            ], 'ingredients': ['frozen_chopped_broccoli', 'cooked_rice', 'shredded_cheddar_cheese', 'shredded_cheddar_cheese', 'eggs', 'butter', 'milk', 'onion', 'garlic_powder', 'basil', 'oregano', 'salt_and_pepper'
+            ], 'images': ['9f497dcfa5.jpg'
+            ], 'title': ['broccoli', 'rice', 'bake'
+            ]
+        },
+        {'id': '00013266c9', 'instructions': ['preheat oven to 350 degrees f rack in middle position, line a 10 x 15" cookie sheet with heavy foil (jellyroll pan works great), having the foil go up the sides, spray foil with cooking sray', 'cover the bottom of the cookie sheet with a single layer of soda crackers, salt side up, ( you can break them in to smaller pieces to fit if you have to, set cracker lined pan aside', 'combine butter, white sugar and vanilla in a heavy sauce pan, bring to a full boil over medium high heat stirring constantly, ( a full boil will have breaking bubbles all over the surface of the pan) boil it for exactly 5 minutes, stirring constantly', 'when times up, pour mixture carefully over the soda crackers as evenly as you can, sprinkle the salted nut pieces over the top,', 'slide the pan into the oven to bake for 10 minutes, remove the pan from the oven and let it cool on a wire rack, when cookies have cooled all the way, peel off the foil backing and break into ramdom size pieces'], 'tokenized': [['preheat', 'oven', 'to', '350', 'degrees', 'f', 'rack', 'in', 'middle', 'position', ',', 'line', 'a', '10', 'x', '15', "''", 'cookie', 'sheet', 'with', 'heavy', 'foil', '(', 'jellyroll', 'pan', 'works', 'great', ')', ',', 'having', 'the', 'foil', 'go', 'up', 'the', 'sides', ',', 'spray', 'foil', 'with', 'cooking', 'sray'], ['cover', 'the', 'bottom', 'of', 'the', 'cookie', 'sheet', 'with', 'a', 'single', 'layer', 'of', 'soda', 'crackers', ',', 'salt', 'side', 'up', ',', '(', 'you', 'can', 'break', 'them', 'in', 'to', 'smaller', 'pieces', 'to', 'fit', 'if', 'you', 'have', 'to', ',', 'set', 'cracker', 'lined', 'pan', 'aside'], ['combine', 'butter', ',', 'white', 'sugar', 'and', 'vanilla', 'in', 'a', 'heavy', 'sauce', 'pan', ',', 'bring', 'to', 'a', 'full', 'boil', 'over', 'medium', 'high', 'heat', 'stirring', 'constantly', ',', '(', 'a', 'full', 'boil', 'will', 'have', 'breaking', 'bubbles', 'all', 'over', 'the', 'surface', 'of', 'the', 'pan', ')', 'boil', 'it', 'for', 'exactly', '5', 'minutes', ',', 'stirring', 'constantly'], ['when', 'times', 'up', ',', 'pour', 'mixture', 'carefully', 'over', 'the', 'soda', 'crackers', 'as', 'evenly', 'as', 'you', 'can', ',', 'sprinkle', 'the', 'salted', 'nut', 'pieces', 'over', 'the', 'top', ','], ['slide', 'the', 'pan', 'into', 'the', 'oven', 'to', 'bake', 'for', '10', 'minutes', ',', 'remove', 'the', 'pan', 'from', 'the', 'oven', 'and', 'let', 'it', 'cool', 'on', 'a', 'wire', 'rack', ',', 'when', 'cookies', 'have', 'cooled', 'all', 'the', 'way', ',', 'peel', 'off', 'the', 'foil', 'backing', 'and', 'break', 'into', 'ramdom', 'size', 'pieces']], 'ingredients': ['salted_butter', 'granulated_sugar', 'vanilla_extract', 'salted_nuts'], 'images': ['4636c7f576.jpg'], 'title': ['tinklee', "'s", 'vanilla', 'crack']}, {'id': '00016355e6', 'instructions': ['place vanilla wafer cookie in a baggie, seal bag and crush it into tiny pieces (i rolled a rolling pin over it).', 'set aside.', 'in a blender add banana, coconut milk, half-and-half, vanilla extract, stevia and ice cubes.', 'put the lid on and blend until smooth.', 'pour into 2 cups and top each smoothie with whipped cream and crushed wafer cookie.'], 'tokenized': [['place', 'vanilla', 'wafer', 'cookie', 'in', 'a', 'baggie', ',', 'seal', 'bag', 'and', 'crush', 'it', 'into', 'tiny', 'pieces', '(', 'i', 'rolled', 'a', 'rolling', 'pin', 'over', 'it', ')', '.'], ['set', 'aside', '.'], ['in', 'a', 'blender', 'add', 'banana', ',', 'coconut', 'milk', ',', 'half-and-half', ',', 'vanilla', 'extract', ',', 'stevia', 'and', 'ice', 'cubes', '.'], ['put', 'the', 'lid', 'on', 'and', 'blend', 'until', 'smooth', '.'], ['pour', 'into', '2', 'cups', 'and', 'top', 'each', 'smoothie', 'with', 'whipped', 'cream', 'and', 'crushed', 'wafer', 'cookie', '.']], 'ingredients': ['vanilla_wafer_cookie', 'bananas', 'coconut_milk', 'fat_-_free_half_-_and_-_half', 'vanilla_extract', 'stevia', 'ice_cubes', 'whipped_cream'], 'images': ['fbb388415c.jpg'], 'title': ['banana', 'cream', 'pie', 'smoothie']}, {'id': '00016d71a4', 'instructions': ['line the bottom of a 9" (2.5l) square pan with wax paper and graham wafers, completely covering base of pan.', 'blend ice cream and lemonade, mixing well.', 'pour over graham wafer base.', 'cover with remaining wafers.', 'freeze 1 hour or until firm.', 'combine melted chocolate chips and butter and spread evenly over top graham layer.', 'freeze until firm, about 2 hours.', 'cut into squares or bars with warmed sharp knife.'
+            ], 'tokenized': [
+                ['line', 'the', 'bottom', 'of', 'a', '9',
+                    "''", '(', '2.5l', ')', 'square', 'pan', 'with', 'wax', 'paper', 'and', 'graham', 'wafers', ',', 'completely', 'covering', 'base', 'of', 'pan', '.'
+                ],
+                ['blend', 'ice', 'cream', 'and', 'lemonade', ',', 'mixing', 'well', '.'
+                ],
+                ['pour', 'over', 'graham', 'wafer', 'base', '.'
+                ],
+                ['cover', 'with', 'remaining', 'wafers', '.'
+                ],
+                ['freeze', '1', 'hour', 'or', 'until', 'firm', '.'
+                ],
+                ['combine', 'melted', 'chocolate', 'chips', 'and', 'butter', 'and', 'spread', 'evenly', 'over', 'top', 'graham', 'layer', '.'
+                ],
+                ['freeze', 'until', 'firm', ',', 'about', '2', 'hours', '.'
+                ],
+                ['cut', 'into', 'squares', 'or', 'bars', 'with', 'warmed', 'sharp', 'knife', '.'
+                ]
+            ], 'ingredients': ['graham_wafers', 'vanilla_ice_cream', 'frozen_lemonade_concentrate', 'chocolate_chips', 'butter'
+            ], 'images': [], 'title': ['frosty', 'lemon', 'ice', 'cream', 'sandwiches'
+            ]
+        },
+        {'id': '00018371f2', 'instructions': ['crush raspberries, one layer at a time.', 'place prepared raspberries in jelly bag; hang and let drip into bowl until dripping stops.', 'press bag gently to remove any remaining juices.', 'measure exactly 4 cups prepared juice into large saucepan.', 'stir in pectin.', 'bring to boil on high heat.', 'stir in sugar.', 'return to boil; cook 1 min.', 'remove from heat.', 'stir and skim 5 min.', 'pour into warm sterilized jars, filling up to 1/4 inch from rims.', 'cover with lids.', 'let stand at room temperature 24 hours or until set.'
+            ], 'tokenized': [
+                ['crush', 'raspberries', ',', 'one', 'layer', 'at', 'a', 'time', '.'
+                ],
+                ['place', 'prepared', 'raspberries', 'in', 'jelly', 'bag', ';', 'hang', 'and', 'let', 'drip', 'into', 'bowl', 'until', 'dripping', 'stops', '.'
+                ],
+                ['press', 'bag', 'gently', 'to', 'remove', 'any', 'remaining', 'juices', '.'
+                ],
+                ['measure', 'exactly', '4', 'cups', 'prepared', 'juice', 'into', 'large', 'saucepan', '.'
+                ],
+                ['stir', 'in', 'pectin', '.'
+                ],
+                ['bring', 'to', 'boil', 'on', 'high', 'heat', '.'
+                ],
+                ['stir', 'in', 'sugar', '.'
+                ],
+                ['return', 'to', 'boil', ';', 'cook', '1', 'min', '.'
+                ],
+                ['remove', 'from', 'heat', '.'
+                ],
+                ['stir', 'and', 'skim', '5', 'min', '.'
+                ],
+                ['pour', 'into', 'warm', 'sterilized', 'jars', ',', 'filling', 'up', 'to', '1/4', 'inch', 'from', 'rims', '.'
+                ],
+                ['cover', 'with', 'lids', '.'
+                ],
+                ['let', 'stand', 'at', 'room', 'temperature', '24', 'hours', 'or', 'until', 'set', '.'
+                ]
+            ], 'ingredients': ['juice', 'granulated_sugar'
+            ], 'images': ['4247c11be3.jpg'
+            ], 'title': ['cooked', 'raspberry', 'jelly', '-', 'certo', 'crystals'
+            ]
+        },
+        {'id': '0001960f61', 'instructions': ['coat a 9x13 baking dish with spray of oil.', 'arrange half of the bread in the dish.', 'spread the cream cheese cubes over the bread and then the apples.', 'top with remaining bread.', 'in a large bowl beat the eggs and cream, butter and maple syrup.', 'pour over the bread.', 'cover with plastic wrap and refrigerate overnight or at least 2 hours.', 'preheat the oven to 325f and bake 45 minutes of until set and lightly browned.', 'let stand at least 15 minutes before serving with extra maple syrup.'
+            ], 'tokenized': [
+                ['coat', 'a', '9x13', 'baking', 'dish', 'with', 'spray', 'of', 'oil', '.'
+                ],
+                ['arrange', 'half', 'of', 'the', 'bread', 'in', 'the', 'dish', '.'
+                ],
+                ['spread', 'the', 'cream', 'cheese', 'cubes', 'over', 'the', 'bread', 'and', 'then', 'the', 'apples', '.'
+                ],
+                ['top', 'with', 'remaining', 'bread', '.'
+                ],
+                ['in', 'a', 'large', 'bowl', 'beat', 'the', 'eggs', 'and', 'cream', ',', 'butter', 'and', 'maple', 'syrup', '.'
+                ],
+                ['pour', 'over', 'the', 'bread', '.'
+                ],
+                ['cover', 'with', 'plastic', 'wrap', 'and', 'refrigerate', 'overnight', 'or', 'at', 'least', '2', 'hours', '.'
+                ],
+                ['preheat', 'the', 'oven', 'to', '325f', 'and', 'bake', '45', 'minutes', 'of', 'until', 'set', 'and', 'lightly', 'browned', '.'
+                ],
+                ['let', 'stand', 'at', 'least', '15', 'minutes', 'before', 'serving', 'with', 'extra', 'maple', 'syrup', '.'
+                ]
+            ], 'ingredients': ['cinnamon_-_swirl_bread', 'cream_cheese', 'apples', 'eggs', 'half_-_and_-_half', 'butter', 'maple_syrup'
+            ], 'images': [], 'title': ['apple', 'cinnamon', 'french', 'toast', 'strata'
+            ]
+        },
+        {'id': '00019675ca', 'instructions': ['dump crab meat into a large mixing bowl.', 'if using lump crab meat, break up crab chunks to as small size pieces as you like.', 'add sour cream and cream cheese and stir until well blended.', 'add in the shredded cheese, bacon bits, and seasonings and stir together.', 'serve with tortilla chips, bagel chips, pita chips, or crackers.'
+            ], 'tokenized': [
+                ['dump', 'crab', 'meat', 'into', 'a', 'large', 'mixing', 'bowl', '.'
+                ],
+                ['if', 'using', 'lump', 'crab', 'meat', ',', 'break', 'up', 'crab', 'chunks', 'to', 'as', 'small', 'size', 'pieces', 'as', 'you', 'like', '.'
+                ],
+                ['add', 'sour', 'cream', 'and', 'cream', 'cheese', 'and', 'stir', 'until', 'well', 'blended', '.'
+                ],
+                ['add', 'in', 'the', 'shredded', 'cheese', ',', 'bacon', 'bits', ',', 'and', 'seasonings', 'and', 'stir', 'together', '.'
+                ],
+                ['serve', 'with', 'tortilla', 'chips', ',', 'bagel', 'chips', ',', 'pita', 'chips', ',', 'or', 'crackers', '.'
+                ]
+            ], 'ingredients': ['crabmeat', 'sour_cream', 'whipped_cream_cheese', 'cheese', 'bacon_bits', 'cilantro', 'cajun_seasoning', 'garlic_powder', 'onion_powder', 'pepper', 'salt'
+            ], 'images': [], 'title': ['quick', '&', 'easy', 'crab', 'dip'
+            ]
+        },
+        {'id': '0001a2f336', 'instructions': ['preheat oven to 350 degrees.', 'flatten dough onto a pan into a rectangle.',
+                "don't handle the dough too much or it'll start to tear.", 'allow to warm up to room temperature.', 'in a medium-sized pan, brown sausage.', 'drain well.', 'pour sausage evenly in a line in the center of the dough.', 'sprinkle cheese evenly on top of sausage.', 'sprinkle italian seasoning and garlic salt over the top of the sausage and cheese.', '(optional).', 'pull the two longer sides together and close it up as best you can then do the same with the two smaller ends.', 'using a small amount of olive oil, coat the top of the dough then sprinkle garlic salt and italian seasoning over the top.', 'put the bread into the oven for 30-45 minutes.',
+                "if you flick the bread and it sounds hollow, then it's done.", 'heat the sauce in a medium sauce pan with a lid on top.', 'cool, serve and enjoy!', '-may also be made with green peppers and onions, or any other concoction you can think of!'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350', 'degrees', '.'
+                ],
+                ['flatten', 'dough', 'onto', 'a', 'pan', 'into', 'a', 'rectangle', '.'
+                ],
+                ['do',
+                    "n't", 'handle', 'the', 'dough', 'too', 'much', 'or', 'it',
+                    "'ll", 'start', 'to', 'tear', '.'
+                ],
+                ['allow', 'to', 'warm', 'up', 'to', 'room', 'temperature', '.'
+                ],
+                ['in', 'a', 'medium-sized', 'pan', ',', 'brown', 'sausage', '.'
+                ],
+                ['drain', 'well', '.'
+                ],
+                ['pour', 'sausage', 'evenly', 'in', 'a', 'line', 'in', 'the', 'center', 'of', 'the', 'dough', '.'
+                ],
+                ['sprinkle', 'cheese', 'evenly', 'on', 'top', 'of', 'sausage', '.'
+                ],
+                ['sprinkle', 'italian', 'seasoning', 'and', 'garlic', 'salt', 'over', 'the', 'top', 'of', 'the', 'sausage', 'and', 'cheese', '.'
+                ],
+                ['(', 'optional', ')', '.'
+                ],
+                ['pull', 'the', 'two', 'longer', 'sides', 'together', 'and', 'close', 'it', 'up', 'as', 'best', 'you', 'can', 'then', 'do', 'the', 'same', 'with', 'the', 'two', 'smaller', 'ends', '.'
+                ],
+                ['using', 'a', 'small', 'amount', 'of', 'olive', 'oil', ',', 'coat', 'the', 'top', 'of', 'the', 'dough', 'then', 'sprinkle', 'garlic', 'salt', 'and', 'italian', 'seasoning', 'over', 'the', 'top', '.'
+                ],
+                ['put', 'the', 'bread', 'into', 'the', 'oven', 'for', '30-45', 'minutes', '.'
+                ],
+                ['if', 'you', 'flick', 'the', 'bread', 'and', 'it', 'sounds', 'hollow', ',', 'then', 'it',
+                    "'s", 'done', '.'
+                ],
+                ['heat', 'the', 'sauce', 'in', 'a', 'medium', 'sauce', 'pan', 'with', 'a', 'lid', 'on', 'top', '.'
+                ],
+                ['cool', ',', 'serve', 'and', 'enjoy', '!'
+                ],
+                ['-may', 'also', 'be', 'made', 'with', 'green', 'peppers', 'and', 'onions', ',', 'or', 'any', 'other', 'concoction', 'you', 'can', 'think', 'of', '!'
+                ]
+            ], 'ingredients': ['sweet_italian_sausage', 'mozzarella_cheese', 'italian_seasoning', 'garlic_salt', 'spaghetti_sauce', 'olive_oil', 'pizza_dough'
+            ], 'images': [], 'title': ['sausage', 'bread'
+            ]
+        },
+        {'id': '0001cba765', 'instructions': ['combine the orange juice, tequila, triple sec, and cranberry juice in a cocktail shaker filled with 3/4 cup ice.', 'shake vigorously.', 'pour into a glass.', 'garnish with an orange wedge.', 'variation-for a pink-hued rim, dip the rim of the glass in grenadine before coating with sugar.'
+            ], 'tokenized': [
+                ['combine', 'the', 'orange', 'juice', ',', 'tequila', ',', 'triple', 'sec', ',', 'and', 'cranberry', 'juice', 'in', 'a', 'cocktail', 'shaker', 'filled', 'with', '3/4', 'cup', 'ice', '.'
+                ],
+                ['shake', 'vigorously', '.'
+                ],
+                ['pour', 'into', 'a', 'glass', '.'
+                ],
+                ['garnish', 'with', 'an', 'orange', 'wedge', '.'
+                ],
+                ['variation-for', 'a', 'pink-hued', 'rim', ',', 'dip', 'the', 'rim', 'of', 'the', 'glass', 'in', 'grenadine', 'before', 'coating', 'with', 'sugar', '.'
+                ]
+            ], 'ingredients': ['orange_juice', 'white_tequila', 'triple_sec', 'cranberry_juice', 'orange_wedges', 'coarse_sugar'
+            ], 'images': [], 'title': ['margarita', 'madras'
+            ]
+        },
+        {'id': '0001d356b6', 'instructions': ['for the cupcakes: preheat the oven to 350 degrees f. fill the cupcake pan with paper liners.', 'beat the granulated sugar and butter until light and fluffy in a standing mixer.', 'beat in the eggs.', 'add the lemon zest and juice and beat until combined.', 'sift the flour, baking powder, baking soda and salt in a separate bowl.', 'alternately add the buttermilk and flour mixture to the standing mixer, beating well between each addition.', 'fill the cupcake liners two-thirds full.', 'bake the cupcakes until a toothpick inserted comes out clean,
+                18 to 22 minutes.', 'refrigerate the cupcakes until they are completely cooled.', 'for the filling: cook 1/3 cup water,
+                1 cup of the blueberries and granulated sugar over medium heat for 10 minutes, stirring frequently.', 'once the blueberries begin to burst, add the remaining 1 cup blueberries and cook on medium heat,
+                8 to 10 minutes.', 'the filling is done when it coats the back of a metal spoon.', 'for the frosting: beat the butter and cream cheese until light and fluffy in a standing mixer.', 'add the powdered sugar, vanilla and salt.', 'beat until light and fluffy.', 'core the cupcakes using an apple corer.', 'fill each cupcake core with the blueberry compote filling and top with the cream cheese frosting.', 'this recipe was created by a contestant during a cooking competition.', 'the food network kitchens have not tested it for home use, therefore, we cannot make any representation as to the results.'
+            ], 'tokenized': [
+                ['for', 'the', 'cupcakes', ':', 'preheat', 'the', 'oven', 'to', '350', 'degrees', 'f.', 'fill', 'the', 'cupcake', 'pan', 'with', 'paper', 'liners', '.'
+                ],
+                ['beat', 'the', 'granulated', 'sugar', 'and', 'butter', 'until', 'light', 'and', 'fluffy', 'in', 'a', 'standing', 'mixer', '.'
+                ],
+                ['beat', 'in', 'the', 'eggs', '.'
+                ],
+                ['add', 'the', 'lemon', 'zest', 'and', 'juice', 'and', 'beat', 'until', 'combined', '.'
+                ],
+                ['sift', 'the', 'flour', ',', 'baking', 'powder', ',', 'baking', 'soda', 'and', 'salt', 'in', 'a', 'separate', 'bowl', '.'
+                ],
+                ['alternately', 'add', 'the', 'buttermilk', 'and', 'flour', 'mixture', 'to', 'the', 'standing', 'mixer', ',', 'beating', 'well', 'between', 'each', 'addition', '.'
+                ],
+                ['fill', 'the', 'cupcake', 'liners', 'two-thirds', 'full', '.'
+                ],
+                ['bake', 'the', 'cupcakes', 'until', 'a', 'toothpick', 'inserted', 'comes', 'out', 'clean', ',', '18', 'to', '22', 'minutes', '.'
+                ],
+                ['refrigerate', 'the', 'cupcakes', 'until', 'they', 'are', 'completely', 'cooled', '.'
+                ],
+                ['for', 'the', 'filling', ':', 'cook', '1/3', 'cup', 'water', ',', '1', 'cup', 'of', 'the', 'blueberries', 'and', 'granulated', 'sugar', 'over', 'medium', 'heat', 'for', '10', 'minutes', ',', 'stirring', 'frequently', '.'
+                ],
+                ['once', 'the', 'blueberries', 'begin', 'to', 'burst', ',', 'add', 'the', 'remaining', '1', 'cup', 'blueberries', 'and', 'cook', 'on', 'medium', 'heat', ',', '8', 'to', '10', 'minutes', '.'
+                ],
+                ['the', 'filling', 'is', 'done', 'when', 'it', 'coats', 'the', 'back', 'of', 'a', 'metal', 'spoon', '.'
+                ],
+                ['for', 'the', 'frosting', ':', 'beat', 'the', 'butter', 'and', 'cream', 'cheese', 'until', 'light', 'and', 'fluffy', 'in', 'a', 'standing', 'mixer', '.'
+                ],
+                ['add', 'the', 'powdered', 'sugar', ',', 'vanilla', 'and', 'salt', '.'
+                ],
+                ['beat', 'until', 'light', 'and', 'fluffy', '.'
+                ],
+                ['core', 'the', 'cupcakes', 'using', 'an', 'apple', 'corer', '.'
+                ],
+                ['fill', 'each', 'cupcake', 'core', 'with', 'the', 'blueberry', 'compote', 'filling', 'and', 'top', 'with', 'the', 'cream', 'cheese', 'frosting', '.'
+                ],
+                ['this', 'recipe', 'was', 'created', 'by', 'a', 'contestant', 'during', 'a', 'cooking', 'competition', '.'
+                ],
+                ['the', 'food', 'network', 'kitchens', 'have', 'not', 'tested', 'it', 'for', 'home', 'use', ',', 'therefore', ',', 'we', 'can', 'not', 'make', 'any', 'representation', 'as', 'to', 'the', 'results', '.'
+                ]
+            ], 'ingredients': ['granulated_sugar', 'unsalted_butter', 'egg_whites', 'lemons_zest_of', 'lemons_juice_of', 'all_-_purpose_flour', 'baking_powder', 'baking_soda', 'salt', 'buttermilk', 'blueberries', 'granulated_sugar', 'unsalted_butter', 'cream_cheese', 'powdered_sugar', 'vanilla_extract', 'salt'
+            ], 'images': [], 'title': ['lemon', 'cupcakes', 'with', 'blueberry', 'compote', 'filling', 'and', 'cream', 'cheese', 'frosting'
+            ]
+        },
+        {'id': '0001d81db6', 'instructions': ['mix above ingredients together until smooth.', 'enjoy!'
+            ], 'tokenized': [
+                ['mix', 'above', 'ingredients', 'together', 'until', 'smooth', '.'
+                ],
+                ['enjoy', '!'
+                ]
+            ], 'ingredients': ['avocados', 'garlic_clove', 'cream_cheese', 'limes', 'cilantro', 'sour_cream', 'fresh_jalapenos', 'fresh_tomatoes'
+            ], 'images': [], 'title': ['guacamole'
+            ]
+        },
+        {'id': '000238353f', 'instructions': ['first preheat your oven to 200c and then place a frying pan on the hob over a medium heat, add your oil or butter and then add the onion and garlic.', 'saute until soft and take off the heat and leave to cool.', 'once cool, place the onion and garlic into a bowl, along with the sausage meat and thyme and season well with salt and pepper.', 'mix by hand; making sure everything is incorporated well.', 'take a large baking tray and unroll the puff pastry over it.', 'along the long length of the pastry, place the sausage meat mix evenly in the middle, leaving a gap at either end.', 'then using a knife, carve a gully in the centre of the meat.', 'this is for the marmalade so spoon an even amount in and then carefully press the meat together.', 'again with a knife, make slits in the pastry approximately 2 cms apart on either side of the meat and then starting at one end, fold each flap over, creating a plait effect and seal at both ends.', 'brush the egg wash all over and scatter the poppy seeds over after that.', 'place in the hot oven for 40 45 minutes until the pastry puffs up and browns.', 'serve hot or cold.'
+            ], 'tokenized': [
+                ['first', 'preheat', 'your', 'oven', 'to', '200c', 'and', 'then', 'place', 'a', 'frying', 'pan', 'on', 'the', 'hob', 'over', 'a', 'medium', 'heat', ',', 'add', 'your', 'oil', 'or', 'butter', 'and', 'then', 'add', 'the', 'onion', 'and', 'garlic', '.'
+                ],
+                ['saute', 'until', 'soft', 'and', 'take', 'off', 'the', 'heat', 'and', 'leave', 'to', 'cool', '.'
+                ],
+                ['once', 'cool', ',', 'place', 'the', 'onion', 'and', 'garlic', 'into', 'a', 'bowl', ',', 'along', 'with', 'the', 'sausage', 'meat', 'and', 'thyme', 'and', 'season', 'well', 'with', 'salt', 'and', 'pepper', '.'
+                ],
+                ['mix', 'by', 'hand', ';', 'making', 'sure', 'everything', 'is', 'incorporated', 'well', '.'
+                ],
+                ['take', 'a', 'large', 'baking', 'tray', 'and', 'unroll', 'the', 'puff', 'pastry', 'over', 'it', '.'
+                ],
+                ['along', 'the', 'long', 'length', 'of', 'the', 'pastry', ',', 'place', 'the', 'sausage', 'meat', 'mix', 'evenly', 'in', 'the', 'middle', ',', 'leaving', 'a', 'gap', 'at', 'either', 'end', '.'
+                ],
+                ['then', 'using', 'a', 'knife', ',', 'carve', 'a', 'gully', 'in', 'the', 'centre', 'of', 'the', 'meat', '.'
+                ],
+                ['this', 'is', 'for', 'the', 'marmalade', 'so', 'spoon', 'an', 'even', 'amount', 'in', 'and', 'then', 'carefully', 'press', 'the', 'meat', 'together', '.'
+                ],
+                ['again', 'with', 'a', 'knife', ',', 'make', 'slits', 'in', 'the', 'pastry', 'approximately', '2', 'cms', 'apart', 'on', 'either', 'side', 'of', 'the', 'meat', 'and', 'then', 'starting', 'at', 'one', 'end', ',', 'fold', 'each', 'flap', 'over', ',', 'creating', 'a', 'plait', 'effect', 'and', 'seal', 'at', 'both', 'ends', '.'
+                ],
+                ['brush', 'the', 'egg', 'wash', 'all', 'over', 'and', 'scatter', 'the', 'poppy', 'seeds', 'over', 'after', 'that', '.'
+                ],
+                ['place', 'in', 'the', 'hot', 'oven', 'for', '40', '45', 'minutes', 'until', 'the', 'pastry', 'puffs', 'up', 'and', 'browns', '.'
+                ],
+                ['serve', 'hot', 'or', 'cold', '.'
+                ]
+            ], 'ingredients': ['pork_sausage', 'onion', 'garlic_clove', 'thyme', 'marmalade', 'egg', 'poppy_seeds', 'salt_and_pepper', 'oil'
+            ], 'images': ['13e1cc10b7.jpg'
+            ], 'title': ['sausage', 'and', 'marmalade', 'plait', 'recipe'
+            ]
+        },
+        {'id': '00027b61de', 'instructions': ['for 16 oz tails: have store crack or split each tail in half.', 'cut bottom side of tail off (skin and hard pieces, not points).', 'cover and grill on medium for 7 minutes, shell side down.', 'baste with butter, lemon juice and garlic salt 5 or 6 times.',
+                "turn and grill with cover down another 7 or 8 minutes until done, don't baste.", '*for 8 or 9 oz tails: crack yourself by bending (hard side of tail down) so they will lay flat while grilling.',
+                "cut skin and cut hard pieces but don't cut off points.", 'follow above cooking directions.', 'serve with browned butter, potato and coleslaw.'
+            ], 'tokenized': [
+                ['for', '16', 'oz', 'tails', ':', 'have', 'store', 'crack', 'or', 'split', 'each', 'tail', 'in', 'half', '.'
+                ],
+                ['cut', 'bottom', 'side', 'of', 'tail', 'off', '(', 'skin', 'and', 'hard', 'pieces', ',', 'not', 'points', ')', '.'
+                ],
+                ['cover', 'and', 'grill', 'on', 'medium', 'for', '7', 'minutes', ',', 'shell', 'side', 'down', '.'
+                ],
+                ['baste', 'with', 'butter', ',', 'lemon', 'juice', 'and', 'garlic', 'salt', '5', 'or', '6', 'times', '.'
+                ],
+                ['turn', 'and', 'grill', 'with', 'cover', 'down', 'another', '7', 'or', '8', 'minutes', 'until', 'done', ',', 'do',
+                    "n't", 'baste', '.'
+                ],
+                ['*for', '8', 'or', '9', 'oz', 'tails', ':', 'crack', 'yourself', 'by', 'bending', '(', 'hard', 'side', 'of', 'tail', 'down', ')', 'so', 'they', 'will', 'lay', 'flat', 'while', 'grilling', '.'
+                ],
+                ['cut', 'skin', 'and', 'cut', 'hard', 'pieces', 'but', 'do',
+                    "n't", 'cut', 'off', 'points', '.'
+                ],
+                ['follow', 'above', 'cooking', 'directions', '.'
+                ],
+                ['serve', 'with', 'browned', 'butter', ',', 'potato', 'and', 'coleslaw', '.'
+                ]
+            ], 'ingredients': ['lobster_tails', 'butter', 'lemon_juice', 'garlic_salt'
+            ], 'images': [], 'title': ['lobster', 'on', 'the', 'barbie'
+            ]
+        },
+        {'id': '0002e15d76', 'instructions': ['grease a 13 x 9-inch baking dish.', 'in a large saucepan, saute the onion in oil until tender (about 3-4 minutes).', 'in a bowl, combine all remaining ingredients including the lemon slices (except the sausages) mix well to combine, and bring to a boil.', 'reduce heat; simmer uncovered for about 20-25 minutes, or until slightly thickened (stirring occasionally).', 'remove the lemon slices and discard.', 'place the sausages or hot dogs in the baking dish.', 'top with sauce, and mix slightly to combine.', 'bake in a 350 degrees oven, uncovered for about 20-25 minutes, or until heated through.', 'keep warm when serving.'
+            ], 'tokenized': [
+                ['grease', 'a', '13', 'x', '9-inch', 'baking', 'dish', '.'
+                ],
+                ['in', 'a', 'large', 'saucepan', ',', 'saute', 'the', 'onion', 'in', 'oil', 'until', 'tender', '(', 'about', '3-4', 'minutes', ')', '.'
+                ],
+                ['in', 'a', 'bowl', ',', 'combine', 'all', 'remaining', 'ingredients', 'including', 'the', 'lemon', 'slices', '(', 'except', 'the', 'sausages', ')', 'mix', 'well', 'to', 'combine', ',', 'and', 'bring', 'to', 'a', 'boil', '.'
+                ],
+                ['reduce', 'heat', ';', 'simmer', 'uncovered', 'for', 'about', '20-25', 'minutes', ',', 'or', 'until', 'slightly', 'thickened', '(', 'stirring', 'occasionally', ')', '.'
+                ],
+                ['remove', 'the', 'lemon', 'slices', 'and', 'discard', '.'
+                ],
+                ['place', 'the', 'sausages', 'or', 'hot', 'dogs', 'in', 'the', 'baking', 'dish', '.'
+                ],
+                ['top', 'with', 'sauce', ',', 'and', 'mix', 'slightly', 'to', 'combine', '.'
+                ],
+                ['bake', 'in', 'a', '350', 'degrees', 'oven', ',', 'uncovered', 'for', 'about', '20-25', 'minutes', ',', 'or', 'until', 'heated', 'through', '.'
+                ],
+                ['keep', 'warm', 'when', 'serving', '.'
+                ]
+            ], 'ingredients': ['onion', 'oil', 'ketchup', 'water', 'cider_vinegar', 'sugar', 'worcestershire_sauce', 'honey', 'mustard_powder', 'paprika', 'salt', 'pepper', 'hot_pepper_sauce', 'lemon', 'hot_dogs'
+            ], 'images': [], 'title': ['party', 'dog', 'appetizers'
+            ]
+        },
+        {'id': '0003132d05', 'instructions': ['preheat oven to 350 degrees.', 'place potatoes in saucepan and cover with water.', 'bring to a boil.', 'reduce heat, cover and cook 15-20 minutes or until tender.', 'in small skillet saute garlic in butter.', 'drain potatoes and place in large mixing bowl; add garlic.', 'beat until smooth.', 'add remaining ingredients, mix well.', 'transfer to greased 2 quart baking dish.', 'bake uncovered at 350 degrees for 30-40 minutes or until heated through.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350', 'degrees', '.'
+                ],
+                ['place', 'potatoes', 'in', 'saucepan', 'and', 'cover', 'with', 'water', '.'
+                ],
+                ['bring', 'to', 'a', 'boil', '.'
+                ],
+                ['reduce', 'heat', ',', 'cover', 'and', 'cook', '15-20', 'minutes', 'or', 'until', 'tender', '.'
+                ],
+                ['in', 'small', 'skillet', 'saute', 'garlic', 'in', 'butter', '.'
+                ],
+                ['drain', 'potatoes', 'and', 'place', 'in', 'large', 'mixing', 'bowl', ';', 'add', 'garlic', '.'
+                ],
+                ['beat', 'until', 'smooth', '.'
+                ],
+                ['add', 'remaining', 'ingredients', ',', 'mix', 'well', '.'
+                ],
+                ['transfer', 'to', 'greased', '2', 'quart', 'baking', 'dish', '.'
+                ],
+                ['bake', 'uncovered', 'at', '350', 'degrees', 'for', '30-40', 'minutes', 'or', 'until', 'heated', 'through', '.'
+                ]
+            ], 'ingredients': ['fresh_chives', 'russet_potatoes', 'garlic_cloves', 'butter', 'milk', 'sour_cream', 'parmesan_cheese', 'salt', 'onion_salt', 'garlic_powder', 'pepper'
+            ], 'images': [], 'title': ['midnight', 'mashed', 'potatoes'
+            ]
+        },
+        {'id': '000320b7ce', 'instructions': ['heat oven to 375f.', 'place paper baking cups into 12 muffin pan cups; set aside.', 'combine flour, baking powder, baking soda, salt, cinnamon and ginger in bowl; set aside.', 'combine brown sugar and butter in another bowl; beat at medium-high speed until smooth.', 'add bananas, eggs, lime juice and lime zest.', 'beat at medium speed, scraping bowl often, until smooth.', 'stir flour mixture until well mixed.', 'spoon batter into prepared muffin pan cups; sprinkle tops with coconut.', 'bake 22-27 minutes or until toothpick inserted in center comes out clean.', 'remove from pan to cooling rack; cool completely.'
+            ], 'tokenized': [
+                ['heat', 'oven', 'to', '375f', '.'
+                ],
+                ['place', 'paper', 'baking', 'cups', 'into', '12', 'muffin', 'pan', 'cups', ';', 'set', 'aside', '.'
+                ],
+                ['combine', 'flour', ',', 'baking', 'powder', ',', 'baking', 'soda', ',', 'salt', ',', 'cinnamon', 'and', 'ginger', 'in', 'bowl', ';', 'set', 'aside', '.'
+                ],
+                ['combine', 'brown', 'sugar', 'and', 'butter', 'in', 'another', 'bowl', ';', 'beat', 'at', 'medium-high', 'speed', 'until', 'smooth', '.'
+                ],
+                ['add', 'bananas', ',', 'eggs', ',', 'lime', 'juice', 'and', 'lime', 'zest', '.'
+                ],
+                ['beat', 'at', 'medium', 'speed', ',', 'scraping', 'bowl', 'often', ',', 'until', 'smooth', '.'
+                ],
+                ['stir', 'flour', 'mixture', 'until', 'well', 'mixed', '.'
+                ],
+                ['spoon', 'batter', 'into', 'prepared', 'muffin', 'pan', 'cups', ';', 'sprinkle', 'tops', 'with', 'coconut', '.'
+                ],
+                ['bake', '22-27', 'minutes', 'or', 'until', 'toothpick', 'inserted', 'in', 'center', 'comes', 'out', 'clean', '.'
+                ],
+                ['remove', 'from', 'pan', 'to', 'cooling', 'rack', ';', 'cool', 'completely', '.'
+                ]
+            ], 'ingredients': ['all_-_purpose_flour', 'baking_powder', 'baking_soda', 'salt', 'ground_cinnamon', 'ground_ginger', 'brown_sugar', 'butter', 'bananas', 'eggs', 'lime_juice', 'lime_zest', 'sweetened_flaked_coconut'
+            ], 'images': ['9c5d5f3e9c.jpg'
+            ], 'title': ['tropical', 'banana', 'muffins'
+            ]
+        },
+        {'id': '000328f1ed', 'instructions': ['cook pasta in a large pot of 2 minutes less than package instructions indicate, then add sugar snaps and cook until sugar snaps are tender, about 2 minutes more.', 'reserve 1/4 cup cooking water, then drain pasta and sugar snaps in a colander and return to pot.', 'boil cream in a 1- to 1 1/2-quart heavy saucepan, uncovered,
+                2 minutes, then add to pasta along with trout, zest, reserved cooking water, dill, salt, and pepper and toss until combined.'
+            ], 'tokenized': [
+                ['cook', 'pasta', 'in', 'a', 'large', 'pot', 'of', '2', 'minutes', 'less', 'than', 'package', 'instructions', 'indicate', ',', 'then', 'add', 'sugar', 'snaps', 'and', 'cook', 'until', 'sugar', 'snaps', 'are', 'tender', ',', 'about', '2', 'minutes', 'more', '.'
+                ],
+                ['reserve', '1/4', 'cup', 'cooking', 'water', ',', 'then', 'drain', 'pasta', 'and', 'sugar', 'snaps', 'in', 'a', 'colander', 'and', 'return', 'to', 'pot', '.'
+                ],
+                ['boil', 'cream', 'in', 'a', '1-', 'to', '1', '1/2-quart', 'heavy', 'saucepan', ',', 'uncovered', ',', '2', 'minutes', ',', 'then', 'add', 'to', 'pasta', 'along', 'with', 'trout', ',', 'zest', ',', 'reserved', 'cooking', 'water', ',', 'dill', ',', 'salt', ',', 'and', 'pepper', 'and', 'toss', 'until', 'combined', '.'
+                ]
+            ], 'ingredients': ['penne_rigate', 'sugar_snap_peas', 'heavy_cream', 'smoked_trout', 'fresh_lemon_zest', 'fresh_dill', 'salt', 'black_pepper'
+            ], 'images': [], 'title': ['penne', 'with', 'smoked', 'trout', 'and', 'sugar', 'snap', 'peas'
+            ]
+        },
+        {'id': '00032d5bcd', 'instructions': ['bring water, juice and sugar to the boil in a saucepan.', 'simmer for 2-3 minutes until sugar has dissolved.', 'add dried fruits and cinnamon stick, simmer a further 5 minutes.', 'whisk together the philly*, milk and honey until smooth.', 'serve fruits warm with philly* cream and toasted almonds.'
+            ], 'tokenized': [
+                ['bring', 'water', ',', 'juice', 'and', 'sugar', 'to', 'the', 'boil', 'in', 'a', 'saucepan', '.'
+                ],
+                ['simmer', 'for', '2-3', 'minutes', 'until', 'sugar', 'has', 'dissolved', '.'
+                ],
+                ['add', 'dried', 'fruits', 'and', 'cinnamon', 'stick', ',', 'simmer', 'a', 'further', '5', 'minutes', '.'
+                ],
+                ['whisk', 'together', 'the', 'philly*', ',', 'milk', 'and', 'honey', 'until', 'smooth', '.'
+                ],
+                ['serve', 'fruits', 'warm', 'with', 'philly*', 'cream', 'and', 'toasted', 'almonds', '.'
+                ]
+            ], 'ingredients': ['water', 'orange_juice', 'sugar', 'mixed_salad_greens', 'dates', 'cinnamon_stick', 'cream_cheese_spread', 'reduced_-_fat_milk', 'honey', 'sliced_almonds'
+            ], 'images': [], 'title': ['dried', 'fruit', 'salad', 'with', 'philly*', 'cream'
+            ]
+        },
+        {'id': '00033f624d', 'instructions': [
+                "preheat oven to 190'c - 375'f .", 'lightly grease an oven tray and set aside till needed .', 'dice and cook bacon or ham , drain and set aside till needed .', 'in a bowl .', 'beat butter until light and creamy .', 'then add the egg and combine well , next add the cracked pepper , salt and the curry powder and stir to combine , now add the first quarter cup of cheese and half the diced cooked bacon and mix well to combine all .', 'add the sifted plain flour to the mix and mix to a smooth dough , cover and refrigerate for about half hour .', 'remove dough from the fridge and roll out on a lightly floured surface to about 1cm thickness .', 'with a small round cutter , cut out biscuit shapes and set on prepared tray .', 'add bits of the other quarter cup of grated cheese on top of biscuits , i then like to crack a little more pepper over the cheeses then sprinkle with the other half of the bacon bits , place in oven and cook for about 12-15 minutes or until slightly golden and cheese and bacon have crispened up and melted .', 'remove from heat let cool a little and eat hot or cold , they are great either way .', 'enjoy .', ':-)'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '190',
+                    "'", 'c', '-', '375',
+                    "'", 'f', '.'
+                ],
+                ['lightly', 'grease', 'an', 'oven', 'tray', 'and', 'set', 'aside', 'till', 'needed', '.'
+                ],
+                ['dice', 'and', 'cook', 'bacon', 'or', 'ham', ',', 'drain', 'and', 'set', 'aside', 'till', 'needed', '.'
+                ],
+                ['in', 'a', 'bowl', '.'
+                ],
+                ['beat', 'butter', 'until', 'light', 'and', 'creamy', '.'
+                ],
+                ['then', 'add', 'the', 'egg', 'and', 'combine', 'well', ',', 'next', 'add', 'the', 'cracked', 'pepper', ',', 'salt', 'and', 'the', 'curry', 'powder', 'and', 'stir', 'to', 'combine', ',', 'now', 'add', 'the', 'first', 'quarter', 'cup', 'of', 'cheese', 'and', 'half', 'the', 'diced', 'cooked', 'bacon', 'and', 'mix', 'well', 'to', 'combine', 'all', '.'
+                ],
+                ['add', 'the', 'sifted', 'plain', 'flour', 'to', 'the', 'mix', 'and', 'mix', 'to', 'a', 'smooth', 'dough', ',', 'cover', 'and', 'refrigerate', 'for', 'about', 'half', 'hour', '.'
+                ],
+                ['remove', 'dough', 'from', 'the', 'fridge', 'and', 'roll', 'out', 'on', 'a', 'lightly', 'floured', 'surface', 'to', 'about', '1cm', 'thickness', '.'
+                ],
+                ['with', 'a', 'small', 'round', 'cutter', ',', 'cut', 'out', 'biscuit', 'shapes', 'and', 'set', 'on', 'prepared', 'tray', '.'
+                ],
+                ['add', 'bits', 'of', 'the', 'other', 'quarter', 'cup', 'of', 'grated', 'cheese', 'on', 'top', 'of', 'biscuits', ',', 'i', 'then', 'like', 'to', 'crack', 'a', 'little', 'more', 'pepper', 'over', 'the', 'cheeses', 'then', 'sprinkle', 'with', 'the', 'other', 'half', 'of', 'the', 'bacon', 'bits', ',', 'place', 'in', 'oven', 'and', 'cook', 'for', 'about', '12-15', 'minutes', 'or', 'until', 'slightly', 'golden', 'and', 'cheese', 'and', 'bacon', 'have', 'crispened', 'up', 'and', 'melted', '.'
+                ],
+                ['remove', 'from', 'heat', 'let', 'cool', 'a', 'little', 'and', 'eat', 'hot', 'or', 'cold', ',', 'they', 'are', 'great', 'either', 'way', '.'
+                ],
+                ['enjoy', '.'
+                ],
+                [':', '-', ')'
+                ]
+            ], 'ingredients': ['butter', 'egg', 'cheese', 'cracked_pepper', 'rock_salt', 'curry_powder', 'plain_flour', 'bacon', 'cheese'
+            ], 'images': ['ccfd7a7e7e.jpg'
+            ], 'title': ['amy',
+                "'s", 'cheesey', ',', 'bacon', 'savory', 'bites', '.'
+            ]
+        },
+        {'id': '00034ad6cc', 'instructions': ['bring a large pot of salted water to a boil.', 'add fettucine pasta and cook for 8 to 10 minutes or until al dente and drain melt butter in a large skillet and add chopped garlic.', 'cook on low for about 5 minutes, stirring often, making sure not to burn the garlic pour about 1/4 cup of the heavy cream into a small bow.', 'add the egg yolk and beat together and put aside.', 'pour the remaining cream into the frying pan.', 'increase the heat to medium-high.', 'as the cream starts to boil, mix rapidly using a whisk.', 'slowly add the cream/egg mixture.', 'you do not want the egg to cook.', 'continue beating the cream mixture until all mixed together.', 'add 1 cup of parmesan cheese and continue to mix the cream.', 'pour in remaining parmesan and parsley and mix until smooth.', 'immediately remove from stove.', 'serve over cooked pasta.'
+            ], 'tokenized': [
+                ['bring', 'a', 'large', 'pot', 'of', 'salted', 'water', 'to', 'a', 'boil', '.'
+                ],
+                ['add', 'fettucine', 'pasta', 'and', 'cook', 'for', '8', 'to', '10', 'minutes', 'or', 'until', 'al', 'dente', 'and', 'drain', 'melt', 'butter', 'in', 'a', 'large', 'skillet', 'and', 'add', 'chopped', 'garlic', '.'
+                ],
+                ['cook', 'on', 'low', 'for', 'about', '5', 'minutes', ',', 'stirring', 'often', ',', 'making', 'sure', 'not', 'to', 'burn', 'the', 'garlic', 'pour', 'about', '1/4', 'cup', 'of', 'the', 'heavy', 'cream', 'into', 'a', 'small', 'bow', '.'
+                ],
+                ['add', 'the', 'egg', 'yolk', 'and', 'beat', 'together', 'and', 'put', 'aside', '.'
+                ],
+                ['pour', 'the', 'remaining', 'cream', 'into', 'the', 'frying', 'pan', '.'
+                ],
+                ['increase', 'the', 'heat', 'to', 'medium-high', '.'
+                ],
+                ['as', 'the', 'cream', 'starts', 'to', 'boil', ',', 'mix', 'rapidly', 'using', 'a', 'whisk', '.'
+                ],
+                ['slowly', 'add', 'the', 'cream/egg', 'mixture', '.'
+                ],
+                ['you', 'do', 'not', 'want', 'the', 'egg', 'to', 'cook', '.'
+                ],
+                ['continue', 'beating', 'the', 'cream', 'mixture', 'until', 'all', 'mixed', 'together', '.'
+                ],
+                ['add', '1', 'cup', 'of', 'parmesan', 'cheese', 'and', 'continue', 'to', 'mix', 'the', 'cream', '.'
+                ],
+                ['pour', 'in', 'remaining', 'parmesan', 'and', 'parsley', 'and', 'mix', 'until', 'smooth', '.'
+                ],
+                ['immediately', 'remove', 'from', 'stove', '.'
+                ],
+                ['serve', 'over', 'cooked', 'pasta', '.'
+                ]
+            ], 'ingredients': ['fettuccine_pasta', 'butter', 'garlic_cloves', 'heavy_cream', 'egg_yolk', 'parmesan_cheese', 'dried_parsley'
+            ], 'images': ['044b215842.jpg', '0498c67485.jpg', 'dea08eb2a0.jpg'
+            ], 'title': ['best', 'ever', 'fettuccine', 'alfredo'
+            ]
+        },
+        {'id': '00034cf3f3', 'instructions': ['preheat oven to 350 degrees.', 'in a small saucepan mix the cornstarch and cold water thoroughly.', 'add boiling water to cornstarch mix and heat to a boil over low-med heat.', 'stir constantly.', 'when it thickens; take off heat and place pan in cool water to cool it down to room temperature before you add it.', 'let this rest while starting the next steps.', 'separate 3 egg whites (make sure not even a drop of yolk gets in bowl or it will completely ruin your meringue) and place in a mixing bowl.',
+                "add lemon juice or vanilla; beat until is stands in soft white peaks (it may take awhile, don't cut the beating short)", 'add sugar one tbs at a time; beat the heck out of the meringue after each individual tbs of sugar is added.', 'keep beating until meringue is glossy and has firm peaks (it will be really shiny and stand straight up on its own).', 'take your saucepan with the cornstarch mix (make sure it is at room temperature) and spoon in all of the mix at once to the meringue; blend well.', 'make sure your pie filling is hot; starting around the crust add meringue in big spoonfuls, press firmly at first to make sure there are no air pockets and crust is sealed ( i get down eye level with it just to be sure).', 'when meringue has totally covered the pie filling, make little peaks with a spoon to fancy it up.', 'bake for about 15 minutes; the meringue will weep if undercooked so make sure it is nicely browned.', 'use a toothpick when you think it is done, if it comes out clean the meringue is done!', 'if you have done all of these steps you should have a perfect meringue, if you use any shortcuts or slack your meringue will suffer.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350', 'degrees', '.'
+                ],
+                ['in', 'a', 'small', 'saucepan', 'mix', 'the', 'cornstarch', 'and', 'cold', 'water', 'thoroughly', '.'
+                ],
+                ['add', 'boiling', 'water', 'to', 'cornstarch', 'mix', 'and', 'heat', 'to', 'a', 'boil', 'over', 'low-med', 'heat', '.'
+                ],
+                ['stir', 'constantly', '.'
+                ],
+                ['when', 'it', 'thickens', ';', 'take', 'off', 'heat', 'and', 'place', 'pan', 'in', 'cool', 'water', 'to', 'cool', 'it', 'down', 'to', 'room', 'temperature', 'before', 'you', 'add', 'it', '.'
+                ],
+                ['let', 'this', 'rest', 'while', 'starting', 'the', 'next', 'steps', '.'
+                ],
+                ['separate', '3', 'egg', 'whites', '(', 'make', 'sure', 'not', 'even', 'a', 'drop', 'of', 'yolk', 'gets', 'in', 'bowl', 'or', 'it', 'will', 'completely', 'ruin', 'your', 'meringue', ')', 'and', 'place', 'in', 'a', 'mixing', 'bowl', '.'
+                ],
+                ['add', 'lemon', 'juice', 'or', 'vanilla', ';', 'beat', 'until', 'is', 'stands', 'in', 'soft', 'white', 'peaks', '(', 'it', 'may', 'take', 'awhile', ',', 'do',
+                    "n't", 'cut', 'the', 'beating', 'short', ')'
+                ],
+                ['add', 'sugar', 'one', 'tbs', 'at', 'a', 'time', ';', 'beat', 'the', 'heck', 'out', 'of', 'the', 'meringue', 'after', 'each', 'individual', 'tbs', 'of', 'sugar', 'is', 'added', '.'
+                ],
+                ['keep', 'beating', 'until', 'meringue', 'is', 'glossy', 'and', 'has', 'firm', 'peaks', '(', 'it', 'will', 'be', 'really', 'shiny', 'and', 'stand', 'straight', 'up', 'on', 'its', 'own', ')', '.'
+                ],
+                ['take', 'your', 'saucepan', 'with', 'the', 'cornstarch', 'mix', '(', 'make', 'sure', 'it', 'is', 'at', 'room', 'temperature', ')', 'and', 'spoon', 'in', 'all', 'of', 'the', 'mix', 'at', 'once', 'to', 'the', 'meringue', ';', 'blend', 'well', '.'
+                ],
+                ['make', 'sure', 'your', 'pie', 'filling', 'is', 'hot', ';', 'starting', 'around', 'the', 'crust', 'add', 'meringue', 'in', 'big', 'spoonfuls', ',', 'press', 'firmly', 'at', 'first', 'to', 'make', 'sure', 'there', 'are', 'no', 'air', 'pockets', 'and', 'crust', 'is', 'sealed', '(', 'i', 'get', 'down', 'eye', 'level', 'with', 'it', 'just', 'to', 'be', 'sure', ')', '.'
+                ],
+                ['when', 'meringue', 'has', 'totally', 'covered', 'the', 'pie', 'filling', ',', 'make', 'little', 'peaks', 'with', 'a', 'spoon', 'to', 'fancy', 'it', 'up', '.'
+                ],
+                ['bake', 'for', 'about', '15', 'minutes', ';', 'the', 'meringue', 'will', 'weep', 'if', 'undercooked', 'so', 'make', 'sure', 'it', 'is', 'nicely', 'browned', '.'
+                ],
+                ['use', 'a', 'toothpick', 'when', 'you', 'think', 'it', 'is', 'done', ',', 'if', 'it', 'comes', 'out', 'clean', 'the', 'meringue', 'is', 'done', '!'
+                ],
+                ['if', 'you', 'have', 'done', 'all', 'of', 'these', 'steps', 'you', 'should', 'have', 'a', 'perfect', 'meringue', ',', 'if', 'you', 'use', 'any', 'shortcuts', 'or', 'slack', 'your', 'meringue', 'will', 'suffer', '.'
+                ]
+            ], 'ingredients': ['cornstarch', 'cold_water', 'boiling_water', 'lemon_juice', 'egg_whites', 'sugar'
+            ], 'images': ['82e0b9e192.jpg', '8628106245.jpg'
+            ], 'title': ['meringue', 'topping', '...', 'you', 'do',
+                "n't", 'weep', ',', 'it', 'does',
+                "n't", 'either', '!', '!'
+            ]
+        },
+        {'id': '00039c5d51', 'instructions': ['heat oil in large pan.', 'saute onions and garlic until soft.', 'add pumpkin and cook for 5 minutes.', 'mix in curry powder and cook for another few minutes to take the rawness of the spices.', 'add stock and coconut milk enough to cover the vegetables and bring to a gentle boil.', 'simmer until pumpkin is soft, about 15 minutes.', 'when cooked turn off heat and allow to cool slightly, blend until smooth, return to pan and add more stock until the required consistency is reached.',
+                "add the smoke salmon, the heat left in the soup will 'cook' the salmon.", 'check seasoning.', 'i freeze this in batches with or without the salmon, either way its great.', 'once defrosted re-heat and add salmon if needed.',
+                "i don't know how much this makes 8 + depending on the size of your soup bowls."
+            ], 'tokenized': [
+                ['heat', 'oil', 'in', 'large', 'pan', '.'
+                ],
+                ['saute', 'onions', 'and', 'garlic', 'until', 'soft', '.'
+                ],
+                ['add', 'pumpkin', 'and', 'cook', 'for', '5', 'minutes', '.'
+                ],
+                ['mix', 'in', 'curry', 'powder', 'and', 'cook', 'for', 'another', 'few', 'minutes', 'to', 'take', 'the', 'rawness', 'of', 'the', 'spices', '.'
+                ],
+                ['add', 'stock', 'and', 'coconut', 'milk', 'enough', 'to', 'cover', 'the', 'vegetables', 'and', 'bring', 'to', 'a', 'gentle', 'boil', '.'
+                ],
+                ['simmer', 'until', 'pumpkin', 'is', 'soft', ',', 'about', '15', 'minutes', '.'
+                ],
+                ['when', 'cooked', 'turn', 'off', 'heat', 'and', 'allow', 'to', 'cool', 'slightly', ',', 'blend', 'until', 'smooth', ',', 'return', 'to', 'pan', 'and', 'add', 'more', 'stock', 'until', 'the', 'required', 'consistency', 'is', 'reached', '.'
+                ],
+                ['add', 'the', 'smoke', 'salmon', ',', 'the', 'heat', 'left', 'in', 'the', 'soup', 'will',
+                    "'cook",
+                    "'", 'the', 'salmon', '.'
+                ],
+                ['check', 'seasoning', '.'
+                ],
+                ['i', 'freeze', 'this', 'in', 'batches', 'with', 'or', 'without', 'the', 'salmon', ',', 'either', 'way', 'its', 'great', '.'
+                ],
+                ['once', 'defrosted', 're-heat', 'and', 'add', 'salmon', 'if', 'needed', '.'
+                ],
+                ['i', 'do',
+                    "n't", 'know', 'how', 'much', 'this', 'makes', '8', '+', 'depending', 'on', 'the', 'size', 'of', 'your', 'soup', 'bowls', '.'
+                ]
+            ], 'ingredients': ['pumpkin', 'onion', 'garlic_cloves', 'curry_powder', 'stock', 'coconut_milk', 'smoked_salmon', 'salt_and_pepper', 'vegetable_oil'
+            ], 'images': [], 'title': ['curried', 'pumpkin', 'and', 'smoked', 'salmon', 'soup'
+            ]
+        },
+        {'id': '0003a9fece', 'instructions': ['peel, core and slice the apples.', 'combine all the filling ingredients and mix well.', 'cut each piece of pastry into 2 equal rectangles (about 30cm x 15cm).', 'put 1 piece onto a greased baking tray and place a line of filling down the center lengthwise.', 'brush edges with beaten egg and lay another sheet of pastry on top, pressing lightly to seal.', 'flatten the top slightly with your hand.', 'repeat apple/pastry layering process, finishing with a layer of puff.', 'glaze the top with beaten egg and sprinkle with extra almonds and sugar.', 'bake at 190c/380f for about 25 min till golden brown and crisp.', 'serve warm with cream and/or possibly ice-cream.', 'a quick and easy dessert.'
+            ], 'tokenized': [
+                ['peel', ',', 'core', 'and', 'slice', 'the', 'apples', '.'
+                ],
+                ['combine', 'all', 'the', 'filling', 'ingredients', 'and', 'mix', 'well', '.'
+                ],
+                ['cut', 'each', 'piece', 'of', 'pastry', 'into', '2', 'equal', 'rectangles', '(', 'about', '30cm', 'x', '15cm', ')', '.'
+                ],
+                ['put', '1', 'piece', 'onto', 'a', 'greased', 'baking', 'tray', 'and', 'place', 'a', 'line', 'of', 'filling', 'down', 'the', 'center', 'lengthwise', '.'
+                ],
+                ['brush', 'edges', 'with', 'beaten', 'egg', 'and', 'lay', 'another', 'sheet', 'of', 'pastry', 'on', 'top', ',', 'pressing', 'lightly', 'to', 'seal', '.'
+                ],
+                ['flatten', 'the', 'top', 'slightly', 'with', 'your', 'hand', '.'
+                ],
+                ['repeat', 'apple/pastry', 'layering', 'process', ',', 'finishing', 'with', 'a', 'layer', 'of', 'puff', '.'
+                ],
+                ['glaze', 'the', 'top', 'with', 'beaten', 'egg', 'and', 'sprinkle', 'with', 'extra', 'almonds', 'and', 'sugar', '.'
+                ],
+                ['bake', 'at', '190c/380f', 'for', 'about', '25', 'min', 'till', 'golden', 'brown', 'and', 'crisp', '.'
+                ],
+                ['serve', 'warm', 'with', 'cream', 'and/or', 'possibly', 'ice-cream', '.'
+                ],
+                ['a', 'quick', 'and', 'easy', 'dessert', '.'
+                ]
+            ], 'ingredients': ['apples', 'almonds', 'almonds', 'egg', 'sugar', 'butter', 'puff_pastry', 'egg', 'almonds', 'sugar'
+            ], 'images': [], 'title': ['apples', 'and', 'almonds', 'in', 'flaky', 'pastry', 'recipe'
+            ]
+        },
+        {'id': '0003d5b120', 'instructions': ['cook linguine according to package directions; drain.', 'saute bell pepper in a small skillet over medium heat until limp, about 10 to 12 minutes.', 'meanwhile, whisk vinegar, garlic, salt and pepper in a small bowl; slowly whisk in oil.', 'stir in 1/2 cup of basil.', 'place pasta, chicken, cooked peppers, mozzarella, goat cheese, and remaining basil in a large bowl.', 'pour dressing over top and toss to coat.', 'serves 4.', 'note: when i make this, i put a couple of uncooked chicken breasts, sprinkled with salt, pepper, and garlic powder, under the broiler while everything else is being prepared.'
+            ], 'tokenized': [
+                ['cook', 'linguine', 'according', 'to', 'package', 'directions', ';', 'drain', '.'
+                ],
+                ['saute', 'bell', 'pepper', 'in', 'a', 'small', 'skillet', 'over', 'medium', 'heat', 'until', 'limp', ',', 'about', '10', 'to', '12', 'minutes', '.'
+                ],
+                ['meanwhile', ',', 'whisk', 'vinegar', ',', 'garlic', ',', 'salt', 'and', 'pepper', 'in', 'a', 'small', 'bowl', ';', 'slowly', 'whisk', 'in', 'oil', '.'
+                ],
+                ['stir', 'in', '1/2', 'cup', 'of', 'basil', '.'
+                ],
+                ['place', 'pasta', ',', 'chicken', ',', 'cooked', 'peppers', ',', 'mozzarella', ',', 'goat', 'cheese', ',', 'and', 'remaining', 'basil', 'in', 'a', 'large', 'bowl', '.'
+                ],
+                ['pour', 'dressing', 'over', 'top', 'and', 'toss', 'to', 'coat', '.'
+                ],
+                ['serves', '4', '.'
+                ],
+                ['note', ':', 'when', 'i', 'make', 'this', ',', 'i', 'put', 'a', 'couple', 'of', 'uncooked', 'chicken', 'breasts', ',', 'sprinkled', 'with', 'salt', ',', 'pepper', ',', 'and', 'garlic', 'powder', ',', 'under', 'the', 'broiler', 'while', 'everything', 'else', 'is', 'being', 'prepared', '.'
+                ]
+            ], 'ingredients': ['linguine', 'red_bell_pepper', 'balsamic_vinegar', 'garlic_cloves', 'salt', 'fresh_coarse_ground_black_pepper', 'extra_virgin_olive_oil', 'fresh_basil_leaves', 'fresh_mozzarella_balls', 'goat_cheese'
+            ], 'images': ['6196a11a54.jpg'
+            ], 'title': ['balsamic', 'chicken', 'pasta', 'with', 'fresh', 'cheese'
+            ]
+        },
+        {'id': '0003d7b873', 'instructions': ['preheat oven to 350.combine first 6 ingredients.', 'stir well; set aside.cream margarine in a large bowl; gradually add brown sugar, beating at medium speed of a mixer until light and fluffy.', 'add egg; beat well.', 'add flour mixture to creamed mixture; beat just until dry ingredients are moist.', 'stir in vanilla, apple, oats, and currants.spoon batter into a 9-inch square baking pan coated with cooking spray.bake at 350 for 40 minutes or until a wooden pick inserted in center comes out clean.', 'cool completely in pan on a wire rack.', 'sprinkle powdered sugar over top.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350.combine', 'first', '6', 'ingredients', '.'
+                ],
+                ['stir', 'well', ';', 'set', 'aside.cream', 'margarine', 'in', 'a', 'large', 'bowl', ';', 'gradually', 'add', 'brown', 'sugar', ',', 'beating', 'at', 'medium', 'speed', 'of', 'a', 'mixer', 'until', 'light', 'and', 'fluffy', '.'
+                ],
+                ['add', 'egg', ';', 'beat', 'well', '.'
+                ],
+                ['add', 'flour', 'mixture', 'to', 'creamed', 'mixture', ';', 'beat', 'just', 'until', 'dry', 'ingredients', 'are', 'moist', '.'
+                ],
+                ['stir', 'in', 'vanilla', ',', 'apple', ',', 'oats', ',', 'and', 'currants.spoon', 'batter', 'into', 'a', '9-inch', 'square', 'baking', 'pan', 'coated', 'with', 'cooking', 'spray.bake', 'at', '350', 'for', '40', 'minutes', 'or', 'until', 'a', 'wooden', 'pick', 'inserted', 'in', 'center', 'comes', 'out', 'clean', '.'
+                ],
+                ['cool', 'completely', 'in', 'pan', 'on', 'a', 'wire', 'rack', '.'
+                ],
+                ['sprinkle', 'powdered', 'sugar', 'over', 'top', '.'
+                ]
+            ], 'ingredients': ['all_-_purpose_flour', 'ground_cinnamon', 'baking_powder', 'baking_soda', 'salt', 'ground_nutmeg', 'margarine', 'dark_brown_sugar', 'egg', 'vanilla_extract', 'rome_apples', 'oats', 'dried_currants', 'cooking_spray', 'powdered_sugar'
+            ], 'images': [], 'title': ['apple-currant', 'bars'
+            ]
+        },
+        {'id': '000406d250', 'instructions': ['combine first 8 ingredients.', 'shape into small meatballs.', 'roll in flour.', 'heat oil in skillet over medium heat about 3 min.', 'fry meatballs about 10 min.', 'when brown arrange around sides of skillet.', 'pour condensed soup and lowfat milk, that have been mixed together, in center of skillet.', 'add in liquid removed vegetables and salt.', 'cover and simmer about 10 min.'
+            ], 'tokenized': [
+                ['combine', 'first', '8', 'ingredients', '.'
+                ],
+                ['shape', 'into', 'small', 'meatballs', '.'
+                ],
+                ['roll', 'in', 'flour', '.'
+                ],
+                ['heat', 'oil', 'in', 'skillet', 'over', 'medium', 'heat', 'about', '3', 'min', '.'
+                ],
+                ['fry', 'meatballs', 'about', '10', 'min', '.'
+                ],
+                ['when', 'brown', 'arrange', 'around', 'sides', 'of', 'skillet', '.'
+                ],
+                ['pour', 'condensed', 'soup', 'and', 'lowfat', 'milk', ',', 'that', 'have', 'been', 'mixed', 'together', ',', 'in', 'center', 'of', 'skillet', '.'
+                ],
+                ['add', 'in', 'liquid', 'removed', 'vegetables', 'and', 'salt', '.'
+                ],
+                ['cover', 'and', 'simmer', 'about', '10', 'min', '.'
+                ]
+            ], 'ingredients': ['ground_beef', 'egg', 'low_-_fat_milk', 'fine_breadcrumbs', 'onions', 'salt', 'dry_mustard', 'pepper', 'flour', 'oil', 'mushroom_soup', 'low_-_fat_milk', 'mixed_vegetables', 'salt'
+            ], 'images': [], 'title': ['dinner', 'in', 'a', 'skillet', 'recipe'
+            ]
+        },
+        {'id': '0004073370', 'instructions': ['if not filling the crust, preheat oven to 400 degrees.', 'if youre going to fill the crust, follow your recipe directions, add the filling, and baking accordingly.', 'place all the ingredients into a 9 pie pan.', 'stir together with a fork.', 'pat the mixture into the bottom and up the sides of the pan.', 'poke holes into the bottom and sides of the crust (if you are not filling it).', 'bake for 15 minutes in a preheated oven or until golden brown.', 'fill as desired!', '(i used this recipe to make a pumpkin pie, filling and baking it.', 'it came out great!)'
+            ], 'tokenized': [
+                ['if', 'not', 'filling', 'the', 'crust', ',', 'preheat', 'oven', 'to', '400', 'degrees', '.'
+                ],
+                ['if', 'youre', 'going', 'to', 'fill', 'the', 'crust', ',', 'follow', 'your', 'recipe', 'directions', ',', 'add', 'the', 'filling', ',', 'and', 'baking', 'accordingly', '.'
+                ],
+                ['place', 'all', 'the', 'ingredients', 'into', 'a', '9', 'pie', 'pan', '.'
+                ],
+                ['stir', 'together', 'with', 'a', 'fork', '.'
+                ],
+                ['pat', 'the', 'mixture', 'into', 'the', 'bottom', 'and', 'up', 'the', 'sides', 'of', 'the', 'pan', '.'
+                ],
+                ['poke', 'holes', 'into', 'the', 'bottom', 'and', 'sides', 'of', 'the', 'crust', '(', 'if', 'you', 'are', 'not', 'filling', 'it', ')', '.'
+                ],
+                ['bake', 'for', '15', 'minutes', 'in', 'a', 'preheated', 'oven', 'or', 'until', 'golden', 'brown', '.'
+                ],
+                ['fill', 'as', 'desired', '!'
+                ],
+                ['(', 'i', 'used', 'this', 'recipe', 'to', 'make', 'a', 'pumpkin', 'pie', ',', 'filling', 'and', 'baking', 'it', '.'
+                ],
+                ['it', 'came', 'out', 'great', '!', ')'
+                ]
+            ], 'ingredients': ['all_-_purpose_flour', 'white_sugar', 'salt', 'vegetable_oil', 'milk'
+            ], 'images': ['40e540fa0e.jpg'
+            ], 'title': ['super', 'easy', 'pie', 'crust'
+            ]
+        },
+        {'id': '00042a7801', 'instructions': ['preheat the oven to 350 degrees.', 'for the filling, in a large bowl, combine the potatoes,
+                1 cup of the sugar, the butter, eggs, vanilla, salt, and spices.', 'mix thoroughly.', 'add the milk, stirring well.', 'pour the mixture into the pie crust and bake for 40 to 50 minutes, or until a knife inserted in the center comes out clean.', 'place the pie on a rack and cool to room temperature before covering with meringue.', 'for the meringue, using an electric mixer, beat the egg whites until soft peaks form; beat in the remaining a cup sugar 1 tablespoon at a time.', 'continue beating until the sugar dissolves and the mixture is glossy and stiff, but not dry.', 'with a rubber spatula, spoon the meringue onto the pie, forming peaks.', 'make sure the meringue touches the crust all around.', 'sprinkle with a pinch of granulated sugar.', 'bake for 5 to 10 minutes, or until delicately browned.', 'cool and serve.'
+            ], 'tokenized': [
+                ['preheat', 'the', 'oven', 'to', '350', 'degrees', '.'
+                ],
+                ['for', 'the', 'filling', ',', 'in', 'a', 'large', 'bowl', ',', 'combine', 'the', 'potatoes', ',', '1', 'cup', 'of', 'the', 'sugar', ',', 'the', 'butter', ',', 'eggs', ',', 'vanilla', ',', 'salt', ',', 'and', 'spices', '.'
+                ],
+                ['mix', 'thoroughly', '.'
+                ],
+                ['add', 'the', 'milk', ',', 'stirring', 'well', '.'
+                ],
+                ['pour', 'the', 'mixture', 'into', 'the', 'pie', 'crust', 'and', 'bake', 'for', '40', 'to', '50', 'minutes', ',', 'or', 'until', 'a', 'knife', 'inserted', 'in', 'the', 'center', 'comes', 'out', 'clean', '.'
+                ],
+                ['place', 'the', 'pie', 'on', 'a', 'rack', 'and', 'cool', 'to', 'room', 'temperature', 'before', 'covering', 'with', 'meringue', '.'
+                ],
+                ['for', 'the', 'meringue', ',', 'using', 'an', 'electric', 'mixer', ',', 'beat', 'the', 'egg', 'whites', 'until', 'soft', 'peaks', 'form', ';', 'beat', 'in', 'the', 'remaining', 'a', 'cup', 'sugar', '1', 'tablespoon', 'at', 'a', 'time', '.'
+                ],
+                ['continue', 'beating', 'until', 'the', 'sugar', 'dissolves', 'and', 'the', 'mixture', 'is', 'glossy', 'and', 'stiff', ',', 'but', 'not', 'dry', '.'
+                ],
+                ['with', 'a', 'rubber', 'spatula', ',', 'spoon', 'the', 'meringue', 'onto', 'the', 'pie', ',', 'forming', 'peaks', '.'
+                ],
+                ['make', 'sure', 'the', 'meringue', 'touches', 'the', 'crust', 'all', 'around', '.'
+                ],
+                ['sprinkle', 'with', 'a', 'pinch', 'of', 'granulated', 'sugar', '.'
+                ],
+                ['bake', 'for', '5', 'to', '10', 'minutes', ',', 'or', 'until', 'delicately', 'browned', '.'
+                ],
+                ['cool', 'and', 'serve', '.'
+                ]
+            ], 'ingredients': ['sugar', 'butter', 'eggs', 'vanilla_extract', 'salt', 'cinnamon', 'ground_ginger', 'milk', 'unbaked__-_inch_pie_crust', 'egg_whites'
+            ], 'images': [], 'title': ['old-fashioned', 'sweet', 'potato', 'pie'
+            ]
+        },
+        {'id': '00043c736b', 'instructions': ['heat oven to 350f.', 'prepare cake batter as directed on package; stir in cookies.', 'spoon into 24 paper-lined muffin cups.', 'bake 20 to 25 min.', 'or until toothpick inserted in centres comes out clean.', 'cool cupcakes in pans 10 min.', '; remove to wire racks.', 'cool completely.', 'beat pudding mix, milk and sugar in large bowl whisk 2 min., stir in cool whip.', 'spoon into pastry bag fitted with basket-weave tip.', 'pipe pudding mixture onto tops of cupcakes.', 'add chocolate chips for the eyes.', 'keep refrigerated.'
+            ], 'tokenized': [
+                ['heat', 'oven', 'to', '350f', '.'
+                ],
+                ['prepare', 'cake', 'batter', 'as', 'directed', 'on', 'package', ';', 'stir', 'in', 'cookies', '.'
+                ],
+                ['spoon', 'into', '24', 'paper-lined', 'muffin', 'cups', '.'
+                ],
+                ['bake', '20', 'to', '25', 'min', '.'
+                ],
+                ['or', 'until', 'toothpick', 'inserted', 'in', 'centres', 'comes', 'out', 'clean', '.'
+                ],
+                ['cool', 'cupcakes', 'in', 'pans', '10', 'min', '.'
+                ],
+                [';', 'remove', 'to', 'wire', 'racks', '.'
+                ],
+                ['cool', 'completely', '.'
+                ],
+                ['beat', 'pudding', 'mix', ',', 'milk', 'and', 'sugar', 'in', 'large', 'bowl', 'whisk', '2', 'min.', ',', 'stir', 'in', 'cool', 'whip', '.'
+                ],
+                ['spoon', 'into', 'pastry', 'bag', 'fitted', 'with', 'basket-weave', 'tip', '.'
+                ],
+                ['pipe', 'pudding', 'mixture', 'onto', 'tops', 'of', 'cupcakes', '.'
+                ],
+                ['add', 'chocolate', 'chips', 'for', 'the', 'eyes', '.'
+                ],
+                ['keep', 'refrigerated', '.'
+                ]
+            ], 'ingredients': ['chocolate_cake_mix', 'oreo_cookies', 'instant_vanilla_pudding', 'milk', 'icing_sugar', 'cool_whip_topping', 'semi_-_sweet_chocolate_chips'
+            ], 'images': ['ecac2e27b2.jpg'
+            ], 'title': ['mummy', 'cupcakes'
+            ]
+        },
+        {'id': '0004a459ec', 'instructions': ['prehear oven to 400 degrees f.', 'heat and stir turkey in dressing in large skillet on medium heat until warm.', 'this can also be done in a microwave.', 'stir in vegetables and soup.', '(i dice an onion and use frozen peas, carrots, lima beans, and white corn)', 'spoon into greased 9-inch square baking dish; top with cheese.', 'unfold pastry sheet; place over turkey mixture.', 'fold under edges of pastry; press onto top of baking dish to seal.', 'brush pastry with egg.', 'cut several slits in pastry to allow steam to escape.', 'put casserole dish on baking sheet.', '(incase of overflow)', 'bake 30 minute or until crust is deep golden brown.', 'let stand 5 minute before serving allowing to set so when served it does not run.'
+            ], 'tokenized': [
+                ['prehear', 'oven', 'to', '400', 'degrees', 'f', '.'
+                ],
+                ['heat', 'and', 'stir', 'turkey', 'in', 'dressing', 'in', 'large', 'skillet', 'on', 'medium', 'heat', 'until', 'warm', '.'
+                ],
+                ['this', 'can', 'also', 'be', 'done', 'in', 'a', 'microwave', '.'
+                ],
+                ['stir', 'in', 'vegetables', 'and', 'soup', '.'
+                ],
+                ['(', 'i', 'dice', 'an', 'onion', 'and', 'use', 'frozen', 'peas', ',', 'carrots', ',', 'lima', 'beans', ',', 'and', 'white', 'corn', ')'
+                ],
+                ['spoon', 'into', 'greased', '9-inch', 'square', 'baking', 'dish', ';', 'top', 'with', 'cheese', '.'
+                ],
+                ['unfold', 'pastry', 'sheet', ';', 'place', 'over', 'turkey', 'mixture', '.'
+                ],
+                ['fold', 'under', 'edges', 'of', 'pastry', ';', 'press', 'onto', 'top', 'of', 'baking', 'dish', 'to', 'seal', '.'
+                ],
+                ['brush', 'pastry', 'with', 'egg', '.'
+                ],
+                ['cut', 'several', 'slits', 'in', 'pastry', 'to', 'allow', 'steam', 'to', 'escape', '.'
+                ],
+                ['put', 'casserole', 'dish', 'on', 'baking', 'sheet', '.'
+                ],
+                ['(', 'incase', 'of', 'overflow', ')'
+                ],
+                ['bake', '30', 'minute', 'or', 'until', 'crust', 'is', 'deep', 'golden', 'brown', '.'
+                ],
+                ['let', 'stand', '5', 'minute', 'before', 'serving', 'allowing', 'to', 'set', 'so', 'when', 'served', 'it', 'does', 'not', 'run', '.'
+                ]
+            ], 'ingredients': ['turkey', 'italian_dressing', 'frozen_mixed_vegetables', 'condensed_cream_of_chicken_soup', 'velveeta_cheese', 'frozen_puff_pastry', 'egg'
+            ], 'images': [], 'title': ['left', 'over', 'make', 'over', 'turkey', 'pot', 'pie'
+            ]
+        },
+        {'id': '0004c0a2a8', 'instructions': ['in a bowl, combine corned beef, shrd.', 'cheddar, mayo., onion, and relish.', 'spread atop buttered/toasted burger buns, replace tops.', 'place on cookie sheet, vent with aluminum foil.',
+                "bake at 425' for aprx."
+            ], 'tokenized': [
+                ['in', 'a', 'bowl', ',', 'combine', 'corned', 'beef', ',', 'shrd', '.'
+                ],
+                ['cheddar', ',', 'mayo.', ',', 'onion', ',', 'and', 'relish', '.'
+                ],
+                ['spread', 'atop', 'buttered/toasted', 'burger', 'buns', ',', 'replace', 'tops', '.'
+                ],
+                ['place', 'on', 'cookie', 'sheet', ',', 'vent', 'with', 'aluminum', 'foil', '.'
+                ],
+                ['bake', 'at', '425',
+                    "'", 'for', 'aprx', '.'
+                ]
+            ], 'ingredients': ['corned_beef', 'shredded_cheddar_cheese', 'dried_onion_flakes', 'dill', 'mayonnaise', 'hamburger_buns'
+            ], 'images': [], 'title': ['hot', 'corned', 'beef', 'buns'
+            ]
+        },
+        {'id': '00050108a0', 'instructions': ['preheat oven to 400 f. in a food processor, pulse flour, sugar and baking powder until well combined.', 'next, add butter and pulse until the mixture resembles small peas.', 'in a separate bowl, mix egg, ricotta, vanilla and cinnamon.', 'next, add the egg mixture into the food processor and pulse just until wet and dry ingredients come together.', 'roll out dough on a floured surface.', 'cut into 6 pieces and place on a parchment paper lined baking sheet.', 'top each piece with bite sized peach pieces and sprinkle with pinch of turbinado sugar on each scone.', 'bake 13-15 minutes.', 'for the glaze, mix confectioners sugar, milk, and cinnamon in a small bowl until well combined.', 'top scones with cinnamon glaze.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '400', 'f.', 'in', 'a', 'food', 'processor', ',', 'pulse', 'flour', ',', 'sugar', 'and', 'baking', 'powder', 'until', 'well', 'combined', '.'
+                ],
+                ['next', ',', 'add', 'butter', 'and', 'pulse', 'until', 'the', 'mixture', 'resembles', 'small', 'peas', '.'
+                ],
+                ['in', 'a', 'separate', 'bowl', ',', 'mix', 'egg', ',', 'ricotta', ',', 'vanilla', 'and', 'cinnamon', '.'
+                ],
+                ['next', ',', 'add', 'the', 'egg', 'mixture', 'into', 'the', 'food', 'processor', 'and', 'pulse', 'just', 'until', 'wet', 'and', 'dry', 'ingredients', 'come', 'together', '.'
+                ],
+                ['roll', 'out', 'dough', 'on', 'a', 'floured', 'surface', '.'
+                ],
+                ['cut', 'into', '6', 'pieces', 'and', 'place', 'on', 'a', 'parchment', 'paper', 'lined', 'baking', 'sheet', '.'
+                ],
+                ['top', 'each', 'piece', 'with', 'bite', 'sized', 'peach', 'pieces', 'and', 'sprinkle', 'with', 'pinch', 'of', 'turbinado', 'sugar', 'on', 'each', 'scone', '.'
+                ],
+                ['bake', '13-15', 'minutes', '.'
+                ],
+                ['for', 'the', 'glaze', ',', 'mix', 'confectioners', 'sugar', ',', 'milk', ',', 'and', 'cinnamon', 'in', 'a', 'small', 'bowl', 'until', 'well', 'combined', '.'
+                ],
+                ['top', 'scones', 'with', 'cinnamon', 'glaze', '.'
+                ]
+            ], 'ingredients': ['all_-_purpose_flour', 'sugar', 'baking_powder', 'unsalted_butter', 'egg', 'ricotta_cheese', 'vanilla', 'cinnamon', 'peaches', 'turbinado_sugar',
+                "confectioners'_sugar", 'milk', 'cinnamon'
+            ], 'images': ['419ba5b1b2.jpg'
+            ], 'title': ['peach', 'scones'
+            ]
+        },
+        {'id': '00050db874', 'instructions': ['in a large bowl, cream together the peanut butter and sugar.', 'add the vanilla and salt and mix well.', 'now add half the milk and half the flour, and all of the baking powder.', 'mix very well.', 'add the remaining milk and flour, and mix again until the batter is nice and smooth.', 'turn the mixture into a well oiled 9 by 5-inch loaf pan.', 'bake at 350 for about an hour.', 'remove from the oven, and allow to cool for about 10 minutes before removing from the pan.', 'cool completely before wrapping and storing.', 'these loaves freeze well.'
+            ], 'tokenized': [
+                ['in', 'a', 'large', 'bowl', ',', 'cream', 'together', 'the', 'peanut', 'butter', 'and', 'sugar', '.'
+                ],
+                ['add', 'the', 'vanilla', 'and', 'salt', 'and', 'mix', 'well', '.'
+                ],
+                ['now', 'add', 'half', 'the', 'milk', 'and', 'half', 'the', 'flour', ',', 'and', 'all', 'of', 'the', 'baking', 'powder', '.'
+                ],
+                ['mix', 'very', 'well', '.'
+                ],
+                ['add', 'the', 'remaining', 'milk', 'and', 'flour', ',', 'and', 'mix', 'again', 'until', 'the', 'batter', 'is', 'nice', 'and', 'smooth', '.'
+                ],
+                ['turn', 'the', 'mixture', 'into', 'a', 'well', 'oiled', '9', 'by', '5-inch', 'loaf', 'pan', '.'
+                ],
+                ['bake', 'at', '350', 'for', 'about', 'an', 'hour', '.'
+                ],
+                ['remove', 'from', 'the', 'oven', ',', 'and', 'allow', 'to', 'cool', 'for', 'about', '10', 'minutes', 'before', 'removing', 'from', 'the', 'pan', '.'
+                ],
+                ['cool', 'completely', 'before', 'wrapping', 'and', 'storing', '.'
+                ],
+                ['these', 'loaves', 'freeze', 'well', '.'
+                ]
+            ], 'ingredients': ['peanut_butter', 'sugar', 'vanilla', 'salt', 'milk', 'whole_wheat_flour', 'baking_powder'
+            ], 'images': [], 'title': ['peanut', 'butter', 'bread'
+            ]
+        },
+        {'id': '000524c3e6', 'instructions': ['cut the melon into chunks, reserving the juices.', 'put the melon and its juices into a blender along with the apple juice and lime juice and blend until smooth.', 'add the mint for just a few seconds at the end.', 'pour the soup into a bowl and whisk in the yogurt.', 'taste the soup and correct the seasonings.', 'you may want to add more mint or perhaps a little honey.'
+            ], 'tokenized': [
+                ['cut', 'the', 'melon', 'into', 'chunks', ',', 'reserving', 'the', 'juices', '.'
+                ],
+                ['put', 'the', 'melon', 'and', 'its', 'juices', 'into', 'a', 'blender', 'along', 'with', 'the', 'apple', 'juice', 'and', 'lime', 'juice', 'and', 'blend', 'until', 'smooth', '.'
+                ],
+                ['add', 'the', 'mint', 'for', 'just', 'a', 'few', 'seconds', 'at', 'the', 'end', '.'
+                ],
+                ['pour', 'the', 'soup', 'into', 'a', 'bowl', 'and', 'whisk', 'in', 'the', 'yogurt', '.'
+                ],
+                ['taste', 'the', 'soup', 'and', 'correct', 'the', 'seasonings', '.'
+                ],
+                ['you', 'may', 'want', 'to', 'add', 'more', 'mint', 'or', 'perhaps', 'a', 'little', 'honey', '.'
+                ]
+            ], 'ingredients': ['cantaloupe', 'apple_juice', 'lime_juice', 'of_fresh_mint', 'plain_yogurt', 'honey', 'salt'
+            ], 'images': [], 'title': ['spoonriver', 'melon', 'mint', 'soup'
+            ]
+        },
+        {'id': '00052b48d3', 'instructions': ['brown the meat in a large skillet or dutch oven.', 'add the onions and cook until transparent.', 'add the bell pepper, and saute until tender.', 'add the rice, olives, and raisins and heat through.', '(raisins should be plump.', ').', 'season with salt and pepper to taste.'
+            ], 'tokenized': [
+                ['brown', 'the', 'meat', 'in', 'a', 'large', 'skillet', 'or', 'dutch', 'oven', '.'
+                ],
+                ['add', 'the', 'onions', 'and', 'cook', 'until', 'transparent', '.'
+                ],
+                ['add', 'the', 'bell', 'pepper', ',', 'and', 'saute', 'until', 'tender', '.'
+                ],
+                ['add', 'the', 'rice', ',', 'olives', ',', 'and', 'raisins', 'and', 'heat', 'through', '.'
+                ],
+                ['(', 'raisins', 'should', 'be', 'plump', '.'
+                ],
+                [')', '.'
+                ],
+                ['season', 'with', 'salt', 'and', 'pepper', 'to', 'taste', '.'
+                ]
+            ], 'ingredients': ['cooked_brown_rice', 'ground_turkey', 'onion', 'green_bell_pepper', 'pitted_black_olives', 'raisins'
+            ], 'images': [], 'title': ['revoltillos'
+            ]
+        },
+        {'id': '000535f6ea', 'instructions': ['place the cut fruits in a bowl.', 'add salt, pepper, fresh cream and sugar.', 'mix well.', 'garnish with mint leaves.', 'serve chilled.'
+            ], 'tokenized': [
+                ['place', 'the', 'cut', 'fruits', 'in', 'a', 'bowl', '.'
+                ],
+                ['add', 'salt', ',', 'pepper', ',', 'fresh', 'cream', 'and', 'sugar', '.'
+                ],
+                ['mix', 'well', '.'
+                ],
+                ['garnish', 'with', 'mint', 'leaves', '.'
+                ],
+                ['serve', 'chilled', '.'
+                ]
+            ], 'ingredients': ['sweet_melon', 'bananas', 'guavas', 'grapes', 'apple', 'orange_juice', 'pomegranates', 'fresh_cream', 'black_pepper', 'sugar', 'fresh_mint_leaves'
+            ], 'images': [], 'title': ['wonderful', 'and', 'good', 'for', 'health', 'fruit', 'salad'
+            ]
+        },
+        {'id': '0005455198', 'instructions': ['cover the wheat berries with water and soak overnight.', 'the next day place the wheat berries with 8 cups water in a large saucepan.', 'bring to a boil, reduce heat and simmer for about 1 to 1 1/2 hours or until tender, uncovered.', 'drain and refrigerate until completely cooled.', 'heat 1 tablespoon of the oil and fry the onion 2 minutes until soft.', 'add the curry paste and cook 3 more minutes', 'remove from heat and allow to cool.', 'combine the wheat berries, curry onion mixture, nuts, red pepper, mozzarella and parsley in a bowl.', 'whisk together the remaining 2 tablespoons oil, salt and the white wine vinegar.', 'add to the wheat berry salad and mix together.', 'serve.'
+            ], 'tokenized': [
+                ['cover', 'the', 'wheat', 'berries', 'with', 'water', 'and', 'soak', 'overnight', '.'
+                ],
+                ['the', 'next', 'day', 'place', 'the', 'wheat', 'berries', 'with', '8', 'cups', 'water', 'in', 'a', 'large', 'saucepan', '.'
+                ],
+                ['bring', 'to', 'a', 'boil', ',', 'reduce', 'heat', 'and', 'simmer', 'for', 'about', '1', 'to', '1', '1/2', 'hours', 'or', 'until', 'tender', ',', 'uncovered', '.'
+                ],
+                ['drain', 'and', 'refrigerate', 'until', 'completely', 'cooled', '.'
+                ],
+                ['heat', '1', 'tablespoon', 'of', 'the', 'oil', 'and', 'fry', 'the', 'onion', '2', 'minutes', 'until', 'soft', '.'
+                ],
+                ['add', 'the', 'curry', 'paste', 'and', 'cook', '3', 'more', 'minutes'
+                ],
+                ['remove', 'from', 'heat', 'and', 'allow', 'to', 'cool', '.'
+                ],
+                ['combine', 'the', 'wheat', 'berries', ',', 'curry', 'onion', 'mixture', ',', 'nuts', ',', 'red', 'pepper', ',', 'mozzarella', 'and', 'parsley', 'in', 'a', 'bowl', '.'
+                ],
+                ['whisk', 'together', 'the', 'remaining', '2', 'tablespoons', 'oil', ',', 'salt', 'and', 'the', 'white', 'wine', 'vinegar', '.'
+                ],
+                ['add', 'to', 'the', 'wheat', 'berry', 'salad', 'and', 'mix', 'together', '.'
+                ],
+                ['serve', '.'
+                ]
+            ], 'ingredients': ['wheat_berries', 'water', 'almonds', 'pine_nuts', 'vegetable_oil', 'onion', 'minced_garlic_cloves', 'mild_curry_paste', 'salt', 'white_wine_vinegar', 'red_pepper', 'mozzarella_cheese', 'parsley'
+            ], 'images': [], 'title': ['curry', 'wheat', 'berry', 'salad'
+            ]
+        },
+        {'id': '00054e238b', 'instructions': ['heat oven to 375 degrees and grease a 13x9-inch pan.', 'combine 1 1/2 cups oat, flour, sugar, cinnamon, soda and salt.', 'to your dry ingredients add the juice, oil, egg and vanilla; mix well.', 'stir in fruit.', 'spread into the bottom of the pan.', 'sprinkle with the 2 tablespoons of oats.', 'bake 20 to 25 minutes or until lightly browned and the edges start to pull away from sides of the pan.', 'cool completely, cut into bars and store in a covered container.'
+            ], 'tokenized': [
+                ['heat', 'oven', 'to', '375', 'degrees', 'and', 'grease', 'a', '13x9-inch', 'pan', '.'
+                ],
+                ['combine', '1', '1/2', 'cups', 'oat', ',', 'flour', ',', 'sugar', ',', 'cinnamon', ',', 'soda', 'and', 'salt', '.'
+                ],
+                ['to', 'your', 'dry', 'ingredients', 'add', 'the', 'juice', ',', 'oil', ',', 'egg', 'and', 'vanilla', ';', 'mix', 'well', '.'
+                ],
+                ['stir', 'in', 'fruit', '.'
+                ],
+                ['spread', 'into', 'the', 'bottom', 'of', 'the', 'pan', '.'
+                ],
+                ['sprinkle', 'with', 'the', '2', 'tablespoons', 'of', 'oats', '.'
+                ],
+                ['bake', '20', 'to', '25', 'minutes', 'or', 'until', 'lightly', 'browned', 'and', 'the', 'edges', 'start', 'to', 'pull', 'away', 'from', 'sides', 'of', 'the', 'pan', '.'
+                ],
+                ['cool', 'completely', ',', 'cut', 'into', 'bars', 'and', 'store', 'in', 'a', 'covered', 'container', '.'
+                ]
+            ], 'ingredients': ['old_fashioned_oats', 'flour', 'brown_sugar', 'cinnamon', 'baking_soda', 'salt', 'orange_juice', 'vegetable_oil', 'egg', 'vanilla', 'dried_mixed_fruit', 'old_fashioned_oats'
+            ], 'images': ['e55546f5d2.jpg'
+            ], 'title': ['half-time', 'sunshine', 'bars'
+            ]
+        },
+        {'id': '000566f1e0', 'instructions': ['spread popped corn in a large shallow pan.', 'pat in 250f oven to keep.', 'combine butter, brown sugar, and corn syrup in 2 quart sauce pan.', 'heat at medium until sugar dissolves.', 'continue to boil to form a firm ball (248f), about 5 minutes.', 'remove from heat, stir in soda and syrup (will foam).', 'pour mixture over warmed corn in a fine stream.', 'return to oven for 45 minutes, stirring every 15 minutes.', 'cool and store in airtight containers.'
+            ], 'tokenized': [
+                ['spread', 'popped', 'corn', 'in', 'a', 'large', 'shallow', 'pan', '.'
+                ],
+                ['pat', 'in', '250f', 'oven', 'to', 'keep', '.'
+                ],
+                ['combine', 'butter', ',', 'brown', 'sugar', ',', 'and', 'corn', 'syrup', 'in', '2', 'quart', 'sauce', 'pan', '.'
+                ],
+                ['heat', 'at', 'medium', 'until', 'sugar', 'dissolves', '.'
+                ],
+                ['continue', 'to', 'boil', 'to', 'form', 'a', 'firm', 'ball', '(', '248f', ')', ',', 'about', '5', 'minutes', '.'
+                ],
+                ['remove', 'from', 'heat', ',', 'stir', 'in', 'soda', 'and', 'syrup', '(', 'will', 'foam', ')', '.'
+                ],
+                ['pour', 'mixture', 'over', 'warmed', 'corn', 'in', 'a', 'fine', 'stream', '.'
+                ],
+                ['return', 'to', 'oven', 'for', '45', 'minutes', ',', 'stirring', 'every', '15', 'minutes', '.'
+                ],
+                ['cool', 'and', 'store', 'in', 'airtight', 'containers', '.'
+                ]
+            ], 'ingredients': ['popped_corn', 'butter', 'brown_sugar', 'light_corn_syrup', 'baking_soda', 'vanilla'
+            ], 'images': [], 'title': ['grandma',
+                "'s", 'caramel', 'corn'
+            ]
+        },
+        {'id': '00058111f2', 'instructions': ['simmer everything except the mango and oil, until thick.', 'pour over the mangos.', 'add the oil and mix well.', 'cool and refrigerate at least 12 hours.'
+            ], 'tokenized': [
+                ['simmer', 'everything', 'except', 'the', 'mango', 'and', 'oil', ',', 'until', 'thick', '.'
+                ],
+                ['pour', 'over', 'the', 'mangos', '.'
+                ],
+                ['add', 'the', 'oil', 'and', 'mix', 'well', '.'
+                ],
+                ['cool', 'and', 'refrigerate', 'at', 'least', '12', 'hours', '.'
+                ]
+            ], 'ingredients': ['mangoes', 'garlic', 'salt', 'chili_powder', 'cumin_powder', 'coriander', 'masala', 'honey', 'cornflour', 'mustard_seeds', 'curry_leaves', 'olive_oil'
+            ], 'images': [], 'title': ['mango', 'atchar'
+            ]
+        },
+        {'id': '000590db74', 'instructions': ['preheat oven to 500f (yes,
+                500f!', ').', 'grate the potatoes and onions on the middle sized hole of a grater; either by hand or by food processor.', 'if you grate the potatoes and onions together, the potatoes will not turn grey right away.', 'put into a large bowl or soup pot, and mix well with remaining ingredients.', 'grease your baking pans, and pour mixture evenly into the pans.', 'bake for 15 minutes at 500f, then lower the oven to 400f until done (check after an hour or so; it should be golden brown on top).', 'eat and enjoy.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '500f', '(', 'yes', ',', '500f', '!'
+                ],
+                [')', '.'
+                ],
+                ['grate', 'the', 'potatoes', 'and', 'onions', 'on', 'the', 'middle', 'sized', 'hole', 'of', 'a', 'grater', ';', 'either', 'by', 'hand', 'or', 'by', 'food', 'processor', '.'
+                ],
+                ['if', 'you', 'grate', 'the', 'potatoes', 'and', 'onions', 'together', ',', 'the', 'potatoes', 'will', 'not', 'turn', 'grey', 'right', 'away', '.'
+                ],
+                ['put', 'into', 'a', 'large', 'bowl', 'or', 'soup', 'pot', ',', 'and', 'mix', 'well', 'with', 'remaining', 'ingredients', '.'
+                ],
+                ['grease', 'your', 'baking', 'pans', ',', 'and', 'pour', 'mixture', 'evenly', 'into', 'the', 'pans', '.'
+                ],
+                ['bake', 'for', '15', 'minutes', 'at', '500f', ',', 'then', 'lower', 'the', 'oven', 'to', '400f', 'until', 'done', '(', 'check', 'after', 'an', 'hour', 'or', 'so', ';', 'it', 'should', 'be', 'golden', 'brown', 'on', 'top', ')', '.'
+                ],
+                ['eat', 'and', 'enjoy', '.'
+                ]
+            ], 'ingredients': ['potatoes', 'onions', 'eggs', 'salt', 'oil'
+            ], 'images': ['27deeb5323.jpg'
+            ], 'title': ['shalom', 'bayit', 'kugel', '(', 'potato', 'kugel', ')'
+            ]
+        },
+        {'id': '00059b093b', 'instructions': ['preheat oven to 400 degrees f.', 'in a large bowl, toss the wings with salt and pepper and oil.', 'line a sheet pan with nonstick foil or parchment paper, and spread the wings evenly on the pan.', 'bake for about 50 minutes, turning the wings halfway through.', 'in the last couple of minutes, you can turn on the broiler to get them to really crisp up.', 'keep an eye on them, though!', 'when the wings are done, melt the butter in a skillet or wok and add the sriracha, honey, rice wine, soy sauce, hoisin, and salt.', 'stir over low heat until bubbly.', 'transfer the wings from the baking sheet into the pan with the sauce.', 'toss until coated.', 'garnish with chopped cilantro and serve immediately.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '400', 'degrees', 'f', '.'
+                ],
+                ['in', 'a', 'large', 'bowl', ',', 'toss', 'the', 'wings', 'with', 'salt', 'and', 'pepper', 'and', 'oil', '.'
+                ],
+                ['line', 'a', 'sheet', 'pan', 'with', 'nonstick', 'foil', 'or', 'parchment', 'paper', ',', 'and', 'spread', 'the', 'wings', 'evenly', 'on', 'the', 'pan', '.'
+                ],
+                ['bake', 'for', 'about', '50', 'minutes', ',', 'turning', 'the', 'wings', 'halfway', 'through', '.'
+                ],
+                ['in', 'the', 'last', 'couple', 'of', 'minutes', ',', 'you', 'can', 'turn', 'on', 'the', 'broiler', 'to', 'get', 'them', 'to', 'really', 'crisp', 'up', '.'
+                ],
+                ['keep', 'an', 'eye', 'on', 'them', ',', 'though', '!'
+                ],
+                ['when', 'the', 'wings', 'are', 'done', ',', 'melt', 'the', 'butter', 'in', 'a', 'skillet', 'or', 'wok', 'and', 'add', 'the', 'sriracha', ',', 'honey', ',', 'rice', 'wine', ',', 'soy', 'sauce', ',', 'hoisin', ',', 'and', 'salt', '.'
+                ],
+                ['stir', 'over', 'low', 'heat', 'until', 'bubbly', '.'
+                ],
+                ['transfer', 'the', 'wings', 'from', 'the', 'baking', 'sheet', 'into', 'the', 'pan', 'with', 'the', 'sauce', '.'
+                ],
+                ['toss', 'until', 'coated', '.'
+                ],
+                ['garnish', 'with', 'chopped', 'cilantro', 'and', 'serve', 'immediately', '.'
+                ]
+            ], 'ingredients': ['chicken_wings', 'salt', 'pepper', 'oil', 'butter', 'hot_sauce', 'honey', 'rice_wine', 'soy_sauce', 'hoisin_sauce', 'salt', 'cilantro'
+            ], 'images': ['e412a11941.jpg'
+            ], 'title': ['honey', 'sriracha', 'chicken', 'wings'
+            ]
+        },
+        {'id': '0005a7b3b7', 'instructions': ['heat oil in pan', 'whisk 2 eggs in a bowl and sprinkle with salt and black pepper', 'put the whisked egg mixture into oil and fry it for a minute', 'put slices of cheese into pan over half cooked omelette and flip it after one min', 'take it out of pan as omelette gets inflated and color is changed...enjoy it with any tortilla or paratha (southeastern bread) with ketchup.'
+            ], 'tokenized': [
+                ['heat', 'oil', 'in', 'pan'
+                ],
+                ['whisk', '2', 'eggs', 'in', 'a', 'bowl', 'and', 'sprinkle', 'with', 'salt', 'and', 'black', 'pepper'
+                ],
+                ['put', 'the', 'whisked', 'egg', 'mixture', 'into', 'oil', 'and', 'fry', 'it', 'for', 'a', 'minute'
+                ],
+                ['put', 'slices', 'of', 'cheese', 'into', 'pan', 'over', 'half', 'cooked', 'omelette', 'and', 'flip', 'it', 'after', 'one', 'min'
+                ],
+                ['take', 'it', 'out', 'of', 'pan', 'as', 'omelette', 'gets', 'inflated', 'and', 'color', 'is', 'changed', '...', 'enjoy', 'it', 'with', 'any', 'tortilla', 'or', 'paratha', '(', 'southeastern', 'bread', ')', 'with', 'ketchup', '.'
+                ]
+            ], 'ingredients': ['eggs', 'salt', 'black_pepper', 'cheese'
+            ], 'images': ['bb75a214d7.jpg'
+            ], 'title': ['cheese', 'omelette'
+            ]
+        },
+        {'id': '0005babd2d', 'instructions': ['heat oven to 325f', 'lightly grease fluted tube cake pan', 'in large food storage bag.', 'mix granulated sugar, cinnamon', 'cut 16 biscuits into quarters.', 'shake biscuit quarters in food storage bag to coat with sugar and cinnamon.', 'arrange coated pieces in pan.', 'mix melted butter or margarine with brown sugar.', 'pour butter mixture over biscuit pieces.', 'bake 45 to 50 minutes or until golden brown and no longer doughy in center.', 'let cool in pan 10 to 15 minutes.', 'turn upside-down onto serving plate.', 'pull apart and enjoy warm.'
+            ], 'tokenized': [
+                ['heat', 'oven', 'to', '325f'
+                ],
+                ['lightly', 'grease', 'fluted', 'tube', 'cake', 'pan'
+                ],
+                ['in', 'large', 'food', 'storage', 'bag', '.'
+                ],
+                ['mix', 'granulated', 'sugar', ',', 'cinnamon'
+                ],
+                ['cut', '16', 'biscuits', 'into', 'quarters', '.'
+                ],
+                ['shake', 'biscuit', 'quarters', 'in', 'food', 'storage', 'bag', 'to', 'coat', 'with', 'sugar', 'and', 'cinnamon', '.'
+                ],
+                ['arrange', 'coated', 'pieces', 'in', 'pan', '.'
+                ],
+                ['mix', 'melted', 'butter', 'or', 'margarine', 'with', 'brown', 'sugar', '.'
+                ],
+                ['pour', 'butter', 'mixture', 'over', 'biscuit', 'pieces', '.'
+                ],
+                ['bake', '45', 'to', '50', 'minutes', 'or', 'until', 'golden', 'brown', 'and', 'no', 'longer', 'doughy', 'in', 'center', '.'
+                ],
+                ['let', 'cool', 'in', 'pan', '10', 'to', '15', 'minutes', '.'
+                ],
+                ['turn', 'upside-down', 'onto', 'serving', 'plate', '.'
+                ],
+                ['pull', 'apart', 'and', 'enjoy', 'warm', '.'
+                ]
+            ], 'ingredients': ['butter', 'granulated_sugar', 'ground_cinnamon', 'brown_sugar'
+            ], 'images': [], 'title': ['monkey', 'bread'
+            ]
+        },
+        {'id': '0005ec4bb8', 'instructions': ['heat the oil in a large skillet over medium heat.', 'add the onion and jalapeno and cook uncovered, stirring often, until the onion is browned, about 6 minutes.', 'during the last minute, add the garlic.', 'let cool slightly.', 'combine the red peppers, onion and garlic, red wine vinegar, balsamic vinegar, brown sugar, and cumin in a food processor and process to a puree.', 'season with salt.', 'transfer to a medium bowl and let cool completely, then cover tightly and refrigerate until chilled, at least 1 hour, or up to 2 days.', 'transfer to a serving bowl and serve chilled.'
+            ], 'tokenized': [
+                ['heat', 'the', 'oil', 'in', 'a', 'large', 'skillet', 'over', 'medium', 'heat', '.'
+                ],
+                ['add', 'the', 'onion', 'and', 'jalapeno', 'and', 'cook', 'uncovered', ',', 'stirring', 'often', ',', 'until', 'the', 'onion', 'is', 'browned', ',', 'about', '6', 'minutes', '.'
+                ],
+                ['during', 'the', 'last', 'minute', ',', 'add', 'the', 'garlic', '.'
+                ],
+                ['let', 'cool', 'slightly', '.'
+                ],
+                ['combine', 'the', 'red', 'peppers', ',', 'onion', 'and', 'garlic', ',', 'red', 'wine', 'vinegar', ',', 'balsamic', 'vinegar', ',', 'brown', 'sugar', ',', 'and', 'cumin', 'in', 'a', 'food', 'processor', 'and', 'process', 'to', 'a', 'puree', '.'
+                ],
+                ['season', 'with', 'salt', '.'
+                ],
+                ['transfer', 'to', 'a', 'medium', 'bowl', 'and', 'let', 'cool', 'completely', ',', 'then', 'cover', 'tightly', 'and', 'refrigerate', 'until', 'chilled', ',', 'at', 'least', '1', 'hour', ',', 'or', 'up', 'to', '2', 'days', '.'
+                ],
+                ['transfer', 'to', 'a', 'serving', 'bowl', 'and', 'serve', 'chilled', '.'
+                ]
+            ], 'ingredients': ['extra_virgin_olive_oil', 'onion', 'jalapeno', 'garlic_cloves', 'red_bell_peppers', 'red_wine_vinegar', 'balsamic_vinegar', 'light_brown_sugar', 'ground_cumin', 'salt'
+            ], 'images': [], 'title': ['sweet', 'and', 'spicy', 'red', 'pepper', 'dip'
+            ]
+        },
+        {'id': '0005fc89f7', 'instructions': ['in a large bowl, toss the shrimp, green onions, celery, capers, black olives, oil and vinegar dressing, mayonnaise, celery seed, and lemon juice.', 'chill at least 1 hour in the refrigerator before serving.'
+            ], 'tokenized': [
+                ['in', 'a', 'large', 'bowl', ',', 'toss', 'the', 'shrimp', ',', 'green', 'onions', ',', 'celery', ',', 'capers', ',', 'black', 'olives', ',', 'oil', 'and', 'vinegar', 'dressing', ',', 'mayonnaise', ',', 'celery', 'seed', ',', 'and', 'lemon', 'juice', '.'
+                ],
+                ['chill', 'at', 'least', '1', 'hour', 'in', 'the', 'refrigerator', 'before', 'serving', '.'
+                ]
+            ], 'ingredients': ['shrimp', 'green_onions', 'celery', 'capers', 'black_olives', 'oil_-_and_-_vinegar_dressing', 'mayonnaise', 'celery_seeds', 'lemon_juice'
+            ], 'images': ['502a40d740.jpg'
+            ], 'title': ['shrimp', 'and', 'caper', 'salad'
+            ]
+        },
+        {'id': '00063fb14c', 'instructions': ['use cooking spray on medium heat in a large skillet or wok.', 'break up and cook sausage until browned.', 'add onion, green pepper and carrots and fry until cooked.', 'add soy sauce and cook for 2 minutes.'
+            ], 'tokenized': [
+                ['use', 'cooking', 'spray', 'on', 'medium', 'heat', 'in', 'a', 'large', 'skillet', 'or', 'wok', '.'
+                ],
+                ['break', 'up', 'and', 'cook', 'sausage', 'until', 'browned', '.'
+                ],
+                ['add', 'onion', ',', 'green', 'pepper', 'and', 'carrots', 'and', 'fry', 'until', 'cooked', '.'
+                ],
+                ['add', 'soy', 'sauce', 'and', 'cook', 'for', '2', 'minutes', '.'
+                ]
+            ], 'ingredients': ['chicken_sausage', 'garlic_clove', 'onion', 'green_pepper', 'carrots', 'soy_sauce'
+            ], 'images': ['fb8cee768f.jpg'
+            ], 'title': ['chicken', 'sausage', 'stir', 'fry'
+            ]
+        },
+        {'id': '0006556e29', 'instructions': ['saute chopped garlic in the butter and olive oil, add mushrooms until mostly soft.', 'set aside to cool.', 'when cooled, drain off extra liquid.', 'mix soup, milk, pepper,
+                1/2 of the crumbled bacon, sauteed mushrooms, green beans and 1 1/3 cups french fried onions in a large bowl.', 'transfer into large baking dish and spread into even layer.', 'bake at 350f for 40 minute or until hot.', 'stir and then top with remaining 1 1/3 cup onions and bacon.', 'bake 5 minute until onions are golden.'
+            ], 'tokenized': [
+                ['saute', 'chopped', 'garlic', 'in', 'the', 'butter', 'and', 'olive', 'oil', ',', 'add', 'mushrooms', 'until', 'mostly', 'soft', '.'
+                ],
+                ['set', 'aside', 'to', 'cool', '.'
+                ],
+                ['when', 'cooled', ',', 'drain', 'off', 'extra', 'liquid', '.'
+                ],
+                ['mix', 'soup', ',', 'milk', ',', 'pepper', ',', '1/2', 'of', 'the', 'crumbled', 'bacon', ',', 'sauteed', 'mushrooms', ',', 'green', 'beans', 'and', '1', '1/3', 'cups', 'french', 'fried', 'onions', 'in', 'a', 'large', 'bowl', '.'
+                ],
+                ['transfer', 'into', 'large', 'baking', 'dish', 'and', 'spread', 'into', 'even', 'layer', '.'
+                ],
+                ['bake', 'at', '350f', 'for', '40', 'minute', 'or', 'until', 'hot', '.'
+                ],
+                ['stir', 'and', 'then', 'top', 'with', 'remaining', '1', '1/3', 'cup', 'onions', 'and', 'bacon', '.'
+                ],
+                ['bake', '5', 'minute', 'until', 'onions', 'are', 'golden', '.'
+                ]
+            ], 'ingredients': ['bacon', 'garlic_cloves', 'fresh_mushrooms', 'extra_virgin_olive_oil', 'butter',
+                "campbell's_cream_of_mushroom_soup", 'milk', 'black_pepper', 'frozen_french_-_cut_green_beans',
+                "french's_french_fried_onions"
+            ], 'images': [], 'title': ['green', 'bean', 'casserole', '(', 'mushroom', ',', 'garlic', 'and', 'bacon', ',', 'oh', 'my', '!', ')'
+            ]
+        }
+    ], 'val': [
+        {'id': '00011fc1f9', 'instructions': ['saute the onions, carrots, celery with olive oil by gradually adding half cup of water until soft.', 'add to the saute onions, diced tomatoes, hot red pepper powder and stir for five minutes; add 3 cups of water, leave it to boil.', 'rinse the lentils with cold water.', 'to the boiling sauce, add lentils, ginger juice, white pepper and two cups of vegetable broth; reduce the heat to medium; cook for 30 minutes or until the lentils are very soft.', 'using a cooking stick, puree the soup in its pot or transfer to a food processor, blend the lentils until smooth; and bring it back to its saucepan.', 'add the rest of the vegetable broth or water as need; then in a lower heat stir the soup for 10 minutes.', 'add salt and black pepper.', 'remove from heat.', 'garnish it with fresh parsley, basil or cheese of your choice.', 'serve it hot or cold.', 'keep it in the fridge.'
+            ], 'tokenized': [
+                ['saute', 'the', 'onions', ',', 'carrots', ',', 'celery', 'with', 'olive', 'oil', 'by', 'gradually', 'adding', 'half', 'cup', 'of', 'water', 'until', 'soft', '.'
+                ],
+                ['add', 'to', 'the', 'saute', 'onions', ',', 'diced', 'tomatoes', ',', 'hot', 'red', 'pepper', 'powder', 'and', 'stir', 'for', 'five', 'minutes', ';', 'add', '3', 'cups', 'of', 'water', ',', 'leave', 'it', 'to', 'boil', '.'
+                ],
+                ['rinse', 'the', 'lentils', 'with', 'cold', 'water', '.'
+                ],
+                ['to', 'the', 'boiling', 'sauce', ',', 'add', 'lentils', ',', 'ginger', 'juice', ',', 'white', 'pepper', 'and', 'two', 'cups', 'of', 'vegetable', 'broth', ';', 'reduce', 'the', 'heat', 'to', 'medium', ';', 'cook', 'for', '30', 'minutes', 'or', 'until', 'the', 'lentils', 'are', 'very', 'soft', '.'
+                ],
+                ['using', 'a', 'cooking', 'stick', ',', 'puree', 'the', 'soup', 'in', 'its', 'pot', 'or', 'transfer', 'to', 'a', 'food', 'processor', ',', 'blend', 'the', 'lentils', 'until', 'smooth', ';', 'and', 'bring', 'it', 'back', 'to', 'its', 'saucepan', '.'
+                ],
+                ['add', 'the', 'rest', 'of', 'the', 'vegetable', 'broth', 'or', 'water', 'as', 'need', ';', 'then', 'in', 'a', 'lower', 'heat', 'stir', 'the', 'soup', 'for', '10', 'minutes', '.'
+                ],
+                ['add', 'salt', 'and', 'black', 'pepper', '.'
+                ],
+                ['remove', 'from', 'heat', '.'
+                ],
+                ['garnish', 'it', 'with', 'fresh', 'parsley', ',', 'basil', 'or', 'cheese', 'of', 'your', 'choice', '.'
+                ],
+                ['serve', 'it', 'hot', 'or', 'cold', '.'
+                ],
+                ['keep', 'it', 'in', 'the', 'fridge', '.'
+                ]
+            ], 'ingredients': ['lentils', 'onions', 'tomatoes', 'carrots', 'celery', 'extra_virgin_olive_oil', 'garlic_powder', 'fresh_ginger_root_juice', 'vegetable_broth', 'white_pepper', 'chili_powder', 'water', 'salt_and_black_pepper'
+            ], 'images': [], 'title': ['lentils', 'vegetable', 'soup'
+            ]
+        },
+        {'id': '00025af750', 'instructions': ['prepare cucumber by cutting into 2 inch rounds.', 'scoop out the seeds and flesh in the centre of the cucumber using a melon baller or spoon.', 'be careful not to go all the way through the cup.', '(place scooped cucumber into a bowl).', 'carve out enough of the cucumber to leave a 1/2 inch (8 mm) border, along sides and bottom.', 'you should have 12 mini cups.', 'place all of the remaining ingredients in a food processor including the reserved cucumber.', 'puree until smooth.', 'adjust seasoning to taste.', 'add vodka and strain through a colander.', 'chill for 1 hour and up to overnight to develop flavor.', 'pour puree into cucumber cups and serve immediately.'
+            ], 'tokenized': [
+                ['prepare', 'cucumber', 'by', 'cutting', 'into', '2', 'inch', 'rounds', '.'
+                ],
+                ['scoop', 'out', 'the', 'seeds', 'and', 'flesh', 'in', 'the', 'centre', 'of', 'the', 'cucumber', 'using', 'a', 'melon', 'baller', 'or', 'spoon', '.'
+                ],
+                ['be', 'careful', 'not', 'to', 'go', 'all', 'the', 'way', 'through', 'the', 'cup', '.'
+                ],
+                ['(', 'place', 'scooped', 'cucumber', 'into', 'a', 'bowl', ')', '.'
+                ],
+                ['carve', 'out', 'enough', 'of', 'the', 'cucumber', 'to', 'leave', 'a', '1/2', 'inch', '(', '8', 'mm', ')', 'border', ',', 'along', 'sides', 'and', 'bottom', '.'
+                ],
+                ['you', 'should', 'have', '12', 'mini', 'cups', '.'
+                ],
+                ['place', 'all', 'of', 'the', 'remaining', 'ingredients', 'in', 'a', 'food', 'processor', 'including', 'the', 'reserved', 'cucumber', '.'
+                ],
+                ['puree', 'until', 'smooth', '.'
+                ],
+                ['adjust', 'seasoning', 'to', 'taste', '.'
+                ],
+                ['add', 'vodka', 'and', 'strain', 'through', 'a', 'colander', '.'
+                ],
+                ['chill', 'for', '1', 'hour', 'and', 'up', 'to', 'overnight', 'to', 'develop', 'flavor', '.'
+                ],
+                ['pour', 'puree', 'into', 'cucumber', 'cups', 'and', 'serve', 'immediately', '.'
+                ]
+            ], 'ingredients': ['hot_banana_pepper', 'yellow_tomatoes', 'yellow_pepper', 'scallions', 'cucumbers', 'fresh_basil', 'tarragon', 'vegetable_stock', 'salt', 'white_pepper', 'worcestershire_sauce', 'hot_sauce', 'sherry_wine_vinegar', 'vodka'
+            ], 'images': [], 'title': ['spanish', 'spiked', 'gazpacho', 'in', 'cucumber', 'cups'
+            ]
+        },
+        {'id': '00029df38f', 'instructions': ['preheat oven to 325 degrees farenheit.', 'grease 3 large baking sheets.', 'in a small mixing bowl, beat egg white and salt at medium speed until soft peaks form.', 'increase speed to medium-high and add sugar a tablespoon at a time, beating until all the sugar is incorporated (mixture will be thick).', 'stir in flour, cinnamon, vanilla and nuts.', 'drop mixture by level teaspoons,
+                1 1/2 inches apart, on prepared baking sheets.', 'bake 10 to 13 minutes, or until they are dry and firm on the top.', 'cook 1 minute on baking sheets.', 'transfer to racks to cool completely.', 'store in an airtight container at room temperature for up to 10 days or freeze for longer storage.'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '325', 'degrees', 'farenheit', '.'
+                ],
+                ['grease', '3', 'large', 'baking', 'sheets', '.'
+                ],
+                ['in', 'a', 'small', 'mixing', 'bowl', ',', 'beat', 'egg', 'white', 'and', 'salt', 'at', 'medium', 'speed', 'until', 'soft', 'peaks', 'form', '.'
+                ],
+                ['increase', 'speed', 'to', 'medium-high', 'and', 'add', 'sugar', 'a', 'tablespoon', 'at', 'a', 'time', ',', 'beating', 'until', 'all', 'the', 'sugar', 'is', 'incorporated', '(', 'mixture', 'will', 'be', 'thick', ')', '.'
+                ],
+                ['stir', 'in', 'flour', ',', 'cinnamon', ',', 'vanilla', 'and', 'nuts', '.'
+                ],
+                ['drop', 'mixture', 'by', 'level', 'teaspoons', ',', '1', '1/2', 'inches', 'apart', ',', 'on', 'prepared', 'baking', 'sheets', '.'
+                ],
+                ['bake', '10', 'to', '13', 'minutes', ',', 'or', 'until', 'they', 'are', 'dry', 'and', 'firm', 'on', 'the', 'top', '.'
+                ],
+                ['cook', '1', 'minute', 'on', 'baking', 'sheets', '.'
+                ],
+                ['transfer', 'to', 'racks', 'to', 'cool', 'completely', '.'
+                ],
+                ['store', 'in', 'an', 'airtight', 'container', 'at', 'room', 'temperature', 'for', 'up', 'to', '10', 'days', 'or', 'freeze', 'for', 'longer', 'storage', '.'
+                ]
+            ], 'ingredients': ['egg_white', 'salt', 'brown_sugar', 'all_-_purpose_flour', 'cinnamon', 'vanilla_extract', 'pecans'
+            ], 'images': [], 'title': ['praline', 'kisses'
+            ]
+        },
+        {'id': '00029f71f7', 'instructions': ['preheat oven to 350f and line baking sheet with parchment paper.', 'combine flour, oats, sugar and parsley.', 'in separate bowl, combine egg, oil, apple and carrot.', 'stir flour mixture into egg mixture, slowly adding water and kneading until a dough forms.', '*if dough is too sticky, add more flour.', 'roll dough out on a lightly floured surface to 1/4" thick and cut out shapes.', 'knead scraps together, roll out, cut out shapes, and repeat until all dough is used.', 'place on baking sheet and bake for 40-45 minutes.', 'turn oven off and leave in oven for 20 minutes to allow bones to dry out and crisp.'], 'tokenized': [['preheat', 'oven', 'to', '350f', 'and', 'line', 'baking', 'sheet', 'with', 'parchment', 'paper', '.'], ['combine', 'flour', ',', 'oats', ',', 'sugar', 'and', 'parsley', '.'], ['in', 'separate', 'bowl', ',', 'combine', 'egg', ',', 'oil', ',', 'apple', 'and', 'carrot', '.'], ['stir', 'flour', 'mixture', 'into', 'egg', 'mixture', ',', 'slowly', 'adding', 'water', 'and', 'kneading', 'until', 'a', 'dough', 'forms', '.'], ['*if', 'dough', 'is', 'too', 'sticky', ',', 'add', 'more', 'flour', '.'], ['roll', 'dough', 'out', 'on', 'a', 'lightly', 'floured', 'surface', 'to', '1/4', "''", 'thick', 'and', 'cut', 'out', 'shapes', '.'], ['knead', 'scraps', 'together', ',', 'roll', 'out', ',', 'cut', 'out', 'shapes', ',', 'and', 'repeat', 'until', 'all', 'dough', 'is', 'used', '.'], ['place', 'on', 'baking', 'sheet', 'and', 'bake', 'for', '40-45', 'minutes', '.'], ['turn', 'oven', 'off', 'and', 'leave', 'in', 'oven', 'for', '20', 'minutes', 'to', 'allow', 'bones', 'to', 'dry', 'out', 'and', 'crisp', '.']], 'ingredients': ['wheat_flour', 'rolled_oats', 'brown_sugar', 'dried_parsley', 'apple', 'carrots', 'egg', 'vegetable_oil', 'water'], 'images': ['665bbeafc7.jpg', '87aea5035b.jpg'], 'title': ['apple', 'carrot', 'bones', '(', 'dog', 'treat', ')']}, {'id': '0004c091a0', 'instructions': ['preheat waffle iron to desired temperature.', 'stir in the milk, oil vanilla and honey.', 'cook the waffles until golden and crisp.'], 'tokenized': [['preheat', 'waffle', 'iron', 'to', 'desired', 'temperature', '.'], ['stir', 'in', 'the', 'milk', ',', 'oil', 'vanilla', 'and', 'honey', '.'], ['cook', 'the', 'waffles', 'until', 'golden', 'and', 'crisp', '.']], 'ingredients': ['whole_wheat_flour', 'baking_powder', 'extra_virgin_olive_oil', 'eggs', 'skim_milk', 'salt', 'cinnamon', 'nutmeg', 'ground_cloves', 'ginger', 'vanilla', 'flax_seeds', 'honey', 'blueberries'], 'images': ['a97924d704.jpg'], 'title': ['whole', 'wheat', 'waffles']}, {'id': '0004f13a08', 'instructions': ['stir yeast into 1/2 cup warm water, allow to foam-up for 10 minutes.', 'pour yeast mixture to all remaining ingredients and add just enough water to mix dough, but not too sticky.', 'mix all ingredients together, knead thoroughly.', 'divide into four pieces and place in oiled bowl or pot, and cover with lid or towel.', 'allow dough to rise 30-mins.', 'knead each of the 4 dough balls again, and return them to the bowl/pot to rise another 30-mins.', 'using 1/4 at a time, knead dough ball one last time, then cut dough into pieces that can be rolled into about a 5 rope.', 'make a circle of the rope and use your baby finger to make an indentation where the ends join.', 'set on a blanket covered table that has been covered with a clean white sheet.', 'gradually cover rows of doughnut shaped rounds with the sheet when all are arranged on table, cover also with the blanket.', 'let rise until doubled in size.', 'bake in a 350 oven for about 15 minutes, or until they start to firm up, but not turn brown yet.', 'split each circle in half (like a bagel) while still hot using a fork to pierce the doughnut shape all around the middle.', 'separate and return to oven at 375 or 400 .', 'toast until brown.'], 'tokenized': [['stir', 'yeast', 'into', '1/2', 'cup', 'warm', 'water', ',', 'allow', 'to', 'foam-up', 'for', '10', 'minutes', '.'], ['pour', 'yeast', 'mixture', 'to', 'all', 'remaining', 'ingredients', 'and', 'add', 'just', 'enough', 'water', 'to', 'mix', 'dough', ',', 'but', 'not', 'too', 'sticky', '.'], ['mix', 'all', 'ingredients', 'together', ',', 'knead', 'thoroughly', '.'], ['divide', 'into', 'four', 'pieces', 'and', 'place', 'in', 'oiled', 'bowl', 'or', 'pot', ',', 'and', 'cover', 'with', 'lid', 'or', 'towel', '.'], ['allow', 'dough', 'to', 'rise', '30-mins', '.'], ['knead', 'each', 'of', 'the', '4', 'dough', 'balls', 'again', ',', 'and', 'return', 'them', 'to', 'the', 'bowl/pot', 'to', 'rise', 'another', '30-mins', '.'], ['using', '1/4', 'at', 'a', 'time', ',', 'knead', 'dough', 'ball', 'one', 'last', 'time', ',', 'then', 'cut', 'dough', 'into', 'pieces', 'that', 'can', 'be', 'rolled', 'into', 'about', 'a', '5', 'rope', '.'], ['make', 'a', 'circle', 'of', 'the', 'rope', 'and', 'use', 'your', 'baby', 'finger', 'to', 'make', 'an', 'indentation', 'where', 'the', 'ends', 'join', '.'], ['set', 'on', 'a', 'blanket', 'covered', 'table', 'that', 'has', 'been', 'covered', 'with', 'a', 'clean', 'white', 'sheet', '.'], ['gradually', 'cover', 'rows', 'of', 'doughnut', 'shaped', 'rounds', 'with', 'the', 'sheet', 'when', 'all', 'are', 'arranged', 'on', 'table', ',', 'cover', 'also', 'with', 'the', 'blanket', '.'], ['let', 'rise', 'until', 'doubled', 'in', 'size', '.'], ['bake', 'in', 'a', '350', 'oven', 'for', 'about', '15', 'minutes', ',', 'or', 'until', 'they', 'start', 'to', 'firm', 'up', ',', 'but', 'not', 'turn', 'brown', 'yet', '.'], ['split', 'each', 'circle', 'in', 'half', '(', 'like', 'a', 'bagel', ')', 'while', 'still', 'hot', 'using', 'a', 'fork', 'to', 'pierce', 'the', 'doughnut', 'shape', 'all', 'around', 'the', 'middle', '.'], ['separate', 'and', 'return', 'to', 'oven', 'at', '375', 'or', '400', '.'], ['toast', 'until', 'brown', '.']], 'ingredients': ['all_-_purpose_flour', 'crisco', 'yeast', 'sugar', 'salt', 'anise_seed', 'eggs', 'water', 'vegetable_oil'], 'images': [], 'title': ['anise', 'biscotti']}, {'id': '0004fcb850', 'instructions': ['in medium saucepan, melt chocolate with water over low heat.', 'continue heating; add walnuts, sugar, rum and vanilla.', 'mix well.', 'remove from heat; form into 1 inch balls.', 'roll in sugar.', 'store in refrigerator.'], 'tokenized': [['in', 'medium', 'saucepan', ',', 'melt', 'chocolate', 'with', 'water', 'over', 'low', 'heat', '.'], ['continue', 'heating', ';', 'add', 'walnuts', ',', 'sugar', ',', 'rum', 'and', 'vanilla', '.'], ['mix', 'well', '.'], ['remove', 'from', 'heat', ';', 'form', 'into', '1', 'inch', 'balls', '.'], ['roll', 'in', 'sugar', '.'], ['store', 'in', 'refrigerator', '.']], 'ingredients': ['semi_-_sweet_chocolate_chips', 'water', 'rum', 'vanilla_extract', 'powdered_sugar', 'ground_walnuts', 'sugar'], 'images': [], 'title': ['blondie', "'s", 'walnut', 'balls']}, {'id': '000507ca6b', 'instructions': ['preheat oven to 350 degrees f (175 degrees c).', 'to make the crust: combine flour, nuts, and brown sugar.', 'add melted butter, tossing to combine the ingredients.', 'spread the mixture in a 9x13 inch pan.', 'bake the crust at 350 degrees f (175 degrees c) for 15 minutes, stirring occasionally until lightly browned.', 'remove from pan and set aside to cool.', 'sprinkle 1 1/2 cups crust mixture in a 9x13 inch pan.', 'reserve the remaining crust mixture.', 'filling: in large bowl combine strawberries, sugar and lemon juice.', 'fold whipped topping into the mixture.', 'carefully spoon filling over the crust mixture.', 'sprinkle the remaining crust mixture on top.', 'cover and freeze for 6 hours or until firm.', '(you will need the full 6 hours).'], 'tokenized': [['preheat', 'oven', 'to', '350', 'degrees', 'f', '(', '175', 'degrees', 'c', ')', '.'], ['to', 'make', 'the', 'crust', ':', 'combine', 'flour', ',', 'nuts', ',', 'and', 'brown', 'sugar', '.'], ['add', 'melted', 'butter', ',', 'tossing', 'to', 'combine', 'the', 'ingredients', '.'], ['spread', 'the', 'mixture', 'in', 'a', '9x13', 'inch', 'pan', '.'], ['bake', 'the', 'crust', 'at', '350', 'degrees', 'f', '(', '175', 'degrees', 'c', ')', 'for', '15', 'minutes', ',', 'stirring', 'occasionally', 'until', 'lightly', 'browned', '.'], ['remove', 'from', 'pan', 'and', 'set', 'aside', 'to', 'cool', '.'], ['sprinkle', '1', '1/2', 'cups', 'crust', 'mixture', 'in', 'a', '9x13', 'inch', 'pan', '.'], ['reserve', 'the', 'remaining', 'crust', 'mixture', '.'], ['filling', ':', 'in', 'large', 'bowl', 'combine', 'strawberries', ',', 'sugar', 'and', 'lemon', 'juice', '.'], ['fold', 'whipped', 'topping', 'into', 'the', 'mixture', '.'], ['carefully', 'spoon', 'filling', 'over', 'the', 'crust', 'mixture', '.'], ['sprinkle', 'the', 'remaining', 'crust', 'mixture', 'on', 'top', '.'], ['cover', 'and', 'freeze', 'for', '6', 'hours', 'or', 'until', 'firm', '.'], ['(', 'you', 'will', 'need', 'the', 'full', '6', 'hours', ')', '.']], 'ingredients': ['all_-_purpose_flour', 'walnuts', 'brown_sugar', 'butter', 'strawberries', 'white_sugar', 'lemon_juice', 'frozen_whipped_topping'], 'images': ['8e98aee7e1.jpg'], 'title': ['frosty', 'strawberry', 'squares']}, {'id': '00051d5b9d', 'instructions': ['cream sugar and butter together till smooth.', 'add in egg beaters, orange rind, orange juice, and mix well.', 'mix together low sodium baking powder and flour.', 'add in to creamed mix and mix well.', 'roll dough into 1 inch balls and place on ungreased cookie sheet.', 'rub small amount of salt free butter on bottom of glass.', 'dip glass in granulated sugar.', 'flatten cookie dough ball slightly using flat end of glass.', 'bake at 300 degrees for 10-12 min.'], 'tokenized': [['cream', 'sugar', 'and', 'butter', 'together', 'till', 'smooth', '.'], ['add', 'in', 'egg', 'beaters', ',', 'orange', 'rind', ',', 'orange', 'juice', ',', 'and', 'mix', 'well', '.'], ['mix', 'together', 'low', 'sodium', 'baking', 'powder', 'and', 'flour', '.'], ['add', 'in', 'to', 'creamed', 'mix', 'and', 'mix', 'well', '.'], ['roll', 'dough', 'into', '1', 'inch', 'balls', 'and', 'place', 'on', 'ungreased', 'cookie', 'sheet', '.'], ['rub', 'small', 'amount', 'of', 'salt', 'free', 'butter', 'on', 'bottom', 'of', 'glass', '.'], ['dip', 'glass', 'in', 'granulated', 'sugar', '.'], ['flatten', 'cookie', 'dough', 'ball', 'slightly', 'using', 'flat', 'end', 'of', 'glass', '.'], ['bake', 'at', '300', 'degrees', 'for', '10-12', 'min', '.']], 'ingredients': ['granulated_sugar', 'corn_oil', 'egg_beaters_egg_substitute', 'orange_rind', 'orange_juice', 'baking_powder', 'flour'], 'images': [], 'title': ['salt', 'free', ',', 'low', 'cholesterol', 'sugar', 'cookies', 'recipe']}, {'id': '0005d41700', 'instructions': ['wash and boil the corn kernels or get a tinned boiled one from your grocery store.', 'wash mushrooms and remove the dirt neatly.', 'finely grind onions and tomatoes into a paste.', 'keep aside.', 'heat the dish and put some oil.', 'once you can feel the oil heat, put cloves, bay leaf and star anise to it.', 'toss it a bit.', 'now add the paste of onion and tomatoes.', 'add some red chilly powder, coriander powder, pepper powder to the mixture.', 'add water to this and bring it to boil until you notice a thin layer of oil come up separately.', 'add half cup of milk to this.', 'now add corn kernels and mushrooms with some salt and boil closed.', 'finally mix cornflour to quarter cup of water and mix it with the dish.', 'in few minutes the gravy will thicken.', 'top it with a spoon of fresh cream and finely chopped coriander leaves.', 'serve hot!'], 'tokenized': [['wash', 'and', 'boil', 'the', 'corn', 'kernels', 'or', 'get', 'a', 'tinned', 'boiled', 'one', 'from', 'your', 'grocery', 'store', '.'], ['wash', 'mushrooms', 'and', 'remove', 'the', 'dirt', 'neatly', '.'], ['finely', 'grind', 'onions', 'and', 'tomatoes', 'into', 'a', 'paste', '.'], ['keep', 'aside', '.'], ['heat', 'the', 'dish', 'and', 'put', 'some', 'oil', '.'], ['once', 'you', 'can', 'feel', 'the', 'oil', 'heat', ',', 'put', 'cloves', ',', 'bay', 'leaf', 'and', 'star', 'anise', 'to', 'it', '.'], ['toss', 'it', 'a', 'bit', '.'], ['now', 'add', 'the', 'paste', 'of', 'onion', 'and', 'tomatoes', '.'], ['add', 'some', 'red', 'chilly', 'powder', ',', 'coriander', 'powder', ',', 'pepper', 'powder', 'to', 'the', 'mixture', '.'], ['add', 'water', 'to', 'this', 'and', 'bring', 'it', 'to', 'boil', 'until', 'you', 'notice', 'a', 'thin', 'layer', 'of', 'oil', 'come', 'up', 'separately', '.'], ['add', 'half', 'cup', 'of', 'milk', 'to', 'this', '.'], ['now', 'add', 'corn', 'kernels', 'and', 'mushrooms', 'with', 'some', 'salt', 'and', 'boil', 'closed', '.'], ['finally', 'mix', 'cornflour', 'to', 'quarter', 'cup', 'of', 'water', 'and', 'mix', 'it', 'with', 'the', 'dish', '.'], ['in', 'few', 'minutes', 'the', 'gravy', 'will', 'thicken', '.'], ['top', 'it', 'with', 'a', 'spoon', 'of', 'fresh', 'cream', 'and', 'finely', 'chopped', 'coriander', 'leaves', '.'], ['serve', 'hot', '!']], 'ingredients': ['corn_kernels', 'mushrooms', 'onions', 'tomatoes', 'red_chili_peppers', 'coriander_powder', 'cloves', 'bay_leaf', 'star_anise', 'black_pepper', 'cornflour', 'milk', 'fresh_cream', 'coriander_leaves', 'oil', 'salt'], 'images': [], 'title': ['corn', '&', 'mushroom', 'curry']}, {'id': '0006354bc3', 'instructions': ['combine peanut butter, crisco, brown sugar, milk, and vanilla in a large bowl.', 'beat at medium speed until well blended.', 'add egg and beat just until blended.', 'mix in the flour, salt, and baking soda at low speed and mix just till blended.', 'drop by heaping teaspoonfuls about 2" apart onto an ungreased sheet.', 'flatten slightly in crisscross pattern with tines of a floured fork.', 'bake at 375 degrees for 7-8 minutes or until set and just beginning to brown.', 'cool for 2 minutes on the sheet before removing.'
+            ], 'tokenized': [
+                ['combine', 'peanut', 'butter', ',', 'crisco', ',', 'brown', 'sugar', ',', 'milk', ',', 'and', 'vanilla', 'in', 'a', 'large', 'bowl', '.'
+                ],
+                ['beat', 'at', 'medium', 'speed', 'until', 'well', 'blended', '.'
+                ],
+                ['add', 'egg', 'and', 'beat', 'just', 'until', 'blended', '.'
+                ],
+                ['mix', 'in', 'the', 'flour', ',', 'salt', ',', 'and', 'baking', 'soda', 'at', 'low', 'speed', 'and', 'mix', 'just', 'till', 'blended', '.'
+                ],
+                ['drop', 'by', 'heaping', 'teaspoonfuls', 'about', '2',
+                    "''", 'apart', 'onto', 'an', 'ungreased', 'sheet', '.'
+                ],
+                ['flatten', 'slightly', 'in', 'crisscross', 'pattern', 'with', 'tines', 'of', 'a', 'floured', 'fork', '.'
+                ],
+                ['bake', 'at', '375', 'degrees', 'for', '7-8', 'minutes', 'or', 'until', 'set', 'and', 'just', 'beginning', 'to', 'brown', '.'
+                ],
+                ['cool', 'for', '2', 'minutes', 'on', 'the', 'sheet', 'before', 'removing', '.'
+                ]
+            ], 'ingredients': ['creamy_peanut_butter', 'crisco_shortening', 'light_brown_sugar', 'milk', 'vanilla', 'egg', 'flour', 'salt', 'baking_soda'
+            ], 'images': ['7027a5c4f9.jpg', 'fff3e1751a.jpg'
+            ], 'title': ['irresistible', 'peanut', 'butter', 'cookies'
+            ]
+        }
+    ], 'test': [
+        {'id': '00003a70b1', 'instructions': ['preheat oven to 350 degrees fahrenheit.', 'spray pan with non stick cooking spray.', 'heat milk, water and butter to boiling; stir in contents of both pouches of potatoes; let stand one minute.', 'stir in corn.', 'spoon half the potato mixture in pan.', 'sprinkle half each of cheese and onions; top with remaining potatoes.', 'sprinkle with remaining cheese and onions.', 'bake 10 to 15 minutes until cheese is melted.', 'enjoy !'
+            ], 'tokenized': [
+                ['preheat', 'oven', 'to', '350', 'degrees', 'fahrenheit', '.'
+                ],
+                ['spray', 'pan', 'with', 'non', 'stick', 'cooking', 'spray', '.'
+                ],
+                ['heat', 'milk', ',', 'water', 'and', 'butter', 'to', 'boiling', ';', 'stir', 'in', 'contents', 'of', 'both', 'pouches', 'of', 'potatoes', ';', 'let', 'stand', 'one', 'minute', '.'
+                ],
+                ['stir', 'in', 'corn', '.'
+                ],
+                ['spoon', 'half', 'the', 'potato', 'mixture', 'in', 'pan', '.'
+                ],
+                ['sprinkle', 'half', 'each', 'of', 'cheese', 'and', 'onions', ';', 'top', 'with', 'remaining', 'potatoes', '.'
+                ],
+                ['sprinkle', 'with', 'remaining', 'cheese', 'and', 'onions', '.'
+                ],
+                ['bake', '10', 'to', '15', 'minutes', 'until', 'cheese', 'is', 'melted', '.'
+                ],
+                ['enjoy', '!'
+                ]
+            ], 'ingredients': ['milk', 'water', 'butter', 'mashed_potatoes', 'whole_kernel_corn', 'cheddar_cheese', 'french_-_fried_onions'
+            ], 'images': ['3e233001e2.jpg', '7f749987f9.jpg', 'aaf6b2dcd3.jpg'
+            ], 'title': ['crunchy', 'onion', 'potato', 'bake'
+            ]
+        },
+        {'id': '00047059be', 'instructions': ['roasting: preheat oven to 450.', 'peel and dice squash into 1/2 inch pieces (see tip at end).', 'dice onion into 1/2 inch pieces.', 'toss squash and onion with olive oil and spread pieces onto a large flat baking pan.', 'season with salt and pepper.', 'roast for 20 minutes - add diced apple - and continue roasting another 10-20 minutes (30-40 total roasting time).', 'tip: while you are roasting, make some "cheese toasts".', 'put some shredded cheese on top of bread rounds (we like gruyere or parmesan).', 'bake 10-15 minutes until crispy.', 'these cheese toasts are fantastic soup toppers!', 'place roasted mixture into blender with about half the chicken broth; puree (keep hand on lid because hot liquids can cause the top to "explode" off with built up steam).', 'add remaining chicken broth, half-and-half, and herbs; puree.', 'transfer mixture to saucepan; reheat gently.', 'serve with a dollop of sour cream and croutons.', 'tip: to prepare squash, first cut squash in half horizontally.', 'place flat end onto cutting board to stabilize squash and use a peeler to remove skin.', 'remove seeds.', 'then cut into lengths, and then into diced pieces.', 'note: if you have leftover mashed potatoes from thanksgiving, add about 1/2 cup, which will thicken the soup and add a nice smoothness.'
+            ], 'tokenized': [
+                ['roasting', ':', 'preheat', 'oven', 'to', '450', '.'
+                ],
+                ['peel', 'and', 'dice', 'squash', 'into', '1/2', 'inch', 'pieces', '(', 'see', 'tip', 'at', 'end', ')', '.'
+                ],
+                ['dice', 'onion', 'into', '1/2', 'inch', 'pieces', '.'
+                ],
+                ['toss', 'squash', 'and', 'onion', 'with', 'olive', 'oil', 'and', 'spread', 'pieces', 'onto', 'a', 'large', 'flat', 'baking', 'pan', '.'
+                ],
+                ['season', 'with', 'salt', 'and', 'pepper', '.'
+                ],
+                ['roast', 'for', '20', 'minutes', '-', 'add', 'diced', 'apple', '-', 'and', 'continue', 'roasting', 'another', '10-20', 'minutes', '(', '30-40', 'total', 'roasting', 'time', ')', '.'
+                ],
+                ['tip', ':', 'while', 'you', 'are', 'roasting', ',', 'make', 'some', '``', 'cheese', 'toasts',
+                    "''", '.'
+                ],
+                ['put', 'some', 'shredded', 'cheese', 'on', 'top', 'of', 'bread', 'rounds', '(', 'we', 'like', 'gruyere', 'or', 'parmesan', ')', '.'
+                ],
+                ['bake', '10-15', 'minutes', 'until', 'crispy', '.'
+                ],
+                ['these', 'cheese', 'toasts', 'are', 'fantastic', 'soup', 'toppers', '!'
+                ],
+                ['place', 'roasted', 'mixture', 'into', 'blender', 'with', 'about', 'half', 'the', 'chicken', 'broth', ';', 'puree', '(', 'keep', 'hand', 'on', 'lid', 'because', 'hot', 'liquids', 'can', 'cause', 'the', 'top', 'to', '``', 'explode',
+                    "''", 'off', 'with', 'built', 'up', 'steam', ')', '.'
+                ],
+                ['add', 'remaining', 'chicken', 'broth', ',', 'half-and-half', ',', 'and', 'herbs', ';', 'puree', '.'
+                ],
+                ['transfer', 'mixture', 'to', 'saucepan', ';', 'reheat', 'gently', '.'
+                ],
+                ['serve', 'with', 'a', 'dollop', 'of', 'sour', 'cream', 'and', 'croutons', '.'
+                ],
+                ['tip', ':', 'to', 'prepare', 'squash', ',', 'first', 'cut', 'squash', 'in', 'half', 'horizontally', '.'
+                ],
+                ['place', 'flat', 'end', 'onto', 'cutting', 'board', 'to', 'stabilize', 'squash', 'and', 'use', 'a', 'peeler', 'to', 'remove', 'skin', '.'
+                ],
+                ['remove', 'seeds', '.'
+                ],
+                ['then', 'cut', 'into', 'lengths', ',', 'and', 'then', 'into', 'diced', 'pieces', '.'
+                ],
+                ['note', ':', 'if', 'you', 'have', 'leftover', 'mashed', 'potatoes', 'from', 'thanksgiving', ',', 'add', 'about', '1/2', 'cup', ',', 'which', 'will', 'thicken', 'the', 'soup', 'and', 'add', 'a', 'nice', 'smoothness', '.'
+                ]
+            ], 'ingredients': ['butternut_squash', 'onion', 'olive_oil', 'apple', 'chicken_broth', 'half_-_and_-_half', 'parsley', 'thyme', 'croutons', 'sour_cream'
+            ], 'images': ['1657f23729.jpg', '7cd4a0f1a1.jpg', 'caa2905449.jpg'
+            ], 'title': ['butternut', 'squash', 'soup', 'or', 'bisque', '(', 'roasting', 'method', ')'
+            ]
+        },
+        {'id': '0004dbbc43', 'instructions': ['heat oil in heavy large skillet over medium-high heat.', 'add shallots and ginger and saute until tender, about 4 minutes.', 'add apple, zucchini, both bell peppers and carrot and saute until tender but not brown, about 5 minutes.', 'remove from heat.', 'cool to room temperature.', 'mix crabmeat, mayonnaise,
+                2 tablespoons chopped chives and saute vegetables in large bowl to blend.', 'season to taste with salt and pepper.', '(can be prepared 1 day ahead.', 'cover and refrigerate.)', 'combine tomatoes, cilantro, vinegar, garlic and cayenne in blender and puree until almost smooth.', 'gradually add oil and blend until sauce is thick.', 'transfer to medium bowl.', 'season to taste with salt and pepper.', 'arrange endive spears on large platter, tips toward platter edge.', 'spoon crab salad into center of platter.', 'drizzle sauce over endive.', 'garnish salad with chopped fresh chives and serve.'
+            ], 'tokenized': [
+                ['heat', 'oil', 'in', 'heavy', 'large', 'skillet', 'over', 'medium-high', 'heat', '.'
+                ],
+                ['add', 'shallots', 'and', 'ginger', 'and', 'saute', 'until', 'tender', ',', 'about', '4', 'minutes', '.'
+                ],
+                ['add', 'apple', ',', 'zucchini', ',', 'both', 'bell', 'peppers', 'and', 'carrot', 'and', 'saute', 'until', 'tender', 'but', 'not', 'brown', ',', 'about', '5', 'minutes', '.'
+                ],
+                ['remove', 'from', 'heat', '.'
+                ],
+                ['cool', 'to', 'room', 'temperature', '.'
+                ],
+                ['mix', 'crabmeat', ',', 'mayonnaise', ',', '2', 'tablespoons', 'chopped', 'chives', 'and', 'saute', 'vegetables', 'in', 'large', 'bowl', 'to', 'blend', '.'
+                ],
+                ['season', 'to', 'taste', 'with', 'salt', 'and', 'pepper', '.'
+                ],
+                ['(', 'can', 'be', 'prepared', '1', 'day', 'ahead', '.'
+                ],
+                ['cover', 'and', 'refrigerate', '.', ')'
+                ],
+                ['combine', 'tomatoes', ',', 'cilantro', ',', 'vinegar', ',', 'garlic', 'and', 'cayenne', 'in', 'blender', 'and', 'puree', 'until', 'almost', 'smooth', '.'
+                ],
+                ['gradually', 'add', 'oil', 'and', 'blend', 'until', 'sauce', 'is', 'thick', '.'
+                ],
+                ['transfer', 'to', 'medium', 'bowl', '.'
+                ],
+                ['season', 'to', 'taste', 'with', 'salt', 'and', 'pepper', '.'
+                ],
+                ['arrange', 'endive', 'spears', 'on', 'large', 'platter', ',', 'tips', 'toward', 'platter', 'edge', '.'
+                ],
+                ['spoon', 'crab', 'salad', 'into', 'center', 'of', 'platter', '.'
+                ],
+                ['drizzle', 'sauce', 'over', 'endive', '.'
+                ],
+                ['garnish', 'salad', 'with', 'chopped', 'fresh', 'chives', 'and', 'serve', '.'
+                ]
+            ], 'ingredients': ['olive_oil', 'shallots', 'fresh_ginger', 'tart_green_apples', 'zucchini', 'red_bell_peppers', 'green_bell_peppers', 'carrots', 'crabmeat', 'mayonnaise', 'fresh_chives', 'tomatoes', 'fresh_cilantro', 'sherry_wine_vinegar', 'garlic_clove', 'cayenne_pepper', 'olive_oil', 'belgian_endive', 'fresh_chives'
+            ], 'images': [], 'title': ['crab', 'salad', 'with', 'endive', 'and', 'tomato-cilantro', 'sauce'
+            ]
+        }
+    }

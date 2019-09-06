@@ -89,8 +89,8 @@ def main(args):
     # logs to disk
     if not args.log_term:
         print ("Training logs will be saved to:", os.path.join(logs_dir, 'train.log'))
-        sys.stdout = open(os.path.join(logs_dir, 'train.log'), 'w')
-        sys.stderr = open(os.path.join(logs_dir, 'train.err'), 'w')
+        # sys.stdout = open(os.path.join(logs_dir, 'train.log'), 'w')
+        # sys.stderr = open(os.path.join(logs_dir, 'train.err'), 'w')
 
     print(args)
     pickle.dump(args, open(os.path.join(checkpoints_dir, 'args.pkl'), 'wb'))
@@ -245,10 +245,10 @@ def main(args):
             torch.cuda.synchronize()
             start = time.time()
 
-            for i in range(total_step):
+            for i in range(total_step):      
 
                 img_inputs, captions, ingr_gt, img_ids, paths = loader.next()
-
+                
                 ingr_gt = ingr_gt.to(device)
                 img_inputs = img_inputs.to(device)
                 captions = captions.to(device)
