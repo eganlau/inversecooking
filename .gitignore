@@ -12,3 +12,4 @@ saved_models/inversecooking/model/checkpoints/optim.ckpt
 saved_models/inversecooking/model/checkpoints/optimbest.ckpt
 saved_models/inversecooking/model/logs/train.err
 saved_models/inversecooking/model/logs/train.log
+saved_models/inversecooking/tb_logs/
