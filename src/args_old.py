@@ -52,13 +52,13 @@ def get_parser():
 
     parser.add_argument('--weight_decay', type=float, default=0.)
 
-    parser.add_argument('--embed_size', type=int, default=128,
+    parser.add_argument('--embed_size', type=int, default=512,
                         help='hidden size for all projections')
 
     parser.add_argument('--n_att', type=int, default=8,
                         help='number of attention heads in the instruction decoder')
 
-    parser.add_argument('--n_att_ingrs', type=int, default=10,
+    parser.add_argument('--n_att_ingrs', type=int, default=4,
                         help='number of attention heads in the ingredient decoder')
 
     parser.add_argument('--transf_layers', type=int, default=16,
@@ -98,16 +98,16 @@ def get_parser():
     parser.add_argument('--patience', type=int, default=50,
                         help='maximum number of epochs to allow before early stopping')
 
-    parser.add_argument('--maxseqlen', type=int, default=1,
+    parser.add_argument('--maxseqlen', type=int, default=15,
                         help='maximum length of each instruction')
 
-    parser.add_argument('--maxnuminstrs', type=int, default=1,
+    parser.add_argument('--maxnuminstrs', type=int, default=10,
                         help='maximum number of instructions')
 
     parser.add_argument('--maxnumims', type=int, default=5,
                         help='maximum number of images per sample')
 
-    parser.add_argument('--maxnumlabels', type=int, default=6,
+    parser.add_argument('--maxnumlabels', type=int, default=20,
                         help='maximum number of ingredients per sample')
 
     parser.add_argument('--es_metric', type=str, default='loss', choices=['loss', 'iou_sample'],
@@ -153,7 +153,7 @@ def get_parser():
 
     parser.add_argument('--load_jpeg', dest='use_lmdb', action='store_false',
                         help='if used, images are loaded from jpg files instead of lmdb')
-    parser.set_defaults(use_lmdb=False)
+    parser.set_defaults(use_lmdb=True)
 
     parser.add_argument('--get_perplexity', dest='get_perplexity', action='store_true',
                         help='used to get perplexity in evaluation')

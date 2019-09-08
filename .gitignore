@@ -17,3 +17,4 @@ saved_models/inversecooking/model/logs/eval.err
 saved_models/inversecooking/model/logs/eval.log
 data/fittime_ingr_vocab.pkl
 data/fittime_instr_vocab.pkl
+data/train_dataset.pkl

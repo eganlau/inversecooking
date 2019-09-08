@@ -14,13 +14,19 @@ import json
 import lmdb
 import mysql.connector
 import itertools
+import imghdr
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-image_file_path = "/media/eganlau/Meal Pictures/Images"
-appearance_threshold = 0.5
+image_file_path = "/media/eganlau/meal_pictures/Images"
+appearance_threshold = 0.8
+max_ingredients = 5
+TEST_VALID_IMAGE = False
+dataset = {}
+vocab_ingrs = {}
+vocab_toks = {}
 
-def make_dataset():
+def make_dataset(split):
     db_config = {
                 'user': 'analyze',
                 'password': 'Fittime1991,',
@@ -37,31 +43,38 @@ def make_dataset():
         conn = mysql.connector.connect(**db_config)
         cur = conn.cursor(dictionary=True)
 
-        sql = '''
-                SELECT * FROM app.ingredients_appearance order by cum_percent;
-              '''
-        cur.execute(sql)
+        global dataset
+        global vocab_ingrs
+        global vocab_toks
+        if not vocab_ingrs:
+            sql = '''
+                    SELECT * FROM app.ingredients_appearance order by cum_percent;
+                '''
+            cur.execute(sql)
 
-        for row in cur:
-            if row["cum_percent"] <= appearance_threshold:
-                idx2word[i] = [row["ingredients_name"]]
-                word2idx[row["ingredients_name"]] = i
-                i += 1
-        idx2word[i] = ['<pad>']
-        word2idx['<pad>'] = i
-        i += 1
-        # print(idx2word)
-        # print(word2idx)
+            for row in cur:
+                if row["cum_percent"] <= appearance_threshold:
+                    idx2word[i] = [row["ingredients_name"]]
+                    word2idx[row["ingredients_name"]] = i
+                    i += 1
+            idx2word[i] = ['<pad>']
+            word2idx['<pad>'] = i
+            i += 1
+            # print(idx2word)
+            # print(word2idx)
 
-        vocab_ingrs = Vocabulary()
-        vocab_ingrs.idx2word = idx2word
-        vocab_ingrs.word2idx = word2idx
-        vocab_ingrs.i = i
-        vocab_toks = vocab_ingrs
-        dataset = []
-        # dataset['train'] = []
-        # dataset['val'] = []
-        # dataset['test'] = []
+            vocab_ingrs = Vocabulary()
+            vocab_ingrs.idx2word = idx2word
+            vocab_ingrs.word2idx = word2idx
+            vocab_ingrs.i = i
+            vocab_toks = vocab_ingrs
+
+        if dataset:
+            return vocab_ingrs, vocab_toks, dataset[split]
+
+        dataset['train'] = []
+        dataset['val'] = []
+        dataset['test'] = []
         
         sql = f'''
             select * from hotcamp.tb_checkin_detail 
@@ -70,7 +83,7 @@ def make_dataset():
                 where ingredients_appearance.cum_percent <= {appearance_threshold} 
                 and ingredients_appearance.ingredients_id = tb_checkin_detail.ingredients_id)
             order by tb_checkin_detail.apply_id, tb_checkin_detail.date, tb_checkin_detail.type
-            LIMIT 1000
+            LIMIT 30000
             '''
         cur.execute(sql)
 
@@ -78,33 +91,38 @@ def make_dataset():
         for row in cur:
             date_stamp = row['date'][0:4]+row['date'][5:7]+row['date'][8:10]
             record_id = str(row['apply_id'])+'_'+date_stamp+"_"+row['type']
-            if record_id not in records:
-                records[record_id] = {}
-                records[record_id]["id"] = record_id
-                records[record_id]["instructions"] = ["1","2","3"]
-                records[record_id]["tokenized"] = ["1","2","3"]
-                records[record_id]["ingredients"] = []
-                records[record_id]["images"] = []
-                records[record_id]["title"] = ["1","2","3"]
-                
             file_path = date_stamp+'/hotcamp_'+record_id+".jpg"
             if os.path.isfile(os.path.join(image_file_path, file_path)):
-                records[record_id]["ingredients"].append(row["name"])
-                records[record_id]["images"].append(file_path)
-                # print(f"{file_path} exists")
-            # else:
-            #     print(f"{file_path} does not exists")
+                if record_id not in records:
+                    records[record_id] = {}
+                    records[record_id]["id"] = record_id
+                    records[record_id]["instructions"] = []
+                    records[record_id]["tokenized"] = []
+                    records[record_id]["ingredients"] = []
+                    records[record_id]["images"] = []
+                    records[record_id]["title"] = []
+                
+                if TEST_VALID_IMAGE:
+                    try:
+                        image = Image.open(os.path.join(image_file_path, file_path))
+                        if image:
+                            if(len(records[record_id]["ingredients"]) < max_ingredients): 
+                                records[record_id]["ingredients"].append(row["name"])
+                                records[record_id]["images"] = [file_path]
+                    except IOError as e:
+                        print("can't open ",file_path)
+                        os.remove(os.path.join(image_file_path, file_path))
+                else:
+                    if(len(records[record_id]["ingredients"]) < max_ingredients): 
+                        records[record_id]["ingredients"].append(row["name"])
+                        records[record_id]["images"] = [file_path]
 
-        # split_chance = np.random.rand(len(records))
         for record in records.values():
-            dataset.append(record)
-        #     chance = np.random.random_sample()
-        #     if  chance <= 0.8:
-        #         dataset['train'].append(record)
-        #     elif chance > 0.8 and chance <= 0.9:
-        #         dataset['val'].append(record)
-        #     else:
-        #         dataset['test'].append(record)
+            chance = np.random.random_sample()
+            if  chance <= 0.8:
+                dataset['train'].append(record)
+            else:
+                dataset['val'].append(record)
 
         # print("vocab length: ",len(vocab_ingrs))
         cur.close()
@@ -119,7 +137,11 @@ def make_dataset():
         pickle.dump(list(itertools.chain(*ingr_list)), f)
     with open(os.path.join("../data", 'fittime_instr_vocab.pkl'), 'wb') as f:
         pickle.dump(list(itertools.chain(*ingr_list)), f)
-    return vocab_ingrs, vocab_toks, dataset
+
+    with open(os.path.join("../data", split+'_dataset.pkl'), 'wb') as f:
+        pickle.dump(dataset[split], f)
+
+    return vocab_ingrs, vocab_toks, dataset[split]
 
 
 class Recipe1MDataset(data.Dataset):
@@ -131,7 +153,7 @@ class Recipe1MDataset(data.Dataset):
         # self.instrs_vocab = pickle.load(open(os.path.join(aux_data_dir, suff + 'recipe1m_vocab_toks.pkl'), 'rb'))
         # self.dataset = pickle.load(open(os.path.join(aux_data_dir, suff + 'recipe1m_'+split+'.pkl'), 'rb'))
 
-        self.ingrs_vocab, self.instrs_vocab, self.dataset = make_dataset()
+        self.ingrs_vocab, self.instrs_vocab, self.dataset = make_dataset(split)
         self.label2word = self.get_ingrs_vocab()
         # print("len(self.instrs_vocab): ", len(self.instrs_vocab))
         self.use_lmdb = use_lmdb
@@ -300,7 +322,7 @@ def get_loader(data_dir, aux_data_dir, split, maxseqlen,
                               max_num_samples=max_num_samples,
                               use_lmdb=use_lmdb,
                               suff=suff)
-
+    print("Ingredients size: ", dataset.get_ingrs_vocab_size())
     data_loader = torch.utils.data.DataLoader(dataset=dataset,
                                               batch_size=batch_size, shuffle=shuffle, num_workers=num_workers,
                                               drop_last=drop_last, collate_fn=collate_fn, pin_memory=True)

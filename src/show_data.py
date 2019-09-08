@@ -41,7 +41,7 @@ def main(args):
 
     data_dir = args.recipe1m_dir
 
-    for split in ['train']:
+    for split in ['train','val']:
 
         transforms_list = [transforms.Resize((args.image_size))]
 
@@ -59,6 +59,7 @@ def main(args):
 
         transform = transforms.Compose(transforms_list)
         max_num_samples = max(args.max_eval, args.batch_size) if split == 'val' else -1
+        # print("max_num_samples: ",max_num_samples)
         data_loaders[split], datasets[split] = get_loader(data_dir, args.aux_data_dir, split,
                                                           args.maxseqlen,
                                                           args.maxnuminstrs,
@@ -71,7 +72,7 @@ def main(args):
                                                           use_lmdb=False,
                                                           suff=args.suff)
         
-        print(datasets[split][3])
+        print(split,": ",len(datasets[split]))
 
 if __name__ == '__main__':
     args = get_parser()
