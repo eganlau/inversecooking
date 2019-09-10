@@ -15,12 +15,12 @@ import lmdb
 import mysql.connector
 import itertools
 import imghdr
+from args import get_parser
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 image_file_path = "/media/eganlau/meal_pictures/Images"
-appearance_threshold = 0.8
-max_ingredients = 5
+appearance_threshold = 0.99
 TEST_VALID_IMAGE = False
 dataset = {}
 vocab_ingrs = {}
@@ -43,6 +43,8 @@ def make_dataset(split):
         conn = mysql.connector.connect(**db_config)
         cur = conn.cursor(dictionary=True)
 
+        args = get_parser()
+        max_ingredients = args.maxnumlabels - 1
         global dataset
         global vocab_ingrs
         global vocab_toks
@@ -83,7 +85,7 @@ def make_dataset(split):
                 where ingredients_appearance.cum_percent <= {appearance_threshold} 
                 and ingredients_appearance.ingredients_id = tb_checkin_detail.ingredients_id)
             order by tb_checkin_detail.apply_id, tb_checkin_detail.date, tb_checkin_detail.type
-            LIMIT 30000
+            LIMIT 50000
             '''
         cur.execute(sql)
 
@@ -329,4 +331,4 @@ def get_loader(data_dir, aux_data_dir, split, maxseqlen,
     return data_loader, dataset
 
 if __name__ == '__main__':
-    make_dataset()
+    make_dataset("train")
