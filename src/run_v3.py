@@ -75,19 +75,6 @@ transf_list.append(transforms.CenterCrop(224))
 transform = transforms.Compose(transf_list)
 
 
-#%%
-image_dir = "/media/eganlau/meal_pictures/Images/"
-ImageFile.LOAD_TRUNCATED_IMAGES = True
-
-for data in dataset[10:20]:
-    print(data["id"])
-    print(data["ingredients"])
-    image_transf = transform(Image.open(image_dir + data['images'][0]).convert('RGB'))
-    plt.imshow(image_transf)
-    plt.axis('off')
-    plt.show()
-    plt.close()
-    print("-----------------------------------------")
 
 
 #%%
@@ -175,10 +162,10 @@ for img_file in demo_files:
     image_transf = transform(image)
     image_tensor = to_input_transf(image_transf).unsqueeze(0).to(device)
 
-    plt.imshow(image_transf)
-    plt.axis('off')
-    plt.show()
-    plt.close()
+    # plt.imshow(image_transf)
+    # plt.axis('off')
+    # plt.show()
+    # plt.close()
     
     num_valid = 1
     for i in range(numgens):
@@ -189,13 +176,4 @@ for img_file in demo_files:
         ingr_ids = outputs['ingr_ids'].cpu().numpy()
         print(ingr_ids[0])
         print(get_ingrs(ingr_ids[0], ingrs_vocab))
-
-
-#%%
-
-
-
-#%%
-
-
 
