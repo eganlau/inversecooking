@@ -31,7 +31,7 @@ import asyncio
 args = get_parser()
 # args.maxseqlen = 15
 args.ingrs_only=True
-args.image_model='resnet152'
+args.image_model='resnet50'
 
 data_dir = '../data'
 
@@ -78,17 +78,19 @@ temperature = 1.0
 numgens = len(greedy)
 
 show_anyways = False #if True, it will show the recipe even if it's not valid
-image_folder = os.path.join(data_dir, 'demo_imgs/fittime')
-
-demo_files = os.listdir(image_folder)
+# image_folder = os.path.join(data_dir, 'demo_imgs/fittime')
+image_folder = '/home/eganlau/dev/upload/'
+# demo_files = os.listdir(image_folder)
 
 print("before app")
 app = Starlette()
 
-@app.route("/ingredients", methods=["GET"])
+@app.route("/ingredients", methods=["POST"])
 async def classify_url(request):
-
-    image_path = os.path.join(image_folder, request.query_params["filename"])
+    folder = image_folder
+    if request.query_params["imageFolder"]:
+        folder = request.query_params["imageFolder"]
+    image_path = os.path.join(folder, request.query_params["filename"])
     if not os.path.exists(image_path):
         return JSONResponse({"error": "file doesn't exist"})
     image = Image.open(image_path).convert('RGB')

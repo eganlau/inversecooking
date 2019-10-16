@@ -163,6 +163,9 @@ def get_parser():
                         help='if used, true ingredients will be used as input to obtain the recipe in evaluation')
     parser.set_defaults(use_true_ingrs=False)
 
+    parser.add_argument('--data_loader_split', type=str, default='train',
+                        help='train or val for data_loader.py')
+
     args = parser.parse_args()
 
     return args

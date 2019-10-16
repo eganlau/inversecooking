@@ -89,8 +89,8 @@ def main(args):
     # logs to disk
     if not args.log_term:
         print ("Training logs will be saved to:", os.path.join(logs_dir, 'train.log'))
-        # sys.stdout = open(os.path.join(logs_dir, 'train.log'), 'w')
-        # sys.stderr = open(os.path.join(logs_dir, 'train.err'), 'w')
+        sys.stdout = open(os.path.join(logs_dir, 'train.log'), 'w')
+        sys.stderr = open(os.path.join(logs_dir, 'train.err'), 'w')
 
     print(args)
     pickle.dump(args, open(os.path.join(checkpoints_dir, 'args.pkl'), 'wb'))

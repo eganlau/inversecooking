@@ -1,4 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
+# 
+# e.g. python data_loader.py --data_loader_split=train
+# e.g. python data_loader.py --data_loader_split=val
 
 import torch
 import torchvision.transforms as transforms
@@ -20,13 +23,12 @@ from args import get_parser
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 image_file_path = "/media/eganlau/meal_pictures/Images"
-appearance_threshold = 0.99
+appearance_threshold = 1.0
+split_date = '2019-05-01'
 TEST_VALID_IMAGE = False
-dataset = {}
-vocab_ingrs = {}
-vocab_toks = {}
 
 def make_dataset(split):
+
     db_config = {
                 'user': 'analyze',
                 'password': 'Fittime1991,',
@@ -39,15 +41,19 @@ def make_dataset(split):
     word2idx = {}
     word2idx['<end>'] = 0
     i = 1
+    dataset = {}
+    vocab_ingrs = {}
+    vocab_toks = {}
+
     try:
         conn = mysql.connector.connect(**db_config)
         cur = conn.cursor(dictionary=True)
 
         args = get_parser()
         max_ingredients = args.maxnumlabels - 1
-        global dataset
-        global vocab_ingrs
-        global vocab_toks
+        # global dataset
+        # global vocab_ingrs
+        # global vocab_toks
         if not vocab_ingrs:
             sql = '''
                     SELECT * FROM app.ingredients_appearance order by cum_percent;
@@ -74,18 +80,30 @@ def make_dataset(split):
         if dataset:
             return vocab_ingrs, vocab_toks, dataset[split]
 
-        dataset['train'] = []
-        dataset['val'] = []
-        dataset['test'] = []
-        
+        # dataset['train'] = []
+        # dataset['val'] = []
+        # dataset['test'] = []
+
+        dataset[split] = []
+
         sql = f'''
-            select * from hotcamp.tb_checkin_detail 
+            select "fitcamp" as source, tb_checkin_detail.apply_id, tb_checkin_detail.date, tb_checkin_detail.type, tb_ingredients.name
+            from eshop.tb_checkin_detail 
+			left join diet.tb_ingredients on tb_ingredients.ingredients_id = tb_checkin_detail.ingredients_id
             where exists (select ingredients_appearance.ingredients_id
                 from app.ingredients_appearance 
                 where ingredients_appearance.cum_percent <= {appearance_threshold} 
                 and ingredients_appearance.ingredients_id = tb_checkin_detail.ingredients_id)
-            order by tb_checkin_detail.apply_id, tb_checkin_detail.date, tb_checkin_detail.type
-            LIMIT 50000
+            and tb_checkin_detail.create_time {"<" if split == "train" else ">="} '{split_date}'
+            union all
+            select "hotcamp" as source, tb_checkin_detail.apply_id, tb_checkin_detail.date, tb_checkin_detail.type, tb_ingredients.name  
+            from hotcamp.tb_checkin_detail 
+			left join diet.tb_ingredients on tb_ingredients.ingredients_id = tb_checkin_detail.ingredients_id
+            where exists (select ingredients_appearance.ingredients_id
+                from app.ingredients_appearance 
+                where ingredients_appearance.cum_percent <= {appearance_threshold} 
+                and ingredients_appearance.ingredients_id = tb_checkin_detail.ingredients_id)
+            and tb_checkin_detail.create_time {"<" if split == "train" else ">="} '{split_date}'
             '''
         cur.execute(sql)
 
@@ -93,7 +111,7 @@ def make_dataset(split):
         for row in cur:
             date_stamp = row['date'][0:4]+row['date'][5:7]+row['date'][8:10]
             record_id = str(row['apply_id'])+'_'+date_stamp+"_"+row['type']
-            file_path = date_stamp+'/hotcamp_'+record_id+".jpg"
+            file_path = date_stamp+'/'+row['source']+'_'+record_id+".jpg"
             if os.path.isfile(os.path.join(image_file_path, file_path)):
                 if record_id not in records:
                     records[record_id] = {}
@@ -120,12 +138,15 @@ def make_dataset(split):
                         records[record_id]["images"] = [file_path]
 
         for record in records.values():
-            chance = np.random.random_sample()
-            if  chance <= 0.8:
-                dataset['train'].append(record)
-            else:
-                dataset['val'].append(record)
-
+            dataset[split].append(record)    
+        #     chance = np.random.random_sample()
+        #     if  chance <= 0.8:
+        #         dataset['train'].append(record)
+        #     else:
+        #         dataset['val'].append(record)
+        
+        print("dataset length: ",len(dataset[split]))
+        
         # print("vocab length: ",len(vocab_ingrs))
         cur.close()
         conn.commit()
@@ -331,4 +352,6 @@ def get_loader(data_dir, aux_data_dir, split, maxseqlen,
     return data_loader, dataset
 
 if __name__ == '__main__':
-    make_dataset("train")
+    args = get_parser()
+    split = args.data_loader_split
+    make_dataset(split)
