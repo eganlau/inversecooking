@@ -36,14 +36,13 @@ args.image_model='resnet50'
 data_dir = '../data'
 
 # code will run in gpu if available and if the flag is set to True, else it will run on cpu
-use_gpu = True
+use_gpu = False
 device = torch.device('cuda' if torch.cuda.is_available() and use_gpu else 'cpu')
 map_loc = None if torch.cuda.is_available() and use_gpu else 'cpu'
 
-
 ingrs_vocab = pickle.load(open(os.path.join(data_dir, 'ingr_vocab.pkl'), 'rb'))
 vocab = pickle.load(open(os.path.join(data_dir, 'instr_vocab.pkl'), 'rb'))
-dataset = pickle.load(open(os.path.join(data_dir, 'train_dataset.pkl'), 'rb'))
+# dataset = pickle.load(open(os.path.join(data_dir, 'train_dataset.pkl'), 'rb'))
 
 ingr_vocab_size = len(ingrs_vocab)
 instrs_vocab_size = len(vocab)
@@ -108,8 +107,8 @@ async def classify_url(request):
                                    temperature=temperature, beam=beam[i], true_ingrs=None)
             
         ingr_ids = outputs['ingr_ids'].cpu().numpy()
-        result.append({"ingredients_id": pd.Series(ingr_ids[0]).tolist(), #pd.Series(ingr_ids[0]).to_json(orient='values'),
-                        "ingredients_name":get_ingrs(ingr_ids[0], ingrs_vocab),
+        result.append({"inv_ids": pd.Series(ingr_ids[0]).tolist(), #pd.Series(ingr_ids[0]).to_json(orient='values'),
+                        "inv_names":get_ingrs(ingr_ids[0], ingrs_vocab),
                         "greedy": greedy[i],
                         "beam":beam[i]})
     print(result)

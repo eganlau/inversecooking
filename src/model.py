@@ -10,8 +10,8 @@ from modules.multihead_attention import MultiheadAttention
 from utils.metrics import softIoU, MaskedCrossEntropyCriterion
 import pickle
 import os
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def label2onehot(labels, pad_value):
 
@@ -41,12 +41,16 @@ def mask_from_eos(ids, eos_value, mult_before=True):
             mask[:, idx] = mask[:, idx] * mask_aux
             mask_aux = mask_aux * (ids[:, idx] != eos_value)
         else:
-            mask_aux = mask_aux * (ids[:, idx] != eos_value).byte()
+            mask_aux = mask_aux * (ids[:, idx] != eos_value).to(device).byte()
             mask[:, idx] = mask[:, idx] * mask_aux
     return mask
 
 
 def get_model(args, ingr_vocab_size, instrs_vocab_size):
+    if args.use_gpu == False:
+        device = torch.device("cpu")
+    else:
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # build ingredients embedding
     encoder_ingrs = EncoderLabels(args.embed_size, ingr_vocab_size,

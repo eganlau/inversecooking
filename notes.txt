@@ -1,7 +1,6 @@
-python train.py --ingrs_only --num_epochs=100 --resume --load_jpeg --batch_size=32
+python train.py --ingrs_only --num_epochs=1 --resume --load_jpeg --batch_size=32 --use_gpu
 
-
-python train.py --ingrs_only --embed_size=80 --num_epochs=1 --finetune_after=0 --batch_size=32
+python train.py --ingrs_only --embed_size=80 --num_epochs=1 --finetune_after=0 --batch_size=32 --use_gpu
 
 data_dir = ../recipe1m
 ignore ingredient id， which are not visible: 

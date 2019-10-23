@@ -166,6 +166,10 @@ def get_parser():
     parser.add_argument('--data_loader_split', type=str, default='train',
                         help='train or val for data_loader.py')
 
+    parser.add_argument('--use_gpu', dest='use_gpu', action='store_true',
+                        help='get_model with gpu or not')
+
+
     args = parser.parse_args()
 
     return args

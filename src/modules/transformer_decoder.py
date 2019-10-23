@@ -16,7 +16,13 @@ from torch.nn.modules.utils import _single
 import modules.utils as utils
 from modules.multihead_attention import MultiheadAttention
 import numpy as np
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+from args import get_parser
+args = get_parser()
+if args.use_gpu == False:
+    device = torch.device('cpu')
+else:
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import copy
 
 
