@@ -17,12 +17,13 @@ import modules.utils as utils
 from modules.multihead_attention import MultiheadAttention
 import numpy as np
 
-from args import get_parser
-args = get_parser()
-if args.use_gpu == False:
-    device = torch.device('cpu')
-else:
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# if the following is enabled, it works in command line, but failed in juypter notebook
+# from args import get_parser
+# args = get_parser()
+# if args.use_gpu == False:
+#     device = torch.device('cpu')
+# else:
+#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import copy
 
 
