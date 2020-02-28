@@ -23,7 +23,7 @@ import numpy as np
 # if args.use_gpu == False:
 #     device = torch.device('cpu')
 # else:
-#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 import copy
 
 
