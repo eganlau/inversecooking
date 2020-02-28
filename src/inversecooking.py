@@ -36,7 +36,7 @@ args.image_model='resnet50'
 data_dir = '../data'
 
 # code will run in gpu if available and if the flag is set to True, else it will run on cpu
-use_gpu = False
+use_gpu = True
 device = torch.device('cuda' if torch.cuda.is_available() and use_gpu else 'cpu')
 map_loc = None if torch.cuda.is_available() and use_gpu else 'cpu'
 
